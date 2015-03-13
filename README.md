@@ -13,39 +13,39 @@ Then, using this webhook or a modified version of it, you can have a one click d
 ## Assumptions
 1. The payload from Jenkins, or whatever tool you're using to hit this hook, wwill pass the following parameters:
 
-```json
-{
-  "service":      "your_name_in_hiera_data",
-  "environment":  "your_environment",               # qa or production?
-  "version":      "service_version_being_deployed", # you'll want to dynamicaly generate this in jenkis
-  "role":         "role_of_node_in_puppet"
-}
-```
+  ```json
+  {
+    "service":      "your_name_in_hiera_data",
+    "environment":  "your_environment",               # qa or production?
+    "version":      "service_version_being_deployed", # you'll want to dynamicaly generate this in jenkis
+    "role":         "role_of_node_in_puppet"
+  }
+  ```
 
 2. The Hiera data key matches the following pattern:
 
-```yaml
-# Overlay with vars from JSON
-${service_name}_version_${environment}: '1.2.1'
-# A real-world example
-myservice_version_qa: '1.2.1'
-myotherservice_version_qa: '1.4.1'
-someservice_version_production: '0.5.1'
-myservice_version_production: '1.1.0'
-...
-```
+  ```yaml
+  # Overlay with vars from JSON
+  ${service_name}_version_${environment}: '1.2.1'
+  # A real-world example
+  myservice_version_qa: '1.2.1'
+  myotherservice_version_qa: '1.4.1'
+  someservice_version_production: '0.5.1'
+  myservice_version_production: '1.1.0'
+  ...
+  ```
 
 3. You'll fork this repo, and update the ```data_file``` and maybe the ```key``` values in ```lib/update.rb```:
 
-```ruby
-def write(options)
+  ```ruby
+  def write(options)
 
-  # UPDATE THIS PATH !!
-  data_file      = File.expand_path(File.dirname(__FILE__)) + '/../ext/global.yaml'
-  # ...AND MAYBE THIS KEY !!
-  key            = "#{service}_version_#{environment}"
-...
-```
+    # UPDATE THIS PATH !!
+    data_file      = File.expand_path(File.dirname(__FILE__)) + '/../ext/global.yaml'
+    # ...AND MAYBE THIS KEY !!
+    key            = "#{service}_version_#{environment}"
+  ...
+  ```
 
 4. You're using a ```$::role``` fact. I roll in AWS, so everything is classified based on ```$::role```. This webhook won't be able to run puppet on the node running your service you just updated the version for until you modify this code or get yourself a role face.
  
