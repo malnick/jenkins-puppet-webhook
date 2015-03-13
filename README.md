@@ -79,6 +79,7 @@ EOF
 
 ## Kick off a build....
 This should implement the following chain:
+
 1. Build is executed on jenkins
 1. If successful the build drops the new versioned jar or zip file or whatever in S3: ```myservice-0.2.5.jar```
 1. If successful the shell post-run is executed, running the above script that gets the new $version and POSTs to our webhook on the puppet master
@@ -87,4 +88,3 @@ This should implement the following chain:
 
 ## Want to get crazy?
 Have jenkins watch your repo for merge-to-master, and run this build whenever that happens. Boom. 
-1. The node runs puppet, assuming it's using a similar s3 resource which matches the version, it will get the new S3 resource
