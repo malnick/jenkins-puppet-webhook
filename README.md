@@ -47,7 +47,8 @@ def write(options)
 ...
 ```
 
-4. You're using a ```$::role``` fact. I roll in AWS, so everything is classified based on ```$::role```. This webhook won't be able to run puppet on the node running your service you just updated the version for until 
+4. You're using a ```$::role``` fact. I roll in AWS, so everything is classified based on ```$::role```. This webhook won't be able to run puppet on the node running your service you just updated the version for until you modify this code or get yourself a role face.
+ 
 ## Deployment Pattern
 1. Clone this repo to your pupetmaster and make the above suggested changes to make it work with your deployment
 2. Turn it on:
