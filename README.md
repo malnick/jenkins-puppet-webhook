@@ -22,7 +22,7 @@ Then, using this webhook or a modified version of it, you can have a one click d
   }
   ```
 
-2. The Hiera data key matches the following pattern:
+1. The Hiera data key matches the following pattern:
 
   ```yaml
   # Overlay with vars from JSON
@@ -35,7 +35,7 @@ Then, using this webhook or a modified version of it, you can have a one click d
   ...
   ```
 
-3. You'll fork this repo, and update the ```data_file``` and maybe the ```key``` values in ```lib/update.rb```:
+1. You'll fork this repo, and update the ```data_file``` and maybe the ```key``` values in ```lib/update.rb```:
 
   ```ruby
   def write(options)
@@ -47,36 +47,36 @@ Then, using this webhook or a modified version of it, you can have a one click d
   ...
   ```
 
-4. You're using a ```$::role``` fact. I roll in AWS, so everything is classified based on ```$::role```. This webhook won't be able to run puppet on the node running your service you just updated the version for until you modify this code or get yourself a role face.
+1. You're using a ```$::role``` fact. I roll in AWS, so everything is classified based on ```$::role```. This webhook won't be able to run puppet on the node running your service you just updated the version for until you modify this code or get yourself a role face.
  
 ## Deployment Pattern
 1. Clone this repo to your pupetmaster and make the above suggested changes to make it work with your deployment
-2. Turn it on:
+1. Turn it on:
 
-```bash
-bin/webhook start
-# Should come up on :1015
-```
+  ```bash
+  bin/webhook start
+  # Should come up on :1015
+  ```
 
-3. Have a post-run stage in your jenkins build for a given service that executes something akin to the following:
+1. Have a post-run stage in your jenkins build for a given service that executes something akin to the following:
 
-```sh
-# Assuming you're running this from $WORKSPACE in jenkins, your paths will vary as well as your method of obtaining the version off the build.
-VERSION=$(echo service/target/service-*.jar | cut -d- -f2 | cut -d. -f1,2,3)
+  ```sh
+  # Assuming you're running this from $WORKSPACE in jenkins, your paths will vary as well as your method of obtaining the version off the build.
+  VERSION=$(echo service/target/service-*.jar | cut -d- -f2 | cut -d. -f1,2,3)
 
-# Curl this webhook, which should be on the Puppet Master
-curl \
-  -X POST \
-  -d@- \
-  puppet.myorg.com:1015/deploy <<EOF
-{
-  "service":     "analytics",
-  "version":     "$VERSION",
-  "environment": "qa",
-  "role":        "qa_services_migration"
-}
-EOF
-```
+  # Curl this webhook, which should be on the Puppet Master
+  curl \
+    -X POST \
+    -d@- \
+    puppet.myorg.com:1015/deploy <<EOF
+  {
+    "service":     "analytics",
+    "version":     "$VERSION",
+    "environment": "qa",
+    "role":        "qa_services_migration"
+  }
+  EOF
+  ```
 
 ## Kick off a build....
 This should implement the following chain:
