@@ -30,7 +30,8 @@ class Server < Sinatra::Base
       config = Update::Options.new(options).config
       Update::Version.new(config)
       Update::Node.new(config)
-      Update::Git.new(config)
+# Not quite yet...
+#      Update::Git.new(config)
     rescue Exception => e
       LOG.error(e)
       e.backtrace.each do |o|
