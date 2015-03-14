@@ -35,15 +35,18 @@ Then, using this webhook or a modified version of it, you can have a one click d
   ...
   ```
 
-1. You'll fork this repo, and update the ```data_file``` and maybe the ```key``` values in ```lib/update.rb```:
+1. You'll fork this repo, and update the ```data_file``` and maybe the ```key``` values in ```lib/options.rb```:
 
   ```ruby
-  def write(options)
+      # Required data from POST
+      @config[:environment]    = options['environment']   # qa or production etc
+      @config[:version]        = options['version']       # The version to write to the data file
+      @config[:service]        = options['service']       # The service name
 
-    # UPDATE THIS PATH !!
-    data_file      = File.expand_path(File.dirname(__FILE__)) + '/../ext/global.yaml'
-    # ...AND MAYBE THIS KEY !!
-    key            = "#{service}_version_#{environment}"
+      # Optional data from POST
+      @config[:key]            = options['key']             || "#{@config[:service]}_version_#{@config[:environment]}"
+      @config[:git_repo_dir]   = options['git_repo_dir']    || '/tmp/control'
+      @config[:data_file]      = options['data_file_path']  || "#{@config[:git_repo_dir]}/global.yaml"
   ...
   ```
 
