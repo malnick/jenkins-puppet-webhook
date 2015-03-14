@@ -3,23 +3,13 @@ require 'rack'
 require 'sinatra'
 require 'webrick'
 require 'logger'
-require 'json'
 require File.expand_path(File.dirname(__FILE__)) + '/update'
-require File.expand_path(File.dirname(__FILE__)) + '/node'
-
-# Global vars
-LOGDIR		      = File.expand_path(File.dirname(__FILE__)) + '/../logs'
-LOGFILE         = LOGDIR + '/jenkins_webhook.log'
-unless File.exists? LOGDIR
-  Dir.mkdir LOGDIR
-end
 
 # Reset some envs
 ENV['HOME']     = '/root'
 ENV['PATH']     = '/sbin:/usr/sbin:/bin:/usr/bin:/opt/puppet/bin'
 ENV['RACK_ENV'] = 'production' 
 
-# Implement an access log for robust logging of user info and access and git output 
 LOG = Logger.new(LOGFILE)
 
 # Server options
@@ -33,14 +23,25 @@ opts = {
 class Server < Sinatra::Base
 
   post '/deploy' do
+    begin
+      LOG.info("##### Request to Server Made #####")
       request.body.rewind
       options = JSON.parse(request.env["rack.input"].read) 
-      Update::Version.new(options)
-      Update::Node.new(options)
+      config = Update::Options.new(options).config
+      Update::Version.new(config)
+      Update::Node.new(config)
+      Update::Git.new(config)
+    rescue Exception => e
+      LOG.error(e)
+      e.backtrace.each do |o|
+        LOG.error(o)
+      end
+      abort
+    end
   end
 	
   not_found do
-		halt 404, 'You shall not pass! (page not found)'
+		halt 404, 'Not found.'
 	end
 end
 

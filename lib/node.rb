@@ -1,6 +1,7 @@
 module Update
   class Node
     def initialize(options)
+      LOG.info("##### Updating Nodes #####")
       LOG.info("Executing run on all nodes matching the #{options['role']} role")
       role = options['role']
       update_node(role)
