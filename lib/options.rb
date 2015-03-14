@@ -14,6 +14,7 @@ module Update
       
       # Optional data from POST
       @config[:key]            = options['key']             || "#{@config[:service]}_version_#{@config[:environment]}"   
+      @config[:git_repo]       = options['git_repo']        || 'git@github.com:malnick/puppet-control'
       @config[:git_repo_dir]   = options['git_repo_dir']    || '/tmp/control'
       @config[:data_file]      = options['data_file_path']  || "#{@config[:git_repo_dir]}/global.yaml"
       

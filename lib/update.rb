@@ -20,7 +20,6 @@ rescue Exception => e
   
   puts "Failure during requires in update.rb"
   puts e.message
-  puts e.backtrace
 
 end
 

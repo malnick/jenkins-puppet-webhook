@@ -1,12 +1,14 @@
 module Update
-  class Git
+  class Git 
+    
     def initialize(config)
       
       LOG.info("##### Updating Git #####")
+      git_repo      = config[:git_repo]
       git_repo_dir  = config[:git_repo_dir]
       
       test_locality(git_repo_dir)
-      push_git(git_repo_dir)
+      push_git(git_repo_dir,config)
   
     end
       
@@ -18,7 +20,7 @@ module Update
         end
         
         begin
-          g = Git.init(git_repo_dir)
+          g = ::Git.open(git_repo_dir)
           g.index.readable?
           g.index.writable?
         rescue Exception => e 
@@ -27,9 +29,16 @@ module Update
       
       end
 
-      def push_git(git_repo_dir)
+      def push_git(git_repo_dir,config)
         LOG.info("Pushing updated code to git")
-        g = Git.init(git_repo_dir, :log => LOG)
+        begin
+          g = ::Git.open(git_repo_dir, :log => LOG)
+          g.add(:all=>true)
+          g.commit("WEBHOOK: Updating service #{config[:service]} to version #{config[:version]}")
+          g.push(g.remote('origin'), g.branch('production')) 
+        rescue Exception => e
+          LOG.error(e.message)
+        end
       end
   end
 end
