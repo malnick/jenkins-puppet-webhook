@@ -1,6 +1,10 @@
 # Puppet-Jenkins-Webhook
 This sinatra hook sits on a Puppet Master and listens for POSTs on :1015, when hit with a payload it updates the version number of a service in Hiera data and executes a mCollective call to run puppet on the node with a matching $::role value. 
 
+This hook also manages git in that the hook will update the repo (expects that whatever file your yaml resides is in fact a git repo) by executing a git pull to ensure it has the latest, then an add, commit & push.
+
+That's not really for everyone and you can manage that by updating ```server.rb``` to not include ```Update::Git...```
+
 This is great when used in conjunction with my [puppet-s3](https://github.com/malnick/puppet-s3) provider or something similar where you can classify the resrouce like 
 
 ```ruby
