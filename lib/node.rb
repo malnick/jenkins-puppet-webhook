@@ -8,8 +8,14 @@ module Update
     end
 
     def update_node(role)
-      IO.popen("su - peadmin -c 'mco puppet runonce -F role=#{role}'") do |output|
-        output.each do |line| LOG.info(line.strip.chomp) end
+      if role.is_a? Array
+        role.each do |i| 
+          IO.popen("su - peadmin -c 'mco puppet runonce -F role=#{i}'") do |output|
+            output.each do |line| LOG.info(line.strip.chomp) end
+          end
+        end
+      else
+        LOG.error("Role value must be an array.")
       end 
     end
   end
