@@ -22,9 +22,8 @@ module Update
         begin
           g = ::Git.open(git_repo_dir)
           g.index.readable?
-          g.index.writable?
         rescue Exception => e 
-          LOG.error("The git index does not appear to be writable or readable.")
+          LOG.error("The git index does not appear to be readable.")
           LOG.error("Make sure the repo is an actual git repo.")
           abort LOG.error(e.message)
         end
