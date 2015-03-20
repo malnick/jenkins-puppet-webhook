@@ -4,9 +4,7 @@ module Update
     def initialize(config)
       
       LOG.info("##### Updating Git #####")
-      git_repo      = config[:git_repo]
       git_repo_dir  = config[:git_repo_dir]
-      
       test_locality(git_repo_dir)
       push_git(git_repo_dir,config)
   
