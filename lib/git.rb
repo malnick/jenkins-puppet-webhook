@@ -32,6 +32,7 @@ module Update
         LOG.info("Pushing updated code to git")
         begin
           g = ::Git.open(git_repo_dir, :log => LOG)
+          g.branch(config[:puppet_env]).checkout
           g.pull(g.remote('origin'), g.branch('production'))
           g.add(config[:data_file])
           g.add("#{config[:data_file]}.backup")
