@@ -34,6 +34,7 @@ module Update
           g = ::Git.open(git_repo_dir, :log => LOG)
           g.pull(g.remote('origin'), g.branch('production'))
           g.add(config[:data_file])
+          g.add("#{config[:data_file]}.backup")
           g.commit("WEBHOOK: Updating service #{config[:service]} to version #{config[:version]}")
           g.push(g.remote('origin'), g.branch('production')) 
         rescue Exception => e
