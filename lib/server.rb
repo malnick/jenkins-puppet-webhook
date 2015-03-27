@@ -62,7 +62,7 @@ class Server < Sinatra::Base
     new_data = JSON.parse(request.env["rack.input"].read)
 
     File.open("/var/node_data/#{new_data['hostname']}.json", "w") do |f|
-      LOG.info("Posting new data: #{new_data.to_jason}")
+      LOG.info("Posting new data: #{new_data}")
       f.write(new_data.to_json)
     end
 
