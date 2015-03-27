@@ -894,3 +894,604 @@ I, [2015-03-26T21:47:03.027765 #49651]  INFO -- : git_repo: git@github.com:malni
 I, [2015-03-26T21:47:03.027870 #49651]  INFO -- : git_repo_dir: /tmp/control
 I, [2015-03-26T21:47:03.028017 #49651]  INFO -- : data_file: /tmp/control/hieradata/global.yaml
 I, [2015-03-26T21:47:03.028181 #49651]  INFO -- : Set current versions to file object: #<File:0x007fc1121a8e18>
+[2015-03-26 21:47:33] DEBUG close: 127.0.0.1:52734
+[2015-03-27 08:40:38] DEBUG accept: 127.0.0.1:52845
+[2015-03-27 08:40:38] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-27T08:40:38.588853 #49651]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-27T08:40:38.589408 #49651]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-27T08:40:38.589573 #49651]  INFO -- : ##### Parsing Options #####
+I, [2015-03-27T08:40:38.589786 #49651]  INFO -- : ##### Setting configuration #####
+I, [2015-03-27T08:40:38.589929 #49651]  INFO -- : environment: 
+I, [2015-03-27T08:40:38.590188 #49651]  INFO -- : version: 
+I, [2015-03-27T08:40:38.590296 #49651]  INFO -- : service: 
+I, [2015-03-27T08:40:38.590369 #49651]  INFO -- : role: 
+I, [2015-03-27T08:40:38.590487 #49651]  INFO -- : key: _version_
+I, [2015-03-27T08:40:38.590649 #49651]  INFO -- : git_repo: git@github.com:malnick/puppet-control
+I, [2015-03-27T08:40:38.590793 #49651]  INFO -- : git_repo_dir: /tmp/control
+I, [2015-03-27T08:40:38.591082 #49651]  INFO -- : data_file: /tmp/control/hieradata/global.yaml
+I, [2015-03-27T08:40:38.591434 #49651]  INFO -- : Set current versions to file object: #<File:0x007fc112100d80>
+[2015-03-27 08:40:38] DEBUG close: 127.0.0.1:52845
+[2015-03-27 08:41:54] INFO  WEBrick 1.3.1
+[2015-03-27 08:41:54] INFO  ruby 2.0.0 (2014-05-08) [universal.x86_64-darwin14]
+[2015-03-27 08:41:54] DEBUG TCPServer.new(::, 1015)
+[2015-03-27 08:41:54] DEBUG TCPServer.new(0.0.0.0, 1015)
+[2015-03-27 08:41:54] WARN  TCPServer Error: Address already in use - bind(2)
+[2015-03-27 08:41:54] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-03-27 08:41:54] INFO  WEBrick::HTTPServer#start: pid=52748 port=1015
+[2015-03-27 08:41:56] DEBUG accept: ::ffff:127.0.0.1:52846
+[2015-03-27 08:41:56] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-27T08:41:56.382741 #52748]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-27T08:41:56.382890 #52748]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-27T08:41:56.382990 #52748]  INFO -- : ##### Parsing Options #####
+I, [2015-03-27T08:41:56.383091 #52748]  INFO -- : ##### Setting configuration #####
+I, [2015-03-27T08:41:56.383167 #52748]  INFO -- : environment: 
+I, [2015-03-27T08:41:56.383238 #52748]  INFO -- : version: 
+I, [2015-03-27T08:41:56.383308 #52748]  INFO -- : service: 
+I, [2015-03-27T08:41:56.383452 #52748]  INFO -- : role: 
+I, [2015-03-27T08:41:56.383532 #52748]  INFO -- : key: _version_
+I, [2015-03-27T08:41:56.383595 #52748]  INFO -- : git_repo: git@github.com:malnick/puppet-control
+I, [2015-03-27T08:41:56.383654 #52748]  INFO -- : git_repo_dir: /tmp/control
+I, [2015-03-27T08:41:56.383792 #52748]  INFO -- : data_file: /tmp/control/hieradata/global.yaml
+I, [2015-03-27T08:41:56.383885 #52748]  INFO -- : Set current versions to file object: #<File:0x007f9972aa1ff0>
+[2015-03-27 08:41:56] DEBUG close: ::ffff:127.0.0.1:52846
+[2015-03-27 08:42:00] DEBUG accept: ::ffff:127.0.0.1:52847
+[2015-03-27 08:42:00] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-27T08:42:00.476237 #52748]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-27T08:42:00.476424 #52748]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-27T08:42:00.476575 #52748]  INFO -- : ##### Parsing Options #####
+I, [2015-03-27T08:42:00.476694 #52748]  INFO -- : ##### Setting configuration #####
+I, [2015-03-27T08:42:00.476802 #52748]  INFO -- : environment: 
+I, [2015-03-27T08:42:00.476893 #52748]  INFO -- : version: 
+I, [2015-03-27T08:42:00.477007 #52748]  INFO -- : service: 
+I, [2015-03-27T08:42:00.477118 #52748]  INFO -- : role: 
+I, [2015-03-27T08:42:00.477222 #52748]  INFO -- : key: _version_
+I, [2015-03-27T08:42:00.477325 #52748]  INFO -- : git_repo: git@github.com:malnick/puppet-control
+I, [2015-03-27T08:42:00.477427 #52748]  INFO -- : git_repo_dir: /tmp/control
+I, [2015-03-27T08:42:00.477554 #52748]  INFO -- : data_file: /tmp/control/hieradata/global.yaml
+I, [2015-03-27T08:42:00.477703 #52748]  INFO -- : Set current versions to file object: #<File:0x007f997294a210>
+[2015-03-27 08:42:01] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-27T08:42:01.879097 #52748]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-27T08:42:01.879251 #52748]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-27T08:42:01.879380 #52748]  INFO -- : ##### Parsing Options #####
+I, [2015-03-27T08:42:01.879537 #52748]  INFO -- : ##### Setting configuration #####
+I, [2015-03-27T08:42:01.879616 #52748]  INFO -- : environment: 
+I, [2015-03-27T08:42:01.879707 #52748]  INFO -- : version: 
+I, [2015-03-27T08:42:01.879863 #52748]  INFO -- : service: 
+I, [2015-03-27T08:42:01.879972 #52748]  INFO -- : role: 
+I, [2015-03-27T08:42:01.880046 #52748]  INFO -- : key: _version_
+I, [2015-03-27T08:42:01.880164 #52748]  INFO -- : git_repo: git@github.com:malnick/puppet-control
+I, [2015-03-27T08:42:01.880251 #52748]  INFO -- : git_repo_dir: /tmp/control
+I, [2015-03-27T08:42:01.880336 #52748]  INFO -- : data_file: /tmp/control/hieradata/global.yaml
+I, [2015-03-27T08:42:01.880467 #52748]  INFO -- : Set current versions to file object: #<File:0x007f9973998770>
+[2015-03-27 08:42:32] DEBUG close: ::ffff:127.0.0.1:52847
+[2015-03-27 08:42:33] INFO  WEBrick 1.3.1
+[2015-03-27 08:42:33] INFO  ruby 2.0.0 (2014-05-08) [universal.x86_64-darwin14]
+[2015-03-27 08:42:33] DEBUG TCPServer.new(::, 1015)
+[2015-03-27 08:42:33] WARN  TCPServer Error: Address already in use - bind(2)
+[2015-03-27 08:42:33] DEBUG TCPServer.new(0.0.0.0, 1015)
+[2015-03-27 08:42:33] WARN  TCPServer Error: Address already in use - bind(2)
+[2015-03-27 08:42:35] DEBUG accept: ::ffff:127.0.0.1:52848
+[2015-03-27 08:42:35] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-27T08:42:35.402364 #52748]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-27T08:42:35.402522 #52748]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-27T08:42:35.402622 #52748]  INFO -- : ##### Parsing Options #####
+I, [2015-03-27T08:42:35.402721 #52748]  INFO -- : ##### Setting configuration #####
+I, [2015-03-27T08:42:35.402819 #52748]  INFO -- : environment: 
+I, [2015-03-27T08:42:35.402889 #52748]  INFO -- : version: 
+I, [2015-03-27T08:42:35.403000 #52748]  INFO -- : service: 
+I, [2015-03-27T08:42:35.403096 #52748]  INFO -- : role: 
+I, [2015-03-27T08:42:35.403172 #52748]  INFO -- : key: _version_
+I, [2015-03-27T08:42:35.403268 #52748]  INFO -- : git_repo: git@github.com:malnick/puppet-control
+I, [2015-03-27T08:42:35.403346 #52748]  INFO -- : git_repo_dir: /tmp/control
+I, [2015-03-27T08:42:35.403462 #52748]  INFO -- : data_file: /tmp/control/hieradata/global.yaml
+I, [2015-03-27T08:42:35.403554 #52748]  INFO -- : Set current versions to file object: #<File:0x007f99739b7968>
+[2015-03-27 08:42:35] DEBUG close: ::ffff:127.0.0.1:52848
+[2015-03-27 08:42:58] INFO  WEBrick 1.3.1
+[2015-03-27 08:42:58] INFO  ruby 2.0.0 (2014-05-08) [universal.x86_64-darwin14]
+[2015-03-27 08:42:58] DEBUG TCPServer.new(::, 1015)
+[2015-03-27 08:42:58] DEBUG TCPServer.new(0.0.0.0, 1015)
+[2015-03-27 08:42:58] WARN  TCPServer Error: Address already in use - bind(2)
+[2015-03-27 08:42:58] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-03-27 08:42:58] INFO  WEBrick::HTTPServer#start: pid=53775 port=1015
+[2015-03-27 08:43:00] DEBUG accept: ::ffff:127.0.0.1:52849
+[2015-03-27 08:43:00] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-27T08:43:00.302986 #53775]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-27T08:43:00.303148 #53775]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-27T08:43:00.303237 #53775]  INFO -- : ##### Parsing Options #####
+I, [2015-03-27T08:43:00.303326 #53775]  INFO -- : ##### Setting configuration #####
+I, [2015-03-27T08:43:00.303396 #53775]  INFO -- : environment: 
+I, [2015-03-27T08:43:00.303459 #53775]  INFO -- : version: 
+I, [2015-03-27T08:43:00.303523 #53775]  INFO -- : service: 
+I, [2015-03-27T08:43:00.303664 #53775]  INFO -- : role: 
+I, [2015-03-27T08:43:00.303752 #53775]  INFO -- : key: _version_
+I, [2015-03-27T08:43:00.303829 #53775]  INFO -- : git_repo: git@github.com:malnick/puppet-control
+I, [2015-03-27T08:43:00.303915 #53775]  INFO -- : git_repo_dir: /tmp/control
+I, [2015-03-27T08:43:00.304016 #53775]  INFO -- : data_file: /tmp/control/hieradata/global.yaml
+I, [2015-03-27T08:43:00.304125 #53775]  INFO -- : Set current versions to file object: #<File:0x007ffa6b9b2040>
+[2015-03-27 08:43:00] DEBUG close: ::ffff:127.0.0.1:52849
+[2015-03-27 08:43:01] DEBUG accept: ::ffff:127.0.0.1:52850
+[2015-03-27 08:43:01] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-27T08:43:01.817584 #53775]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-27T08:43:01.817855 #53775]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-27T08:43:01.817997 #53775]  INFO -- : ##### Parsing Options #####
+I, [2015-03-27T08:43:01.818219 #53775]  INFO -- : ##### Setting configuration #####
+I, [2015-03-27T08:43:01.818364 #53775]  INFO -- : environment: 
+I, [2015-03-27T08:43:01.818525 #53775]  INFO -- : version: 
+I, [2015-03-27T08:43:01.818722 #53775]  INFO -- : service: 
+I, [2015-03-27T08:43:01.818874 #53775]  INFO -- : role: 
+I, [2015-03-27T08:43:01.819068 #53775]  INFO -- : key: _version_
+I, [2015-03-27T08:43:01.819223 #53775]  INFO -- : git_repo: git@github.com:malnick/puppet-control
+I, [2015-03-27T08:43:01.819350 #53775]  INFO -- : git_repo_dir: /tmp/control
+I, [2015-03-27T08:43:01.819496 #53775]  INFO -- : data_file: /tmp/control/hieradata/global.yaml
+I, [2015-03-27T08:43:01.819699 #53775]  INFO -- : Set current versions to file object: #<File:0x007ffa6c8581f8>
+[2015-03-27 08:43:32] DEBUG close: ::ffff:127.0.0.1:52850
+[2015-03-27 08:47:01] INFO  WEBrick 1.3.1
+[2015-03-27 08:47:01] INFO  ruby 2.0.0 (2014-05-08) [universal.x86_64-darwin14]
+[2015-03-27 08:47:01] DEBUG TCPServer.new(::, 1015)
+[2015-03-27 08:47:01] DEBUG TCPServer.new(0.0.0.0, 1015)
+[2015-03-27 08:47:01] WARN  TCPServer Error: Address already in use - bind(2)
+[2015-03-27 08:47:01] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-03-27 08:47:01] INFO  WEBrick::HTTPServer#start: pid=57502 port=1015
+[2015-03-27 08:47:07] DEBUG accept: ::ffff:127.0.0.1:52851
+[2015-03-27 08:47:07] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-27T08:47:07.033504 #57502]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-27T08:47:07.033663 #57502]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-27T08:47:07.033764 #57502]  INFO -- : ##### Parsing Options #####
+I, [2015-03-27T08:47:07.033867 #57502]  INFO -- : ##### Setting configuration #####
+I, [2015-03-27T08:47:07.033958 #57502]  INFO -- : environment: 
+I, [2015-03-27T08:47:07.034038 #57502]  INFO -- : version: 
+I, [2015-03-27T08:47:07.034162 #57502]  INFO -- : service: 
+I, [2015-03-27T08:47:07.034293 #57502]  INFO -- : role: 
+I, [2015-03-27T08:47:07.034360 #57502]  INFO -- : key: _version_
+I, [2015-03-27T08:47:07.034426 #57502]  INFO -- : git_repo: git@github.com:malnick/puppet-control
+I, [2015-03-27T08:47:07.034575 #57502]  INFO -- : git_repo_dir: /tmp/control
+I, [2015-03-27T08:47:07.034647 #57502]  INFO -- : data_file: /tmp/control/hieradata/global.yaml
+I, [2015-03-27T08:47:07.041442 #57502]  INFO -- : Set current versions to file object: {}
+E, [2015-03-27T08:47:07.042323 #57502] ERROR -- : /Users/malnick/projects/jenkins-puppet-webhook/lib/views/index.erb:4: syntax error, unexpected ';'
+...rrent_versions.each do |k,v| -; @_out_buf.concat "\n"
+...                               ^
+/Users/malnick/projects/jenkins-puppet-webhook/lib/views/index.erb:6: syntax error, unexpected keyword_end
+; @_out_buf.concat "    "; - end ; @_out_buf.concat "\n"
+                                ^
+/Users/malnick/projects/jenkins-puppet-webhook/lib/views/index.erb:11: syntax error, unexpected keyword_ensure, expecting keyword_end
+/Users/malnick/projects/jenkins-puppet-webhook/lib/views/index.erb:15: syntax error, unexpected end-of-input, expecting keyword_end
+end;end;end;end
+               ^
+[2015-03-27 08:47:07] DEBUG close: ::ffff:127.0.0.1:52851
+[2015-03-27 08:47:50] DEBUG accept: ::ffff:127.0.0.1:52852
+[2015-03-27 08:47:50] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-27T08:47:50.862270 #57502]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-27T08:47:50.862370 #57502]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-27T08:47:50.862535 #57502]  INFO -- : ##### Parsing Options #####
+I, [2015-03-27T08:47:50.862655 #57502]  INFO -- : ##### Setting configuration #####
+I, [2015-03-27T08:47:50.862739 #57502]  INFO -- : environment: 
+I, [2015-03-27T08:47:50.862852 #57502]  INFO -- : version: 
+I, [2015-03-27T08:47:50.862949 #57502]  INFO -- : service: 
+I, [2015-03-27T08:47:50.863030 #57502]  INFO -- : role: 
+I, [2015-03-27T08:47:50.863110 #57502]  INFO -- : key: _version_
+I, [2015-03-27T08:47:50.863240 #57502]  INFO -- : git_repo: git@github.com:malnick/puppet-control
+I, [2015-03-27T08:47:50.863324 #57502]  INFO -- : git_repo_dir: /tmp/control
+I, [2015-03-27T08:47:50.863407 #57502]  INFO -- : data_file: /tmp/control/hieradata/global.yaml
+I, [2015-03-27T08:47:50.864196 #57502]  INFO -- : Set current versions to file object: {}
+E, [2015-03-27T08:47:50.864945 #57502] ERROR -- : /Users/malnick/projects/jenkins-puppet-webhook/lib/views/index.erb:4: syntax error, unexpected ';'
+...rrent_versions.each do |k,v| -; @_out_buf.concat "\n"
+...                               ^
+/Users/malnick/projects/jenkins-puppet-webhook/lib/views/index.erb:6: syntax error, unexpected keyword_end
+; @_out_buf.concat "    "; - end ; @_out_buf.concat "\n"
+                                ^
+/Users/malnick/projects/jenkins-puppet-webhook/lib/views/index.erb:11: syntax error, unexpected keyword_ensure, expecting keyword_end
+/Users/malnick/projects/jenkins-puppet-webhook/lib/views/index.erb:15: syntax error, unexpected end-of-input, expecting keyword_end
+end;end;end;end
+               ^
+[2015-03-27 08:47:50] DEBUG close: ::ffff:127.0.0.1:52852
+[2015-03-27 08:47:53] INFO  WEBrick 1.3.1
+[2015-03-27 08:47:53] INFO  ruby 2.0.0 (2014-05-08) [universal.x86_64-darwin14]
+[2015-03-27 08:47:53] DEBUG TCPServer.new(::, 1015)
+[2015-03-27 08:47:53] DEBUG TCPServer.new(0.0.0.0, 1015)
+[2015-03-27 08:47:53] WARN  TCPServer Error: Address already in use - bind(2)
+[2015-03-27 08:47:53] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-03-27 08:47:53] INFO  WEBrick::HTTPServer#start: pid=58275 port=1015
+[2015-03-27 08:47:55] DEBUG accept: ::ffff:127.0.0.1:52853
+[2015-03-27 08:47:55] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-27T08:47:55.824676 #58275]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-27T08:47:55.824820 #58275]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-27T08:47:55.824910 #58275]  INFO -- : ##### Parsing Options #####
+I, [2015-03-27T08:47:55.824992 #58275]  INFO -- : ##### Setting configuration #####
+I, [2015-03-27T08:47:55.825059 #58275]  INFO -- : environment: 
+I, [2015-03-27T08:47:55.825121 #58275]  INFO -- : version: 
+I, [2015-03-27T08:47:55.825180 #58275]  INFO -- : service: 
+I, [2015-03-27T08:47:55.825309 #58275]  INFO -- : role: 
+I, [2015-03-27T08:47:55.825407 #58275]  INFO -- : key: _version_
+I, [2015-03-27T08:47:55.825478 #58275]  INFO -- : git_repo: git@github.com:malnick/puppet-control
+I, [2015-03-27T08:47:55.825565 #58275]  INFO -- : git_repo_dir: /tmp/control
+I, [2015-03-27T08:47:55.825662 #58275]  INFO -- : data_file: /tmp/control/hieradata/global.yaml
+I, [2015-03-27T08:47:55.826706 #58275]  INFO -- : Set current versions to file object: {}
+E, [2015-03-27T08:47:55.832919 #58275] ERROR -- : /Users/malnick/projects/jenkins-puppet-webhook/lib/views/index.erb:4: syntax error, unexpected ';'
+...rrent_versions.each do |k,v| -; @_out_buf.concat "\n"
+...                               ^
+/Users/malnick/projects/jenkins-puppet-webhook/lib/views/index.erb:6: syntax error, unexpected keyword_end
+; @_out_buf.concat "    "; - end ; @_out_buf.concat "\n"
+                                ^
+/Users/malnick/projects/jenkins-puppet-webhook/lib/views/index.erb:11: syntax error, unexpected keyword_ensure, expecting keyword_end
+/Users/malnick/projects/jenkins-puppet-webhook/lib/views/index.erb:15: syntax error, unexpected end-of-input, expecting keyword_end
+end;end;end;end
+               ^
+[2015-03-27 08:47:55] DEBUG close: ::ffff:127.0.0.1:52853
+[2015-03-27 08:48:30] INFO  WEBrick 1.3.1
+[2015-03-27 08:48:30] INFO  ruby 2.0.0 (2014-05-08) [universal.x86_64-darwin14]
+[2015-03-27 08:48:30] DEBUG TCPServer.new(::, 1015)
+[2015-03-27 08:48:30] DEBUG TCPServer.new(0.0.0.0, 1015)
+[2015-03-27 08:48:30] WARN  TCPServer Error: Address already in use - bind(2)
+[2015-03-27 08:48:30] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-03-27 08:48:31] INFO  WEBrick::HTTPServer#start: pid=58918 port=1015
+[2015-03-27 08:48:32] DEBUG accept: ::ffff:127.0.0.1:52854
+[2015-03-27 08:48:32] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-27T08:48:32.984369 #58918]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-27T08:48:32.984518 #58918]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-27T08:48:32.984598 #58918]  INFO -- : ##### Parsing Options #####
+I, [2015-03-27T08:48:32.984680 #58918]  INFO -- : ##### Setting configuration #####
+I, [2015-03-27T08:48:32.984744 #58918]  INFO -- : environment: 
+I, [2015-03-27T08:48:32.984804 #58918]  INFO -- : version: 
+I, [2015-03-27T08:48:32.984881 #58918]  INFO -- : service: 
+I, [2015-03-27T08:48:32.985008 #58918]  INFO -- : role: 
+I, [2015-03-27T08:48:32.985107 #58918]  INFO -- : key: _version_
+I, [2015-03-27T08:48:32.985177 #58918]  INFO -- : git_repo: git@github.com:malnick/puppet-control
+I, [2015-03-27T08:48:32.985269 #58918]  INFO -- : git_repo_dir: /tmp/control
+I, [2015-03-27T08:48:32.985362 #58918]  INFO -- : data_file: /tmp/control/hieradata/global.yaml
+I, [2015-03-27T08:48:32.993373 #58918]  INFO -- : Set current versions to file object: {}
+E, [2015-03-27T08:48:32.994180 #58918] ERROR -- : /Users/malnick/projects/jenkins-puppet-webhook/lib/views/index.erb:4: syntax error, unexpected ';'
+...rrent_versions.each do |k,v| -; @_out_buf.concat "\n"
+...                               ^
+/Users/malnick/projects/jenkins-puppet-webhook/lib/views/index.erb:6: syntax error, unexpected keyword_end
+; @_out_buf.concat "    "; - end ; @_out_buf.concat "\n"
+                                ^
+/Users/malnick/projects/jenkins-puppet-webhook/lib/views/index.erb:11: syntax error, unexpected keyword_ensure, expecting keyword_end
+/Users/malnick/projects/jenkins-puppet-webhook/lib/views/index.erb:15: syntax error, unexpected end-of-input, expecting keyword_end
+end;end;end;end
+               ^
+[2015-03-27 08:48:32] DEBUG close: ::ffff:127.0.0.1:52854
+[2015-03-27 08:49:21] INFO  WEBrick 1.3.1
+[2015-03-27 08:49:21] INFO  ruby 2.0.0 (2014-05-08) [universal.x86_64-darwin14]
+[2015-03-27 08:49:21] DEBUG TCPServer.new(::, 1015)
+[2015-03-27 08:49:21] DEBUG TCPServer.new(0.0.0.0, 1015)
+[2015-03-27 08:49:21] WARN  TCPServer Error: Address already in use - bind(2)
+[2015-03-27 08:49:21] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-03-27 08:49:21] INFO  WEBrick::HTTPServer#start: pid=59714 port=1015
+[2015-03-27 08:49:23] DEBUG accept: ::ffff:127.0.0.1:52855
+[2015-03-27 08:49:23] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-27T08:49:23.492900 #59714]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-27T08:49:23.493044 #59714]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-27T08:49:23.493137 #59714]  INFO -- : ##### Parsing Options #####
+I, [2015-03-27T08:49:23.493232 #59714]  INFO -- : ##### Setting configuration #####
+I, [2015-03-27T08:49:23.493305 #59714]  INFO -- : environment: 
+I, [2015-03-27T08:49:23.493375 #59714]  INFO -- : version: 
+I, [2015-03-27T08:49:23.493468 #59714]  INFO -- : service: 
+I, [2015-03-27T08:49:23.493542 #59714]  INFO -- : role: 
+I, [2015-03-27T08:49:23.493615 #59714]  INFO -- : key: _version_
+I, [2015-03-27T08:49:23.493673 #59714]  INFO -- : git_repo: git@github.com:malnick/puppet-control
+I, [2015-03-27T08:49:23.493732 #59714]  INFO -- : git_repo_dir: /tmp/control
+I, [2015-03-27T08:49:23.493815 #59714]  INFO -- : data_file: /tmp/control/hieradata/global.yaml
+I, [2015-03-27T08:49:23.500555 #59714]  INFO -- : Set current versions to file object: {}
+E, [2015-03-27T08:49:23.501447 #59714] ERROR -- : /Users/malnick/projects/jenkins-puppet-webhook/lib/views/index.erb:4: syntax error, unexpected ';'
+...rrent_versions.each do |k,v| -; @_out_buf.concat "\n"
+...                               ^
+/Users/malnick/projects/jenkins-puppet-webhook/lib/views/index.erb:6: syntax error, unexpected keyword_end
+; @_out_buf.concat "    "; - end ; @_out_buf.concat "\n"
+                                ^
+/Users/malnick/projects/jenkins-puppet-webhook/lib/views/index.erb:11: syntax error, unexpected keyword_ensure, expecting keyword_end
+/Users/malnick/projects/jenkins-puppet-webhook/lib/views/index.erb:15: syntax error, unexpected end-of-input, expecting keyword_end
+end;end;end;end
+               ^
+[2015-03-27 08:49:23] DEBUG close: ::ffff:127.0.0.1:52855
+[2015-03-27 08:50:12] INFO  WEBrick 1.3.1
+[2015-03-27 08:50:12] INFO  ruby 2.0.0 (2014-05-08) [universal.x86_64-darwin14]
+[2015-03-27 08:50:12] DEBUG TCPServer.new(::, 1015)
+[2015-03-27 08:50:12] DEBUG TCPServer.new(0.0.0.0, 1015)
+[2015-03-27 08:50:12] WARN  TCPServer Error: Address already in use - bind(2)
+[2015-03-27 08:50:12] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-03-27 08:50:12] INFO  WEBrick::HTTPServer#start: pid=60510 port=1015
+[2015-03-27 08:50:15] DEBUG accept: ::ffff:127.0.0.1:52856
+[2015-03-27 08:50:15] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-27T08:50:15.204475 #60510]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-27T08:50:15.204632 #60510]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-27T08:50:15.204749 #60510]  INFO -- : ##### Parsing Options #####
+I, [2015-03-27T08:50:15.204848 #60510]  INFO -- : ##### Setting configuration #####
+I, [2015-03-27T08:50:15.204926 #60510]  INFO -- : environment: 
+I, [2015-03-27T08:50:15.205012 #60510]  INFO -- : version: 
+I, [2015-03-27T08:50:15.205167 #60510]  INFO -- : service: 
+I, [2015-03-27T08:50:15.205239 #60510]  INFO -- : role: 
+I, [2015-03-27T08:50:15.205307 #60510]  INFO -- : key: _version_
+I, [2015-03-27T08:50:15.205498 #60510]  INFO -- : git_repo: git@github.com:malnick/puppet-control
+I, [2015-03-27T08:50:15.205575 #60510]  INFO -- : git_repo_dir: /tmp/control
+I, [2015-03-27T08:50:15.205683 #60510]  INFO -- : data_file: /tmp/control/hieradata/global.yaml
+I, [2015-03-27T08:50:15.212856 #60510]  INFO -- : Set current versions to file object: {"analytics_version_qa"=>"0.0.6", "librarian_version_qa"=>"0.3.3", "notifications_version_qa"=>"0.0.8-SNAPSHOT", "scm_agent_version_qa"=>"0.1.15-SNAPSHOT", "vulnerabilities_version_qa"=>"0.0.3", "platform_version_qa"=>"0.0.23", "analytics_version_production"=>"0.0.2", "librarian_version_production"=>"0.3.3", "notifications_version_production"=>"0.0.4", "scm_agent_version_production"=>"0.1.11", "vulnerabilities_version_production"=>"0.0.3", "platform_version_production"=>"0.0.23", "analytics_port"=>11120, "analytics_mgmt_port"=>11130, "librarian_port"=>11060, "librarian_mgmt_port"=>11070, "notifications_port"=>11000, "notifications_mgmt_port"=>11010, "scm_agent_port"=>11040, "scm_agent_mgmt_port"=>11050, "vulnerabilities_port"=>11100, "vulnerabilities_mgmt_port"=>11110, "platform_port"=>8080, "platform_mgmt_port"=>8080, "stats_url"=>"/", "stats_port"=>22002}
+E, [2015-03-27T08:50:15.213788 #60510] ERROR -- : /Users/malnick/projects/jenkins-puppet-webhook/lib/views/index.erb:4: syntax error, unexpected ';'
+...rrent_versions.each do |k,v| -; @_out_buf.concat "\n"
+...                               ^
+/Users/malnick/projects/jenkins-puppet-webhook/lib/views/index.erb:6: syntax error, unexpected keyword_end
+; @_out_buf.concat "    "; - end ; @_out_buf.concat "\n"
+                                ^
+/Users/malnick/projects/jenkins-puppet-webhook/lib/views/index.erb:11: syntax error, unexpected keyword_ensure, expecting keyword_end
+/Users/malnick/projects/jenkins-puppet-webhook/lib/views/index.erb:15: syntax error, unexpected end-of-input, expecting keyword_end
+end;end;end;end
+               ^
+[2015-03-27 08:50:15] DEBUG close: ::ffff:127.0.0.1:52856
+[2015-03-27 08:50:43] DEBUG accept: ::ffff:127.0.0.1:52857
+[2015-03-27 08:50:43] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-27T08:50:43.662830 #60510]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-27T08:50:43.662997 #60510]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-27T08:50:43.663128 #60510]  INFO -- : ##### Parsing Options #####
+I, [2015-03-27T08:50:43.663263 #60510]  INFO -- : ##### Setting configuration #####
+I, [2015-03-27T08:50:43.663392 #60510]  INFO -- : environment: 
+I, [2015-03-27T08:50:43.663519 #60510]  INFO -- : version: 
+I, [2015-03-27T08:50:43.663741 #60510]  INFO -- : service: 
+I, [2015-03-27T08:50:43.663896 #60510]  INFO -- : role: 
+I, [2015-03-27T08:50:43.664020 #60510]  INFO -- : key: _version_
+I, [2015-03-27T08:50:43.664139 #60510]  INFO -- : git_repo: git@github.com:malnick/puppet-control
+I, [2015-03-27T08:50:43.664257 #60510]  INFO -- : git_repo_dir: /tmp/control
+I, [2015-03-27T08:50:43.664374 #60510]  INFO -- : data_file: /tmp/control/hieradata/global.yaml
+I, [2015-03-27T08:50:43.665516 #60510]  INFO -- : Set current versions to file object: {"analytics_version_qa"=>"0.0.6", "librarian_version_qa"=>"0.3.3", "notifications_version_qa"=>"0.0.8-SNAPSHOT", "scm_agent_version_qa"=>"0.1.15-SNAPSHOT", "vulnerabilities_version_qa"=>"0.0.3", "platform_version_qa"=>"0.0.23", "analytics_version_production"=>"0.0.2", "librarian_version_production"=>"0.3.3", "notifications_version_production"=>"0.0.4", "scm_agent_version_production"=>"0.1.11", "vulnerabilities_version_production"=>"0.0.3", "platform_version_production"=>"0.0.23", "analytics_port"=>11120, "analytics_mgmt_port"=>11130, "librarian_port"=>11060, "librarian_mgmt_port"=>11070, "notifications_port"=>11000, "notifications_mgmt_port"=>11010, "scm_agent_port"=>11040, "scm_agent_mgmt_port"=>11050, "vulnerabilities_port"=>11100, "vulnerabilities_mgmt_port"=>11110, "platform_port"=>8080, "platform_mgmt_port"=>8080, "stats_url"=>"/", "stats_port"=>22002}
+[2015-03-27 08:50:43] DEBUG close: ::ffff:127.0.0.1:52857
+[2015-03-27 08:50:48] DEBUG accept: ::ffff:127.0.0.1:52858
+[2015-03-27 08:50:48] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-27T08:50:48.815307 #60510]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-27T08:50:48.815450 #60510]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-27T08:50:48.815589 #60510]  INFO -- : ##### Parsing Options #####
+I, [2015-03-27T08:50:48.815741 #60510]  INFO -- : ##### Setting configuration #####
+I, [2015-03-27T08:50:48.815838 #60510]  INFO -- : environment: 
+I, [2015-03-27T08:50:48.815939 #60510]  INFO -- : version: 
+I, [2015-03-27T08:50:48.816021 #60510]  INFO -- : service: 
+I, [2015-03-27T08:50:48.816126 #60510]  INFO -- : role: 
+I, [2015-03-27T08:50:48.816380 #60510]  INFO -- : key: _version_
+I, [2015-03-27T08:50:48.816533 #60510]  INFO -- : git_repo: git@github.com:malnick/puppet-control
+I, [2015-03-27T08:50:48.816700 #60510]  INFO -- : git_repo_dir: /tmp/control
+I, [2015-03-27T08:50:48.816782 #60510]  INFO -- : data_file: /tmp/control/hieradata/global.yaml
+I, [2015-03-27T08:50:48.817831 #60510]  INFO -- : Set current versions to file object: {"analytics_version_qa"=>"0.0.6", "librarian_version_qa"=>"0.3.3", "notifications_version_qa"=>"0.0.8-SNAPSHOT", "scm_agent_version_qa"=>"0.1.15-SNAPSHOT", "vulnerabilities_version_qa"=>"0.0.3", "platform_version_qa"=>"0.0.23", "analytics_version_production"=>"0.0.2", "librarian_version_production"=>"0.3.3", "notifications_version_production"=>"0.0.4", "scm_agent_version_production"=>"0.1.11", "vulnerabilities_version_production"=>"0.0.3", "platform_version_production"=>"0.0.23", "analytics_port"=>11120, "analytics_mgmt_port"=>11130, "librarian_port"=>11060, "librarian_mgmt_port"=>11070, "notifications_port"=>11000, "notifications_mgmt_port"=>11010, "scm_agent_port"=>11040, "scm_agent_mgmt_port"=>11050, "vulnerabilities_port"=>11100, "vulnerabilities_mgmt_port"=>11110, "platform_port"=>8080, "platform_mgmt_port"=>8080, "stats_url"=>"/", "stats_port"=>22002}
+[2015-03-27 08:50:50] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-27T08:50:50.205402 #60510]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-27T08:50:50.205525 #60510]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-27T08:50:50.205621 #60510]  INFO -- : ##### Parsing Options #####
+I, [2015-03-27T08:50:50.205773 #60510]  INFO -- : ##### Setting configuration #####
+I, [2015-03-27T08:50:50.205928 #60510]  INFO -- : environment: 
+I, [2015-03-27T08:50:50.206067 #60510]  INFO -- : version: 
+I, [2015-03-27T08:50:50.206192 #60510]  INFO -- : service: 
+I, [2015-03-27T08:50:50.206335 #60510]  INFO -- : role: 
+I, [2015-03-27T08:50:50.206496 #60510]  INFO -- : key: _version_
+I, [2015-03-27T08:50:50.206622 #60510]  INFO -- : git_repo: git@github.com:malnick/puppet-control
+I, [2015-03-27T08:50:50.206740 #60510]  INFO -- : git_repo_dir: /tmp/control
+I, [2015-03-27T08:50:50.206853 #60510]  INFO -- : data_file: /tmp/control/hieradata/global.yaml
+I, [2015-03-27T08:50:50.207774 #60510]  INFO -- : Set current versions to file object: {"analytics_version_qa"=>"0.0.6", "librarian_version_qa"=>"0.3.3", "notifications_version_qa"=>"0.0.8-SNAPSHOT", "scm_agent_version_qa"=>"0.1.15-SNAPSHOT", "vulnerabilities_version_qa"=>"0.0.3", "platform_version_qa"=>"0.0.23", "analytics_version_production"=>"0.0.2", "librarian_version_production"=>"0.3.3", "notifications_version_production"=>"0.0.4", "scm_agent_version_production"=>"0.1.11", "vulnerabilities_version_production"=>"0.0.3", "platform_version_production"=>"0.0.23", "analytics_port"=>11120, "analytics_mgmt_port"=>11130, "librarian_port"=>11060, "librarian_mgmt_port"=>11070, "notifications_port"=>11000, "notifications_mgmt_port"=>11010, "scm_agent_port"=>11040, "scm_agent_mgmt_port"=>11050, "vulnerabilities_port"=>11100, "vulnerabilities_mgmt_port"=>11110, "platform_port"=>8080, "platform_mgmt_port"=>8080, "stats_url"=>"/", "stats_port"=>22002}
+[2015-03-27 08:51:20] DEBUG close: ::ffff:127.0.0.1:52858
+[2015-03-27 08:53:36] DEBUG accept: ::ffff:127.0.0.1:52859
+[2015-03-27 08:53:36] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-27T08:53:36.409271 #60510]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-27T08:53:36.409392 #60510]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-27T08:53:36.409500 #60510]  INFO -- : ##### Parsing Options #####
+I, [2015-03-27T08:53:36.409606 #60510]  INFO -- : ##### Setting configuration #####
+I, [2015-03-27T08:53:36.409687 #60510]  INFO -- : environment: 
+I, [2015-03-27T08:53:36.409758 #60510]  INFO -- : version: 
+I, [2015-03-27T08:53:36.409848 #60510]  INFO -- : service: 
+I, [2015-03-27T08:53:36.409967 #60510]  INFO -- : role: 
+I, [2015-03-27T08:53:36.410126 #60510]  INFO -- : key: _version_
+I, [2015-03-27T08:53:36.410204 #60510]  INFO -- : git_repo: git@github.com:malnick/puppet-control
+I, [2015-03-27T08:53:36.410275 #60510]  INFO -- : git_repo_dir: /tmp/control
+I, [2015-03-27T08:53:36.410347 #60510]  INFO -- : data_file: /tmp/control/hieradata/global.yaml
+I, [2015-03-27T08:53:36.411204 #60510]  INFO -- : Set current versions to file object: {"analytics_version_qa"=>"0.0.6", "librarian_version_qa"=>"0.3.3", "notifications_version_qa"=>"0.0.8-SNAPSHOT", "scm_agent_version_qa"=>"0.1.15-SNAPSHOT", "vulnerabilities_version_qa"=>"0.0.3", "platform_version_qa"=>"0.0.23", "analytics_version_production"=>"0.0.2", "librarian_version_production"=>"0.3.3", "notifications_version_production"=>"0.0.4", "scm_agent_version_production"=>"0.1.11", "vulnerabilities_version_production"=>"0.0.3", "platform_version_production"=>"0.0.23", "analytics_port"=>11120, "analytics_mgmt_port"=>11130, "librarian_port"=>11060, "librarian_mgmt_port"=>11070, "notifications_port"=>11000, "notifications_mgmt_port"=>11010, "scm_agent_port"=>11040, "scm_agent_mgmt_port"=>11050, "vulnerabilities_port"=>11100, "vulnerabilities_mgmt_port"=>11110, "platform_port"=>8080, "platform_mgmt_port"=>8080, "stats_url"=>"/", "stats_port"=>22002}
+E, [2015-03-27T08:53:36.411945 #60510] ERROR -- : /Users/malnick/projects/jenkins-puppet-webhook/lib/views/index.erb:7: syntax error, unexpected tSTRING_BEG, expecting keyword_end
+@_out_buf.concat "  </body>\n"
+                  ^
+[2015-03-27 08:53:36] DEBUG close: ::ffff:127.0.0.1:52859
+[2015-03-27 08:54:10] DEBUG accept: ::ffff:127.0.0.1:52860
+[2015-03-27 08:54:10] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-27T08:54:10.322690 #60510]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-27T08:54:10.322887 #60510]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-27T08:54:10.323006 #60510]  INFO -- : ##### Parsing Options #####
+I, [2015-03-27T08:54:10.323111 #60510]  INFO -- : ##### Setting configuration #####
+I, [2015-03-27T08:54:10.323207 #60510]  INFO -- : environment: 
+I, [2015-03-27T08:54:10.323290 #60510]  INFO -- : version: 
+I, [2015-03-27T08:54:10.323400 #60510]  INFO -- : service: 
+I, [2015-03-27T08:54:10.323477 #60510]  INFO -- : role: 
+I, [2015-03-27T08:54:10.323553 #60510]  INFO -- : key: _version_
+I, [2015-03-27T08:54:10.323628 #60510]  INFO -- : git_repo: git@github.com:malnick/puppet-control
+I, [2015-03-27T08:54:10.323742 #60510]  INFO -- : git_repo_dir: /tmp/control
+I, [2015-03-27T08:54:10.323816 #60510]  INFO -- : data_file: /tmp/control/hieradata/global.yaml
+I, [2015-03-27T08:54:10.324616 #60510]  INFO -- : Set current versions to file object: {"analytics_version_qa"=>"0.0.6", "librarian_version_qa"=>"0.3.3", "notifications_version_qa"=>"0.0.8-SNAPSHOT", "scm_agent_version_qa"=>"0.1.15-SNAPSHOT", "vulnerabilities_version_qa"=>"0.0.3", "platform_version_qa"=>"0.0.23", "analytics_version_production"=>"0.0.2", "librarian_version_production"=>"0.3.3", "notifications_version_production"=>"0.0.4", "scm_agent_version_production"=>"0.1.11", "vulnerabilities_version_production"=>"0.0.3", "platform_version_production"=>"0.0.23", "analytics_port"=>11120, "analytics_mgmt_port"=>11130, "librarian_port"=>11060, "librarian_mgmt_port"=>11070, "notifications_port"=>11000, "notifications_mgmt_port"=>11010, "scm_agent_port"=>11040, "scm_agent_mgmt_port"=>11050, "vulnerabilities_port"=>11100, "vulnerabilities_mgmt_port"=>11110, "platform_port"=>8080, "platform_mgmt_port"=>8080, "stats_url"=>"/", "stats_port"=>22002}
+E, [2015-03-27T08:54:10.325392 #60510] ERROR -- : /Users/malnick/projects/jenkins-puppet-webhook/lib/views/index.erb:4: syntax error, unexpected ')'
+; @_out_buf.concat(( @current_versions.each do |k,v| -).to_s)
+                                                       ^
+/Users/malnick/projects/jenkins-puppet-webhook/lib/views/index.erb:7: syntax error, unexpected tSTRING_BEG, expecting ')'
+@_out_buf.concat "  </body>\n"
+                  ^
+/Users/malnick/projects/jenkins-puppet-webhook/lib/views/index.erb:11: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/malnick/projects/jenkins-puppet-webhook/lib/views/index.erb:13: syntax error, unexpected keyword_end, expecting ')'
+[2015-03-27 08:54:10] DEBUG close: ::ffff:127.0.0.1:52860
+[2015-03-27 08:54:37] DEBUG accept: ::ffff:127.0.0.1:52861
+[2015-03-27 08:54:37] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-27T08:54:37.483905 #60510]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-27T08:54:37.484003 #60510]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-27T08:54:37.484169 #60510]  INFO -- : ##### Parsing Options #####
+I, [2015-03-27T08:54:37.484338 #60510]  INFO -- : ##### Setting configuration #####
+I, [2015-03-27T08:54:37.484420 #60510]  INFO -- : environment: 
+I, [2015-03-27T08:54:37.484540 #60510]  INFO -- : version: 
+I, [2015-03-27T08:54:37.484634 #60510]  INFO -- : service: 
+I, [2015-03-27T08:54:37.484716 #60510]  INFO -- : role: 
+I, [2015-03-27T08:54:37.484816 #60510]  INFO -- : key: _version_
+I, [2015-03-27T08:54:37.484936 #60510]  INFO -- : git_repo: git@github.com:malnick/puppet-control
+I, [2015-03-27T08:54:37.485006 #60510]  INFO -- : git_repo_dir: /tmp/control
+I, [2015-03-27T08:54:37.485071 #60510]  INFO -- : data_file: /tmp/control/hieradata/global.yaml
+I, [2015-03-27T08:54:37.485864 #60510]  INFO -- : Set current versions to file object: {"analytics_version_qa"=>"0.0.6", "librarian_version_qa"=>"0.3.3", "notifications_version_qa"=>"0.0.8-SNAPSHOT", "scm_agent_version_qa"=>"0.1.15-SNAPSHOT", "vulnerabilities_version_qa"=>"0.0.3", "platform_version_qa"=>"0.0.23", "analytics_version_production"=>"0.0.2", "librarian_version_production"=>"0.3.3", "notifications_version_production"=>"0.0.4", "scm_agent_version_production"=>"0.1.11", "vulnerabilities_version_production"=>"0.0.3", "platform_version_production"=>"0.0.23", "analytics_port"=>11120, "analytics_mgmt_port"=>11130, "librarian_port"=>11060, "librarian_mgmt_port"=>11070, "notifications_port"=>11000, "notifications_mgmt_port"=>11010, "scm_agent_port"=>11040, "scm_agent_mgmt_port"=>11050, "vulnerabilities_port"=>11100, "vulnerabilities_mgmt_port"=>11110, "platform_port"=>8080, "platform_mgmt_port"=>8080, "stats_url"=>"/", "stats_port"=>22002}
+[2015-03-27 08:54:37] DEBUG close: ::ffff:127.0.0.1:52861
+[2015-03-27 08:54:39] DEBUG accept: ::ffff:127.0.0.1:52862
+[2015-03-27 08:54:39] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-27T08:54:39.653665 #60510]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-27T08:54:39.653798 #60510]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-27T08:54:39.653973 #60510]  INFO -- : ##### Parsing Options #####
+I, [2015-03-27T08:54:39.654145 #60510]  INFO -- : ##### Setting configuration #####
+I, [2015-03-27T08:54:39.654229 #60510]  INFO -- : environment: 
+I, [2015-03-27T08:54:39.654354 #60510]  INFO -- : version: 
+I, [2015-03-27T08:54:39.654460 #60510]  INFO -- : service: 
+I, [2015-03-27T08:54:39.654544 #60510]  INFO -- : role: 
+I, [2015-03-27T08:54:39.654628 #60510]  INFO -- : key: _version_
+I, [2015-03-27T08:54:39.654747 #60510]  INFO -- : git_repo: git@github.com:malnick/puppet-control
+I, [2015-03-27T08:54:39.654829 #60510]  INFO -- : git_repo_dir: /tmp/control
+I, [2015-03-27T08:54:39.654915 #60510]  INFO -- : data_file: /tmp/control/hieradata/global.yaml
+I, [2015-03-27T08:54:39.655729 #60510]  INFO -- : Set current versions to file object: {"analytics_version_qa"=>"0.0.6", "librarian_version_qa"=>"0.3.3", "notifications_version_qa"=>"0.0.8-SNAPSHOT", "scm_agent_version_qa"=>"0.1.15-SNAPSHOT", "vulnerabilities_version_qa"=>"0.0.3", "platform_version_qa"=>"0.0.23", "analytics_version_production"=>"0.0.2", "librarian_version_production"=>"0.3.3", "notifications_version_production"=>"0.0.4", "scm_agent_version_production"=>"0.1.11", "vulnerabilities_version_production"=>"0.0.3", "platform_version_production"=>"0.0.23", "analytics_port"=>11120, "analytics_mgmt_port"=>11130, "librarian_port"=>11060, "librarian_mgmt_port"=>11070, "notifications_port"=>11000, "notifications_mgmt_port"=>11010, "scm_agent_port"=>11040, "scm_agent_mgmt_port"=>11050, "vulnerabilities_port"=>11100, "vulnerabilities_mgmt_port"=>11110, "platform_port"=>8080, "platform_mgmt_port"=>8080, "stats_url"=>"/", "stats_port"=>22002}
+[2015-03-27 08:54:40] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-27T08:54:40.587635 #60510]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-27T08:54:40.587852 #60510]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-27T08:54:40.588035 #60510]  INFO -- : ##### Parsing Options #####
+I, [2015-03-27T08:54:40.588174 #60510]  INFO -- : ##### Setting configuration #####
+I, [2015-03-27T08:54:40.588301 #60510]  INFO -- : environment: 
+I, [2015-03-27T08:54:40.588387 #60510]  INFO -- : version: 
+I, [2015-03-27T08:54:40.588493 #60510]  INFO -- : service: 
+I, [2015-03-27T08:54:40.588580 #60510]  INFO -- : role: 
+I, [2015-03-27T08:54:40.588776 #60510]  INFO -- : key: _version_
+I, [2015-03-27T08:54:40.595292 #60510]  INFO -- : git_repo: git@github.com:malnick/puppet-control
+I, [2015-03-27T08:54:40.595453 #60510]  INFO -- : git_repo_dir: /tmp/control
+I, [2015-03-27T08:54:40.595556 #60510]  INFO -- : data_file: /tmp/control/hieradata/global.yaml
+I, [2015-03-27T08:54:40.596563 #60510]  INFO -- : Set current versions to file object: {"analytics_version_qa"=>"0.0.6", "librarian_version_qa"=>"0.3.3", "notifications_version_qa"=>"0.0.8-SNAPSHOT", "scm_agent_version_qa"=>"0.1.15-SNAPSHOT", "vulnerabilities_version_qa"=>"0.0.3", "platform_version_qa"=>"0.0.23", "analytics_version_production"=>"0.0.2", "librarian_version_production"=>"0.3.3", "notifications_version_production"=>"0.0.4", "scm_agent_version_production"=>"0.1.11", "vulnerabilities_version_production"=>"0.0.3", "platform_version_production"=>"0.0.23", "analytics_port"=>11120, "analytics_mgmt_port"=>11130, "librarian_port"=>11060, "librarian_mgmt_port"=>11070, "notifications_port"=>11000, "notifications_mgmt_port"=>11010, "scm_agent_port"=>11040, "scm_agent_mgmt_port"=>11050, "vulnerabilities_port"=>11100, "vulnerabilities_mgmt_port"=>11110, "platform_port"=>8080, "platform_mgmt_port"=>8080, "stats_url"=>"/", "stats_port"=>22002}
+[2015-03-27 08:55:10] DEBUG close: ::ffff:127.0.0.1:52862
+[2015-03-27 08:55:25] DEBUG accept: ::ffff:127.0.0.1:52863
+[2015-03-27 08:55:25] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-27T08:55:25.975313 #60510]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-27T08:55:25.975430 #60510]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-27T08:55:25.975602 #60510]  INFO -- : ##### Parsing Options #####
+I, [2015-03-27T08:55:25.975718 #60510]  INFO -- : ##### Setting configuration #####
+I, [2015-03-27T08:55:25.975804 #60510]  INFO -- : environment: 
+I, [2015-03-27T08:55:25.975894 #60510]  INFO -- : version: 
+I, [2015-03-27T08:55:25.975984 #60510]  INFO -- : service: 
+I, [2015-03-27T08:55:25.976063 #60510]  INFO -- : role: 
+I, [2015-03-27T08:55:25.976133 #60510]  INFO -- : key: _version_
+I, [2015-03-27T08:55:25.976201 #60510]  INFO -- : git_repo: git@github.com:malnick/puppet-control
+I, [2015-03-27T08:55:25.976269 #60510]  INFO -- : git_repo_dir: /tmp/control
+I, [2015-03-27T08:55:25.976340 #60510]  INFO -- : data_file: /tmp/control/hieradata/global.yaml
+I, [2015-03-27T08:55:25.977169 #60510]  INFO -- : Set current versions to file object: {"analytics_version_qa"=>"0.0.6", "librarian_version_qa"=>"0.3.3", "notifications_version_qa"=>"0.0.8-SNAPSHOT", "scm_agent_version_qa"=>"0.1.15-SNAPSHOT", "vulnerabilities_version_qa"=>"0.0.3", "platform_version_qa"=>"0.0.23", "analytics_version_production"=>"0.0.2", "librarian_version_production"=>"0.3.3", "notifications_version_production"=>"0.0.4", "scm_agent_version_production"=>"0.1.11", "vulnerabilities_version_production"=>"0.0.3", "platform_version_production"=>"0.0.23", "analytics_port"=>11120, "analytics_mgmt_port"=>11130, "librarian_port"=>11060, "librarian_mgmt_port"=>11070, "notifications_port"=>11000, "notifications_mgmt_port"=>11010, "scm_agent_port"=>11040, "scm_agent_mgmt_port"=>11050, "vulnerabilities_port"=>11100, "vulnerabilities_mgmt_port"=>11110, "platform_port"=>8080, "platform_mgmt_port"=>8080, "stats_url"=>"/", "stats_port"=>22002}
+E, [2015-03-27T08:55:25.978004 #60510] ERROR -- : String can't be coerced into Fixnum
+[2015-03-27 08:55:25] DEBUG close: ::ffff:127.0.0.1:52863
+[2015-03-27 08:55:54] DEBUG accept: ::ffff:127.0.0.1:52864
+[2015-03-27 08:55:54] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-27T08:55:54.817310 #60510]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-27T08:55:54.817485 #60510]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-27T08:55:54.817620 #60510]  INFO -- : ##### Parsing Options #####
+I, [2015-03-27T08:55:54.817860 #60510]  INFO -- : ##### Setting configuration #####
+I, [2015-03-27T08:55:54.817998 #60510]  INFO -- : environment: 
+I, [2015-03-27T08:55:54.818124 #60510]  INFO -- : version: 
+I, [2015-03-27T08:55:54.818249 #60510]  INFO -- : service: 
+I, [2015-03-27T08:55:54.818377 #60510]  INFO -- : role: 
+I, [2015-03-27T08:55:54.818515 #60510]  INFO -- : key: _version_
+I, [2015-03-27T08:55:54.818678 #60510]  INFO -- : git_repo: git@github.com:malnick/puppet-control
+I, [2015-03-27T08:55:54.818827 #60510]  INFO -- : git_repo_dir: /tmp/control
+I, [2015-03-27T08:55:54.818953 #60510]  INFO -- : data_file: /tmp/control/hieradata/global.yaml
+I, [2015-03-27T08:55:54.819814 #60510]  INFO -- : Set current versions to file object: {"analytics_version_qa"=>"0.0.6", "librarian_version_qa"=>"0.3.3", "notifications_version_qa"=>"0.0.8-SNAPSHOT", "scm_agent_version_qa"=>"0.1.15-SNAPSHOT", "vulnerabilities_version_qa"=>"0.0.3", "platform_version_qa"=>"0.0.23", "analytics_version_production"=>"0.0.2", "librarian_version_production"=>"0.3.3", "notifications_version_production"=>"0.0.4", "scm_agent_version_production"=>"0.1.11", "vulnerabilities_version_production"=>"0.0.3", "platform_version_production"=>"0.0.23", "analytics_port"=>11120, "analytics_mgmt_port"=>11130, "librarian_port"=>11060, "librarian_mgmt_port"=>11070, "notifications_port"=>11000, "notifications_mgmt_port"=>11010, "scm_agent_port"=>11040, "scm_agent_mgmt_port"=>11050, "vulnerabilities_port"=>11100, "vulnerabilities_mgmt_port"=>11110, "platform_port"=>8080, "platform_mgmt_port"=>8080, "stats_url"=>"/", "stats_port"=>22002}
+[2015-03-27 08:55:54] DEBUG close: ::ffff:127.0.0.1:52864
+[2015-03-27 08:55:56] DEBUG accept: ::ffff:127.0.0.1:52865
+[2015-03-27 08:55:56] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-27T08:55:56.378098 #60510]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-27T08:55:56.378213 #60510]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-27T08:55:56.378344 #60510]  INFO -- : ##### Parsing Options #####
+I, [2015-03-27T08:55:56.378445 #60510]  INFO -- : ##### Setting configuration #####
+I, [2015-03-27T08:55:56.378527 #60510]  INFO -- : environment: 
+I, [2015-03-27T08:55:56.378598 #60510]  INFO -- : version: 
+I, [2015-03-27T08:55:56.378666 #60510]  INFO -- : service: 
+I, [2015-03-27T08:55:56.378737 #60510]  INFO -- : role: 
+I, [2015-03-27T08:55:56.378829 #60510]  INFO -- : key: _version_
+I, [2015-03-27T08:55:56.378901 #60510]  INFO -- : git_repo: git@github.com:malnick/puppet-control
+I, [2015-03-27T08:55:56.378969 #60510]  INFO -- : git_repo_dir: /tmp/control
+I, [2015-03-27T08:55:56.379036 #60510]  INFO -- : data_file: /tmp/control/hieradata/global.yaml
+I, [2015-03-27T08:55:56.379822 #60510]  INFO -- : Set current versions to file object: {"analytics_version_qa"=>"0.0.6", "librarian_version_qa"=>"0.3.3", "notifications_version_qa"=>"0.0.8-SNAPSHOT", "scm_agent_version_qa"=>"0.1.15-SNAPSHOT", "vulnerabilities_version_qa"=>"0.0.3", "platform_version_qa"=>"0.0.23", "analytics_version_production"=>"0.0.2", "librarian_version_production"=>"0.3.3", "notifications_version_production"=>"0.0.4", "scm_agent_version_production"=>"0.1.11", "vulnerabilities_version_production"=>"0.0.3", "platform_version_production"=>"0.0.23", "analytics_port"=>11120, "analytics_mgmt_port"=>11130, "librarian_port"=>11060, "librarian_mgmt_port"=>11070, "notifications_port"=>11000, "notifications_mgmt_port"=>11010, "scm_agent_port"=>11040, "scm_agent_mgmt_port"=>11050, "vulnerabilities_port"=>11100, "vulnerabilities_mgmt_port"=>11110, "platform_port"=>8080, "platform_mgmt_port"=>8080, "stats_url"=>"/", "stats_port"=>22002}
+[2015-03-27 08:56:26] DEBUG close: ::ffff:127.0.0.1:52865
+[2015-03-27 08:56:37] DEBUG accept: ::ffff:127.0.0.1:52866
+[2015-03-27 08:56:37] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-27T08:56:37.554328 #60510]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-27T08:56:37.554574 #60510]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-27T08:56:37.554739 #60510]  INFO -- : ##### Parsing Options #####
+I, [2015-03-27T08:56:37.554850 #60510]  INFO -- : ##### Setting configuration #####
+I, [2015-03-27T08:56:37.554936 #60510]  INFO -- : environment: 
+I, [2015-03-27T08:56:37.555026 #60510]  INFO -- : version: 
+I, [2015-03-27T08:56:37.555115 #60510]  INFO -- : service: 
+I, [2015-03-27T08:56:37.555212 #60510]  INFO -- : role: 
+I, [2015-03-27T08:56:37.555294 #60510]  INFO -- : key: _version_
+I, [2015-03-27T08:56:37.555375 #60510]  INFO -- : git_repo: git@github.com:malnick/puppet-control
+I, [2015-03-27T08:56:37.555531 #60510]  INFO -- : git_repo_dir: /tmp/control
+I, [2015-03-27T08:56:37.555610 #60510]  INFO -- : data_file: /tmp/control/hieradata/global.yaml
+I, [2015-03-27T08:56:37.556477 #60510]  INFO -- : Set current versions to file object: {"analytics_version_qa"=>"0.0.6", "librarian_version_qa"=>"0.3.3", "notifications_version_qa"=>"0.0.8-SNAPSHOT", "scm_agent_version_qa"=>"0.1.15-SNAPSHOT", "vulnerabilities_version_qa"=>"0.0.3", "platform_version_qa"=>"0.0.23", "analytics_version_production"=>"0.0.2", "librarian_version_production"=>"0.3.3", "notifications_version_production"=>"0.0.4", "scm_agent_version_production"=>"0.1.11", "vulnerabilities_version_production"=>"0.0.3", "platform_version_production"=>"0.0.23", "analytics_port"=>11120, "analytics_mgmt_port"=>11130, "librarian_port"=>11060, "librarian_mgmt_port"=>11070, "notifications_port"=>11000, "notifications_mgmt_port"=>11010, "scm_agent_port"=>11040, "scm_agent_mgmt_port"=>11050, "vulnerabilities_port"=>11100, "vulnerabilities_mgmt_port"=>11110, "platform_port"=>8080, "platform_mgmt_port"=>8080, "stats_url"=>"/", "stats_port"=>22002}
+[2015-03-27 08:56:37] DEBUG close: ::ffff:127.0.0.1:52866
+[2015-03-27 08:56:38] DEBUG accept: ::ffff:127.0.0.1:52867
+[2015-03-27 08:56:38] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-27T08:56:38.890189 #60510]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-27T08:56:38.890311 #60510]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-27T08:56:38.890404 #60510]  INFO -- : ##### Parsing Options #####
+I, [2015-03-27T08:56:38.890533 #60510]  INFO -- : ##### Setting configuration #####
+I, [2015-03-27T08:56:38.890630 #60510]  INFO -- : environment: 
+I, [2015-03-27T08:56:38.890706 #60510]  INFO -- : version: 
+I, [2015-03-27T08:56:38.890778 #60510]  INFO -- : service: 
+I, [2015-03-27T08:56:38.890896 #60510]  INFO -- : role: 
+I, [2015-03-27T08:56:38.890982 #60510]  INFO -- : key: _version_
+I, [2015-03-27T08:56:38.891051 #60510]  INFO -- : git_repo: git@github.com:malnick/puppet-control
+I, [2015-03-27T08:56:38.891118 #60510]  INFO -- : git_repo_dir: /tmp/control
+I, [2015-03-27T08:56:38.891189 #60510]  INFO -- : data_file: /tmp/control/hieradata/global.yaml
+I, [2015-03-27T08:56:38.891927 #60510]  INFO -- : Set current versions to file object: {"analytics_version_qa"=>"0.0.6", "librarian_version_qa"=>"0.3.3", "notifications_version_qa"=>"0.0.8-SNAPSHOT", "scm_agent_version_qa"=>"0.1.15-SNAPSHOT", "vulnerabilities_version_qa"=>"0.0.3", "platform_version_qa"=>"0.0.23", "analytics_version_production"=>"0.0.2", "librarian_version_production"=>"0.3.3", "notifications_version_production"=>"0.0.4", "scm_agent_version_production"=>"0.1.11", "vulnerabilities_version_production"=>"0.0.3", "platform_version_production"=>"0.0.23", "analytics_port"=>11120, "analytics_mgmt_port"=>11130, "librarian_port"=>11060, "librarian_mgmt_port"=>11070, "notifications_port"=>11000, "notifications_mgmt_port"=>11010, "scm_agent_port"=>11040, "scm_agent_mgmt_port"=>11050, "vulnerabilities_port"=>11100, "vulnerabilities_mgmt_port"=>11110, "platform_port"=>8080, "platform_mgmt_port"=>8080, "stats_url"=>"/", "stats_port"=>22002}
+[2015-03-27 08:57:09] DEBUG close: ::ffff:127.0.0.1:52867
+[2015-03-27 08:57:28] DEBUG accept: ::ffff:127.0.0.1:52868
+[2015-03-27 08:57:28] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-27T08:57:28.911433 #60510]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-27T08:57:28.911590 #60510]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-27T08:57:28.911686 #60510]  INFO -- : ##### Parsing Options #####
+I, [2015-03-27T08:57:28.911784 #60510]  INFO -- : ##### Setting configuration #####
+I, [2015-03-27T08:57:28.911869 #60510]  INFO -- : environment: 
+I, [2015-03-27T08:57:28.911952 #60510]  INFO -- : version: 
+I, [2015-03-27T08:57:28.912033 #60510]  INFO -- : service: 
+I, [2015-03-27T08:57:28.912141 #60510]  INFO -- : role: 
+I, [2015-03-27T08:57:28.912275 #60510]  INFO -- : key: _version_
+I, [2015-03-27T08:57:28.912358 #60510]  INFO -- : git_repo: git@github.com:malnick/puppet-control
+I, [2015-03-27T08:57:28.912440 #60510]  INFO -- : git_repo_dir: /tmp/control
+I, [2015-03-27T08:57:28.912552 #60510]  INFO -- : data_file: /tmp/control/hieradata/global.yaml
+I, [2015-03-27T08:57:28.913329 #60510]  INFO -- : Set current versions to file object: {"analytics_version_qa"=>"0.0.6", "librarian_version_qa"=>"0.3.3", "notifications_version_qa"=>"0.0.8-SNAPSHOT", "scm_agent_version_qa"=>"0.1.15-SNAPSHOT", "vulnerabilities_version_qa"=>"0.0.3", "platform_version_qa"=>"0.0.23", "analytics_version_production"=>"0.0.2", "librarian_version_production"=>"0.3.3", "notifications_version_production"=>"0.0.4", "scm_agent_version_production"=>"0.1.11", "vulnerabilities_version_production"=>"0.0.3", "platform_version_production"=>"0.0.23", "analytics_port"=>11120, "analytics_mgmt_port"=>11130, "librarian_port"=>11060, "librarian_mgmt_port"=>11070, "notifications_port"=>11000, "notifications_mgmt_port"=>11010, "scm_agent_port"=>11040, "scm_agent_mgmt_port"=>11050, "vulnerabilities_port"=>11100, "vulnerabilities_mgmt_port"=>11110, "platform_port"=>8080, "platform_mgmt_port"=>8080, "stats_url"=>"/", "stats_port"=>22002}
+[2015-03-27 08:57:28] DEBUG close: ::ffff:127.0.0.1:52868
+[2015-03-27 08:57:30] DEBUG accept: ::ffff:127.0.0.1:52869
+[2015-03-27 08:57:30] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-27T08:57:30.316058 #60510]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-27T08:57:30.316194 #60510]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-27T08:57:30.316293 #60510]  INFO -- : ##### Parsing Options #####
+I, [2015-03-27T08:57:30.316425 #60510]  INFO -- : ##### Setting configuration #####
+I, [2015-03-27T08:57:30.316521 #60510]  INFO -- : environment: 
+I, [2015-03-27T08:57:30.316592 #60510]  INFO -- : version: 
+I, [2015-03-27T08:57:30.316685 #60510]  INFO -- : service: 
+I, [2015-03-27T08:57:30.316804 #60510]  INFO -- : role: 
+I, [2015-03-27T08:57:30.316878 #60510]  INFO -- : key: _version_
+I, [2015-03-27T08:57:30.316946 #60510]  INFO -- : git_repo: git@github.com:malnick/puppet-control
+I, [2015-03-27T08:57:30.317014 #60510]  INFO -- : git_repo_dir: /tmp/control
+I, [2015-03-27T08:57:30.317084 #60510]  INFO -- : data_file: /tmp/control/hieradata/global.yaml
+I, [2015-03-27T08:57:30.317875 #60510]  INFO -- : Set current versions to file object: {"analytics_version_qa"=>"0.0.6", "librarian_version_qa"=>"0.3.3", "notifications_version_qa"=>"0.0.8-SNAPSHOT", "scm_agent_version_qa"=>"0.1.15-SNAPSHOT", "vulnerabilities_version_qa"=>"0.0.3", "platform_version_qa"=>"0.0.23", "analytics_version_production"=>"0.0.2", "librarian_version_production"=>"0.3.3", "notifications_version_production"=>"0.0.4", "scm_agent_version_production"=>"0.1.11", "vulnerabilities_version_production"=>"0.0.3", "platform_version_production"=>"0.0.23", "analytics_port"=>11120, "analytics_mgmt_port"=>11130, "librarian_port"=>11060, "librarian_mgmt_port"=>11070, "notifications_port"=>11000, "notifications_mgmt_port"=>11010, "scm_agent_port"=>11040, "scm_agent_mgmt_port"=>11050, "vulnerabilities_port"=>11100, "vulnerabilities_mgmt_port"=>11110, "platform_port"=>8080, "platform_mgmt_port"=>8080, "stats_url"=>"/", "stats_port"=>22002}
+[2015-03-27 08:57:59] DEBUG accept: ::ffff:127.0.0.1:52870
+[2015-03-27 08:57:59] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-27T08:57:59.421862 #60510]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-27T08:57:59.422037 #60510]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-27T08:57:59.422166 #60510]  INFO -- : ##### Parsing Options #####
+I, [2015-03-27T08:57:59.422339 #60510]  INFO -- : ##### Setting configuration #####
+I, [2015-03-27T08:57:59.422465 #60510]  INFO -- : environment: 
+I, [2015-03-27T08:57:59.422586 #60510]  INFO -- : version: 
+I, [2015-03-27T08:57:59.422731 #60510]  INFO -- : service: 
+I, [2015-03-27T08:57:59.422861 #60510]  INFO -- : role: 
+I, [2015-03-27T08:57:59.422988 #60510]  INFO -- : key: _version_
+I, [2015-03-27T08:57:59.423112 #60510]  INFO -- : git_repo: git@github.com:malnick/puppet-control
+I, [2015-03-27T08:57:59.423237 #60510]  INFO -- : git_repo_dir: /tmp/control
+I, [2015-03-27T08:57:59.423362 #60510]  INFO -- : data_file: /tmp/control/hieradata/global.yaml
+I, [2015-03-27T08:57:59.424482 #60510]  INFO -- : Set current versions to file object: {"analytics_version_qa"=>"0.0.6", "librarian_version_qa"=>"0.3.3", "notifications_version_qa"=>"0.0.8-SNAPSHOT", "scm_agent_version_qa"=>"0.1.15-SNAPSHOT", "vulnerabilities_version_qa"=>"0.0.3", "platform_version_qa"=>"0.0.23", "analytics_version_production"=>"0.0.2", "librarian_version_production"=>"0.3.3", "notifications_version_production"=>"0.0.4", "scm_agent_version_production"=>"0.1.11", "vulnerabilities_version_production"=>"0.0.3", "platform_version_production"=>"0.0.23", "analytics_port"=>11120, "analytics_mgmt_port"=>11130, "librarian_port"=>11060, "librarian_mgmt_port"=>11070, "notifications_port"=>11000, "notifications_mgmt_port"=>11010, "scm_agent_port"=>11040, "scm_agent_mgmt_port"=>11050, "vulnerabilities_port"=>11100, "vulnerabilities_mgmt_port"=>11110, "platform_port"=>8080, "platform_mgmt_port"=>8080, "stats_url"=>"/", "stats_port"=>22002}
+[2015-03-27 08:57:59] DEBUG close: ::ffff:127.0.0.1:52870
+[2015-03-27 08:58:00] DEBUG close: ::ffff:127.0.0.1:52869
+[2015-03-27 08:58:00] DEBUG accept: ::ffff:127.0.0.1:52871
+[2015-03-27 08:58:00] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-27T08:58:00.630262 #60510]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-27T08:58:00.630415 #60510]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-27T08:58:00.630566 #60510]  INFO -- : ##### Parsing Options #####
+I, [2015-03-27T08:58:00.630688 #60510]  INFO -- : ##### Setting configuration #####
+I, [2015-03-27T08:58:00.630772 #60510]  INFO -- : environment: 
+I, [2015-03-27T08:58:00.630857 #60510]  INFO -- : version: 
+I, [2015-03-27T08:58:00.631015 #60510]  INFO -- : service: 
+I, [2015-03-27T08:58:00.631138 #60510]  INFO -- : role: 
+I, [2015-03-27T08:58:00.631210 #60510]  INFO -- : key: _version_
+I, [2015-03-27T08:58:00.631279 #60510]  INFO -- : git_repo: git@github.com:malnick/puppet-control
+I, [2015-03-27T08:58:00.631347 #60510]  INFO -- : git_repo_dir: /tmp/control
+I, [2015-03-27T08:58:00.631454 #60510]  INFO -- : data_file: /tmp/control/hieradata/global.yaml
+I, [2015-03-27T08:58:00.632542 #60510]  INFO -- : Set current versions to file object: {"analytics_version_qa"=>"0.0.6", "librarian_version_qa"=>"0.3.3", "notifications_version_qa"=>"0.0.8-SNAPSHOT", "scm_agent_version_qa"=>"0.1.15-SNAPSHOT", "vulnerabilities_version_qa"=>"0.0.3", "platform_version_qa"=>"0.0.23", "analytics_version_production"=>"0.0.2", "librarian_version_production"=>"0.3.3", "notifications_version_production"=>"0.0.4", "scm_agent_version_production"=>"0.1.11", "vulnerabilities_version_production"=>"0.0.3", "platform_version_production"=>"0.0.23", "analytics_port"=>11120, "analytics_mgmt_port"=>11130, "librarian_port"=>11060, "librarian_mgmt_port"=>11070, "notifications_port"=>11000, "notifications_mgmt_port"=>11010, "scm_agent_port"=>11040, "scm_agent_mgmt_port"=>11050, "vulnerabilities_port"=>11100, "vulnerabilities_mgmt_port"=>11110, "platform_port"=>8080, "platform_mgmt_port"=>8080, "stats_url"=>"/", "stats_port"=>22002}

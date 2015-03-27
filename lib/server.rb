@@ -58,7 +58,10 @@ class Server < Sinatra::Base
     begin
       LOG.info("##### Getting Current Versions on Node #####")
       config = Update::Options.new(options).config
-      @current_versions = File.open(config[:data_file])
+      YAML.load(File.open(config[:data_file])).each do |k,v|
+        options[k] = v
+      end
+      @current_versions = options #File.open(config[:data_file])
       LOG.info("Set current versions to file object: #{@current_versions}")
     rescue Exception => e
       LOG.error(e.message)

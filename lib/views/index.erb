@@ -1,5 +1,5 @@
-<html>
-  <body>
-    <%= @current_versions.read %>
-  </body>
-</html>
+<html><body><p>
+<% @current_versions.each do |k,v| %>
+<%= k %>: <%= "#{v}\n" %>
+<% end %>
+</p></body></html>
