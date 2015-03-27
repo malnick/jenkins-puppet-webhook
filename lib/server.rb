@@ -22,6 +22,22 @@ opts = {
 
 class Server < Sinatra::Base
 
+  helpers do
+    
+    def get_versions_on_node()
+      begin
+        LOG.info("##### Getting Current Versions on Node #####")
+        config = Update::Options.new(options).config
+        @current_versions = File.open(YAML.load(config(:data_file)))
+        LOG.info("Set current versions to #{@current_versions}")
+      rescue Exception => e
+        LOG.error(e.message)
+        abort
+      end
+    end
+
+  end 
+
   post '/deploy' do
     begin
       LOG.info("##### Request to Server Made #####")
@@ -37,6 +53,17 @@ class Server < Sinatra::Base
     end
   end
 	
+  get '/status' do
+    begin
+      LOG.info('##### Request for Status Made #####')
+      get_versions_on_node
+      erb :index
+    rescue Exception => e
+      LOG.error(e.message)
+      abort
+    end
+  end
+
   not_found do
 		halt 404, 'Not found.'
 	end
