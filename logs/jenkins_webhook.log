@@ -1,0 +1,896 @@
+# Logfile created on 2015-03-26 20:19:12 -0700 by logger.rb/41954
+[2015-03-26 20:19:12] INFO  WEBrick 1.3.1
+[2015-03-26 20:19:12] INFO  ruby 2.0.0 (2014-05-08) [universal.x86_64-darwin14]
+[2015-03-26 20:19:12] DEBUG TCPServer.new(0.0.0.0, 1015)
+[2015-03-26 20:19:12] WARN  TCPServer Error: Permission denied - bind(2)
+[2015-03-26 20:19:12] DEBUG TCPServer.new(::, 1015)
+[2015-03-26 20:19:12] WARN  TCPServer Error: Permission denied - bind(2)
+[2015-03-26 20:19:23] INFO  WEBrick 1.3.1
+[2015-03-26 20:19:23] INFO  ruby 2.0.0 (2014-05-08) [universal.x86_64-darwin14]
+[2015-03-26 20:19:23] DEBUG TCPServer.new(0.0.0.0, 1015)
+[2015-03-26 20:19:23] DEBUG TCPServer.new(::, 1015)
+[2015-03-26 20:19:23] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-03-26 20:19:23] INFO  WEBrick::HTTPServer#start: pid=72233 port=1015
+[2015-03-26 20:19:29] DEBUG accept: 127.0.0.1:65449
+[2015-03-26 20:19:29] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-03-26 20:19:29] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-03-26 20:20:00] DEBUG close: 127.0.0.1:65449
+[2015-03-26 20:20:26] DEBUG accept: 127.0.0.1:65484
+[2015-03-26 20:20:26] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-03-26 20:20:26] DEBUG close: 127.0.0.1:65484
+[2015-03-26 20:20:54] DEBUG accept: 127.0.0.1:65498
+[2015-03-26 20:20:54] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-26T20:20:54.986788 #72233]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-26T20:20:54.986916 #72233]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-26T20:20:54.987025 #72233]  INFO -- : ##### Parsing Options #####
+E, [2015-03-26T20:20:54.987182 #72233] ERROR -- : undefined method `[]' for Server:Class
+E, [2015-03-26T20:20:54.987316 #72233] ERROR -- : exit
+[2015-03-26 20:20:54] DEBUG close: 127.0.0.1:65498
+[2015-03-26 20:22:50] INFO  WEBrick 1.3.1
+[2015-03-26 20:22:50] INFO  ruby 2.0.0 (2014-05-08) [universal.x86_64-darwin14]
+[2015-03-26 20:22:50] DEBUG TCPServer.new(0.0.0.0, 1015)
+[2015-03-26 20:22:50] WARN  TCPServer Error: Permission denied - bind(2)
+[2015-03-26 20:22:50] DEBUG TCPServer.new(::, 1015)
+[2015-03-26 20:22:50] WARN  TCPServer Error: Permission denied - bind(2)
+[2015-03-26 20:22:54] INFO  WEBrick 1.3.1
+[2015-03-26 20:22:54] INFO  ruby 2.0.0 (2014-05-08) [universal.x86_64-darwin14]
+[2015-03-26 20:22:54] DEBUG TCPServer.new(0.0.0.0, 1015)
+[2015-03-26 20:22:54] DEBUG TCPServer.new(::, 1015)
+[2015-03-26 20:22:54] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-03-26 20:22:54] INFO  WEBrick::HTTPServer#start: pid=75346 port=1015
+[2015-03-26 20:23:07] DEBUG accept: 127.0.0.1:49194
+[2015-03-26 20:23:07] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-26T20:23:07.963769 #75346]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-26T20:23:07.963930 #75346]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-26T20:23:07.964049 #75346]  INFO -- : ##### Parsing Options #####
+E, [2015-03-26T20:23:07.964193 #75346] ERROR -- : undefined method `[]' for Server:Class
+E, [2015-03-26T20:23:07.964302 #75346] ERROR -- : exit
+[2015-03-26 20:23:07] DEBUG close: 127.0.0.1:49194
+[2015-03-26 20:23:29] DEBUG accept: 127.0.0.1:49209
+[2015-03-26 20:23:29] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-26T20:23:29.814851 #75346]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-26T20:23:29.814982 #75346]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-26T20:23:29.815070 #75346]  INFO -- : ##### Parsing Options #####
+E, [2015-03-26T20:23:29.815172 #75346] ERROR -- : undefined method `[]' for Server:Class
+E, [2015-03-26T20:23:29.815290 #75346] ERROR -- : exit
+[2015-03-26 20:23:29] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-03-26 20:24:00] DEBUG close: 127.0.0.1:49209
+[2015-03-26 20:27:24] INFO  WEBrick 1.3.1
+[2015-03-26 20:27:24] INFO  ruby 2.0.0 (2014-05-08) [universal.x86_64-darwin14]
+[2015-03-26 20:27:24] DEBUG TCPServer.new(0.0.0.0, 1015)
+[2015-03-26 20:27:24] WARN  TCPServer Error: Permission denied - bind(2)
+[2015-03-26 20:27:24] DEBUG TCPServer.new(::, 1015)
+[2015-03-26 20:27:24] WARN  TCPServer Error: Permission denied - bind(2)
+[2015-03-26 20:27:27] INFO  WEBrick 1.3.1
+[2015-03-26 20:27:27] INFO  ruby 2.0.0 (2014-05-08) [universal.x86_64-darwin14]
+[2015-03-26 20:27:27] DEBUG TCPServer.new(0.0.0.0, 1015)
+[2015-03-26 20:27:27] DEBUG TCPServer.new(::, 1015)
+[2015-03-26 20:27:27] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-03-26 20:27:27] INFO  WEBrick::HTTPServer#start: pid=79351 port=1015
+[2015-03-26 20:28:03] DEBUG accept: 127.0.0.1:49458
+[2015-03-26 20:28:03] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-26T20:28:03.087949 #79351]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-26T20:28:03.088105 #79351]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-26T20:28:03.088221 #79351]  INFO -- : ##### Parsing Options #####
+E, [2015-03-26T20:28:03.088358 #79351] ERROR -- : undefined method `[]' for Server:Class
+E, [2015-03-26T20:28:03.088520 #79351] ERROR -- : exit
+[2015-03-26 20:28:03] DEBUG close: 127.0.0.1:49458
+[2015-03-26 20:28:38] INFO  WEBrick 1.3.1
+[2015-03-26 20:28:38] INFO  ruby 2.0.0 (2014-05-08) [universal.x86_64-darwin14]
+[2015-03-26 20:28:38] DEBUG TCPServer.new(0.0.0.0, 1015)
+[2015-03-26 20:28:38] DEBUG TCPServer.new(::, 1015)
+[2015-03-26 20:28:38] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-03-26 20:28:38] INFO  WEBrick::HTTPServer#start: pid=80404 port=1015
+[2015-03-26 20:28:41] DEBUG accept: 127.0.0.1:49477
+[2015-03-26 20:28:41] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-26T20:28:41.330791 #80404]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-26T20:28:41.330945 #80404]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-26T20:28:41.331030 #80404]  INFO -- : ##### Parsing Options #####
+E, [2015-03-26T20:28:41.331135 #80404] ERROR -- : undefined method `[]' for Server:Class
+E, [2015-03-26T20:28:41.331209 #80404] ERROR -- : exit
+[2015-03-26 20:28:41] DEBUG close: 127.0.0.1:49477
+[2015-03-26 20:30:15] INFO  WEBrick 1.3.1
+[2015-03-26 20:30:15] INFO  ruby 2.0.0 (2014-05-08) [universal.x86_64-darwin14]
+[2015-03-26 20:30:15] DEBUG TCPServer.new(0.0.0.0, 1015)
+[2015-03-26 20:30:15] WARN  TCPServer Error: Permission denied - bind(2)
+[2015-03-26 20:30:15] DEBUG TCPServer.new(::, 1015)
+[2015-03-26 20:30:15] WARN  TCPServer Error: Permission denied - bind(2)
+[2015-03-26 20:30:17] INFO  WEBrick 1.3.1
+[2015-03-26 20:30:17] INFO  ruby 2.0.0 (2014-05-08) [universal.x86_64-darwin14]
+[2015-03-26 20:30:17] DEBUG TCPServer.new(0.0.0.0, 1015)
+[2015-03-26 20:30:17] DEBUG TCPServer.new(::, 1015)
+[2015-03-26 20:30:17] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-03-26 20:30:17] INFO  WEBrick::HTTPServer#start: pid=81732 port=1015
+[2015-03-26 20:30:23] DEBUG accept: 127.0.0.1:49530
+[2015-03-26 20:30:23] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-26T20:30:23.297802 #81732]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-26T20:30:23.297970 #81732]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-26T20:30:23.298070 #81732]  INFO -- : ##### Parsing Options #####
+E, [2015-03-26T20:30:23.298181 #81732] ERROR -- : undefined method `[]' for Server:Class
+E, [2015-03-26T20:30:23.298256 #81732] ERROR -- : exit
+[2015-03-26 20:30:23] DEBUG close: 127.0.0.1:49530
+[2015-03-26 20:36:18] INFO  WEBrick 1.3.1
+[2015-03-26 20:36:18] INFO  ruby 2.0.0 (2014-05-08) [universal.x86_64-darwin14]
+[2015-03-26 20:36:18] DEBUG TCPServer.new(0.0.0.0, 1015)
+[2015-03-26 20:36:18] DEBUG TCPServer.new(::, 1015)
+[2015-03-26 20:36:18] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-03-26 20:36:18] INFO  WEBrick::HTTPServer#start: pid=87296 port=1015
+[2015-03-26 20:36:22] DEBUG accept: 127.0.0.1:49754
+[2015-03-26 20:36:22] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-26T20:36:22.309565 #87296]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-26T20:36:22.309711 #87296]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-26T20:36:22.309793 #87296]  INFO -- : ##### Parsing Options #####
+E, [2015-03-26T20:36:22.309904 #87296] ERROR -- : undefined method `[]' for Server:Class
+[2015-03-26 20:36:22] DEBUG close: 127.0.0.1:49754
+[2015-03-26 20:38:35] INFO  WEBrick 1.3.1
+[2015-03-26 20:38:35] INFO  ruby 2.0.0 (2014-05-08) [universal.x86_64-darwin14]
+[2015-03-26 20:38:35] DEBUG TCPServer.new(0.0.0.0, 1015)
+[2015-03-26 20:38:35] DEBUG TCPServer.new(::, 1015)
+[2015-03-26 20:38:35] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-03-26 20:38:35] INFO  WEBrick::HTTPServer#start: pid=89528 port=1015
+[2015-03-26 20:38:38] DEBUG accept: 127.0.0.1:49841
+[2015-03-26 20:38:38] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-26T20:38:38.062909 #89528]  INFO -- : ##### Request for Status Made #####
+[2015-03-26 20:38:38] DEBUG close: 127.0.0.1:49841
+[2015-03-26 20:38:48] DEBUG accept: 127.0.0.1:49847
+[2015-03-26 20:38:48] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-26T20:38:48.719333 #89528]  INFO -- : ##### Request for Status Made #####
+E, [2015-03-26T20:38:48.719589 #89528] ERROR -- : No such file or directory - /Users/malnick/projects/jenkins-puppet-webhook/lib/views/index.erb
+[2015-03-26 20:38:48] DEBUG close: 127.0.0.1:49847
+[2015-03-26 20:42:32] INFO  WEBrick 1.3.1
+[2015-03-26 20:42:32] INFO  ruby 2.0.0 (2014-05-08) [universal.x86_64-darwin14]
+[2015-03-26 20:42:32] DEBUG TCPServer.new(0.0.0.0, 1015)
+[2015-03-26 20:42:32] DEBUG TCPServer.new(::, 1015)
+[2015-03-26 20:42:32] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-03-26 20:42:32] INFO  WEBrick::HTTPServer#start: pid=93467 port=1015
+[2015-03-26 20:44:12] DEBUG accept: 127.0.0.1:50074
+[2015-03-26 20:44:12] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-26T20:44:12.659939 #93467]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-26T20:44:12.660077 #93467]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-26T20:44:12.660157 #93467]  INFO -- : ##### Parsing Options #####
+E, [2015-03-26T20:44:12.660261 #93467] ERROR -- : undefined method `[]' for Server:Class
+E, [2015-03-26T20:44:12.660333 #93467] ERROR -- : exit
+[2015-03-26 20:44:12] DEBUG close: 127.0.0.1:50074
+[2015-03-26 20:44:51] INFO  WEBrick 1.3.1
+[2015-03-26 20:44:51] INFO  ruby 2.0.0 (2014-05-08) [universal.x86_64-darwin14]
+[2015-03-26 20:44:51] DEBUG TCPServer.new(0.0.0.0, 1015)
+[2015-03-26 20:44:51] DEBUG TCPServer.new(::, 1015)
+[2015-03-26 20:44:51] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-03-26 20:44:51] INFO  WEBrick::HTTPServer#start: pid=95261 port=1015
+[2015-03-26 20:44:54] DEBUG accept: 127.0.0.1:50098
+[2015-03-26 20:44:54] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-26T20:44:54.845696 #95261]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-26T20:44:54.845873 #95261]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-26T20:44:54.845967 #95261]  INFO -- : ##### Parsing Options #####
+E, [2015-03-26T20:44:54.846080 #95261] ERROR -- : undefined method `[]' for Server:Class
+[2015-03-26 20:44:54] DEBUG close: 127.0.0.1:50098
+[2015-03-26 20:45:34] INFO  WEBrick 1.3.1
+[2015-03-26 20:45:34] INFO  ruby 2.0.0 (2014-05-08) [universal.x86_64-darwin14]
+[2015-03-26 20:45:34] DEBUG TCPServer.new(0.0.0.0, 1015)
+[2015-03-26 20:45:34] DEBUG TCPServer.new(::, 1015)
+[2015-03-26 20:45:34] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-03-26 20:45:34] INFO  WEBrick::HTTPServer#start: pid=95899 port=1015
+[2015-03-26 20:45:39] DEBUG accept: 127.0.0.1:50119
+[2015-03-26 20:45:39] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-26T20:45:39.710919 #95899]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-26T20:45:39.711081 #95899]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-26T20:45:39.711181 #95899]  INFO -- : ##### Parsing Options #####
+E, [2015-03-26T20:45:39.711298 #95899] ERROR -- : undefined method `[]' for Server:Class
+[2015-03-26 20:45:39] DEBUG close: 127.0.0.1:50119
+[2015-03-26 20:54:26] INFO  WEBrick 1.3.1
+[2015-03-26 20:54:26] INFO  ruby 2.0.0 (2014-05-08) [universal.x86_64-darwin14]
+[2015-03-26 20:54:26] DEBUG TCPServer.new(0.0.0.0, 1015)
+[2015-03-26 20:54:26] DEBUG TCPServer.new(::, 1015)
+[2015-03-26 20:54:26] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-03-26 20:54:26] INFO  WEBrick::HTTPServer#start: pid=3946 port=1015
+[2015-03-26 20:54:28] DEBUG accept: 127.0.0.1:50590
+[2015-03-26 20:54:28] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-26T20:54:28.941626 #3946]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-26T20:54:28.941797 #3946]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-26T20:54:28.941890 #3946]  INFO -- : ##### Parsing Options #####
+E, [2015-03-26T20:54:28.942035 #3946] ERROR -- : no implicit conversion of String into Integer
+[2015-03-26 20:54:28] DEBUG close: 127.0.0.1:50590
+[2015-03-26 20:59:44] INFO  WEBrick 1.3.1
+[2015-03-26 20:59:44] INFO  ruby 2.0.0 (2014-05-08) [universal.x86_64-darwin14]
+[2015-03-26 20:59:44] DEBUG TCPServer.new(0.0.0.0, 1015)
+[2015-03-26 20:59:44] DEBUG TCPServer.new(::, 1015)
+[2015-03-26 20:59:44] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-03-26 20:59:44] INFO  WEBrick::HTTPServer#start: pid=8700 port=1015
+[2015-03-26 21:04:26] DEBUG accept: 127.0.0.1:50979
+[2015-03-26 21:04:26] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-26T21:04:26.211330 #8700]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-26T21:04:26.211476 #8700]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-26T21:04:26.211631 #8700]  INFO -- : ##### Parsing Options #####
+E, [2015-03-26T21:04:26.211759 #8700] ERROR -- : no implicit conversion of String into Integer
+[2015-03-26 21:04:26] DEBUG close: 127.0.0.1:50979
+[2015-03-26 21:05:14] INFO  WEBrick 1.3.1
+[2015-03-26 21:05:14] INFO  ruby 2.0.0 (2014-05-08) [universal.x86_64-darwin14]
+[2015-03-26 21:05:14] DEBUG TCPServer.new(0.0.0.0, 1015)
+[2015-03-26 21:05:14] DEBUG TCPServer.new(::, 1015)
+[2015-03-26 21:05:14] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-03-26 21:05:14] INFO  WEBrick::HTTPServer#start: pid=12977 port=1015
+[2015-03-26 21:05:17] DEBUG accept: 127.0.0.1:51007
+[2015-03-26 21:05:17] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-26T21:05:17.504298 #12977]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-26T21:05:17.504438 #12977]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-26T21:05:17.504524 #12977]  INFO -- : ##### Parsing Options #####
+E, [2015-03-26T21:05:17.504637 #12977] ERROR -- : no implicit conversion of String into Integer
+[2015-03-26 21:05:17] DEBUG close: 127.0.0.1:51007
+[2015-03-26 21:06:13] INFO  WEBrick 1.3.1
+[2015-03-26 21:06:13] INFO  ruby 2.0.0 (2014-05-08) [universal.x86_64-darwin14]
+[2015-03-26 21:06:13] DEBUG TCPServer.new(0.0.0.0, 1015)
+[2015-03-26 21:06:13] DEBUG TCPServer.new(::, 1015)
+[2015-03-26 21:06:13] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-03-26 21:06:13] INFO  WEBrick::HTTPServer#start: pid=13895 port=1015
+[2015-03-26 21:06:17] DEBUG accept: 127.0.0.1:51046
+[2015-03-26 21:06:17] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-26T21:06:17.043654 #13895]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-26T21:06:17.043799 #13895]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-26T21:06:17.043892 #13895]  INFO -- : ##### Parsing Options #####
+E, [2015-03-26T21:06:17.044035 #13895] ERROR -- : no implicit conversion of String into Integer
+[2015-03-26 21:06:17] DEBUG close: 127.0.0.1:51046
+[2015-03-26 21:06:38] INFO  WEBrick 1.3.1
+[2015-03-26 21:06:38] INFO  ruby 2.0.0 (2014-05-08) [universal.x86_64-darwin14]
+[2015-03-26 21:06:38] DEBUG TCPServer.new(0.0.0.0, 1015)
+[2015-03-26 21:06:38] DEBUG TCPServer.new(::, 1015)
+[2015-03-26 21:06:38] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-03-26 21:06:38] INFO  WEBrick::HTTPServer#start: pid=14261 port=1015
+[2015-03-26 21:06:47] DEBUG accept: 127.0.0.1:51061
+[2015-03-26 21:06:47] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-26T21:06:47.061331 #14261]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-26T21:06:47.061492 #14261]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-26T21:06:47.061598 #14261]  INFO -- : ##### Parsing Options #####
+E, [2015-03-26T21:06:47.061754 #14261] ERROR -- : no implicit conversion of String into Integer
+[2015-03-26 21:06:47] DEBUG close: 127.0.0.1:51061
+[2015-03-26 21:11:40] INFO  WEBrick 1.3.1
+[2015-03-26 21:11:40] INFO  ruby 2.0.0 (2014-05-08) [universal.x86_64-darwin14]
+[2015-03-26 21:11:40] DEBUG TCPServer.new(0.0.0.0, 1015)
+[2015-03-26 21:11:40] DEBUG TCPServer.new(::, 1015)
+[2015-03-26 21:11:40] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-03-26 21:11:40] INFO  WEBrick::HTTPServer#start: pid=18735 port=1015
+[2015-03-26 21:11:42] DEBUG accept: 127.0.0.1:51291
+[2015-03-26 21:11:42] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-26T21:11:42.985147 #18735]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-26T21:11:42.985298 #18735]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-26T21:11:42.985422 #18735]  INFO -- : ##### Parsing Options #####
+E, [2015-03-26T21:11:42.985569 #18735] ERROR -- : no implicit conversion of String into Integer
+[2015-03-26 21:11:42] DEBUG close: 127.0.0.1:51291
+[2015-03-26 21:14:40] INFO  WEBrick 1.3.1
+[2015-03-26 21:14:40] INFO  ruby 2.0.0 (2014-05-08) [universal.x86_64-darwin14]
+[2015-03-26 21:14:40] DEBUG TCPServer.new(0.0.0.0, 1015)
+[2015-03-26 21:14:40] DEBUG TCPServer.new(::, 1015)
+[2015-03-26 21:14:40] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-03-26 21:14:40] INFO  WEBrick::HTTPServer#start: pid=21432 port=1015
+[2015-03-26 21:15:19] INFO  WEBrick 1.3.1
+[2015-03-26 21:15:19] INFO  ruby 2.0.0 (2014-05-08) [universal.x86_64-darwin14]
+[2015-03-26 21:15:19] DEBUG TCPServer.new(0.0.0.0, 1015)
+[2015-03-26 21:15:19] DEBUG TCPServer.new(::, 1015)
+[2015-03-26 21:15:19] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-03-26 21:15:19] INFO  WEBrick::HTTPServer#start: pid=22050 port=1015
+[2015-03-26 21:15:32] DEBUG accept: 127.0.0.1:51471
+[2015-03-26 21:15:32] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-26T21:15:32.554490 #22050]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-26T21:15:32.554625 #22050]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-26T21:15:32.554701 #22050]  INFO -- : ##### Parsing Options #####
+E, [2015-03-26T21:15:32.554804 #22050] ERROR -- : undefined method `[]' for nil:NilClass
+[2015-03-26 21:15:32] DEBUG close: 127.0.0.1:51471
+[2015-03-26 21:16:46] INFO  WEBrick 1.3.1
+[2015-03-26 21:16:46] INFO  ruby 2.0.0 (2014-05-08) [universal.x86_64-darwin14]
+[2015-03-26 21:16:46] DEBUG TCPServer.new(0.0.0.0, 1015)
+[2015-03-26 21:16:46] DEBUG TCPServer.new(::, 1015)
+[2015-03-26 21:16:46] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-03-26 21:16:46] INFO  WEBrick::HTTPServer#start: pid=23319 port=1015
+[2015-03-26 21:16:48] DEBUG accept: 127.0.0.1:51515
+[2015-03-26 21:16:48] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-26T21:16:48.982259 #23319]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-26T21:16:48.982524 #23319]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-26T21:16:48.982683 #23319]  INFO -- : ##### Parsing Options #####
+I, [2015-03-26T21:16:48.982828 #23319]  INFO -- : ##### Setting configuration #####
+I, [2015-03-26T21:16:48.982944 #23319]  INFO -- : environment: 
+I, [2015-03-26T21:16:48.983040 #23319]  INFO -- : version: 
+I, [2015-03-26T21:16:48.983208 #23319]  INFO -- : service: 
+I, [2015-03-26T21:16:48.983318 #23319]  INFO -- : role: 
+I, [2015-03-26T21:16:48.983467 #23319]  INFO -- : key: _version_
+I, [2015-03-26T21:16:48.983682 #23319]  INFO -- : git_repo: git@github.com:malnick/puppet-control
+I, [2015-03-26T21:16:48.983759 #23319]  INFO -- : git_repo_dir: /tmp/control
+I, [2015-03-26T21:16:48.983832 #23319]  INFO -- : data_file: /tmp/control/hieradata/global.yaml
+E, [2015-03-26T21:16:48.990627 #23319] ERROR -- : undefined method `config' for #<Server:0x007fe0732765b8>
+E, [2015-03-26T21:16:48.990845 #23319] ERROR -- : exit
+[2015-03-26 21:16:48] DEBUG close: 127.0.0.1:51515
+[2015-03-26 21:19:10] INFO  WEBrick 1.3.1
+[2015-03-26 21:19:10] INFO  ruby 2.0.0 (2014-05-08) [universal.x86_64-darwin14]
+[2015-03-26 21:19:10] DEBUG TCPServer.new(0.0.0.0, 1015)
+[2015-03-26 21:19:10] DEBUG TCPServer.new(::, 1015)
+[2015-03-26 21:19:10] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-03-26 21:19:10] INFO  WEBrick::HTTPServer#start: pid=25211 port=1015
+[2015-03-26 21:19:12] DEBUG accept: 127.0.0.1:51597
+[2015-03-26 21:19:12] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-26T21:19:12.942637 #25211]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-26T21:19:12.942797 #25211]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-26T21:19:12.942900 #25211]  INFO -- : ##### Parsing Options #####
+I, [2015-03-26T21:19:12.943005 #25211]  INFO -- : ##### Setting configuration #####
+I, [2015-03-26T21:19:12.943084 #25211]  INFO -- : environment: 
+I, [2015-03-26T21:19:12.943162 #25211]  INFO -- : version: 
+I, [2015-03-26T21:19:12.943284 #25211]  INFO -- : service: 
+I, [2015-03-26T21:19:12.943419 #25211]  INFO -- : role: 
+I, [2015-03-26T21:19:12.943486 #25211]  INFO -- : key: _version_
+I, [2015-03-26T21:19:12.943551 #25211]  INFO -- : git_repo: git@github.com:malnick/puppet-control
+I, [2015-03-26T21:19:12.943703 #25211]  INFO -- : git_repo_dir: /tmp/control
+I, [2015-03-26T21:19:12.943768 #25211]  INFO -- : data_file: /tmp/control/hieradata/global.yaml
+E, [2015-03-26T21:19:12.950274 #25211] ERROR -- : undefined method `config' for #<Server:0x007fa8b3b82320>
+E, [2015-03-26T21:19:12.950463 #25211] ERROR -- : exit
+[2015-03-26 21:19:12] DEBUG close: 127.0.0.1:51597
+[2015-03-26 21:20:07] INFO  WEBrick 1.3.1
+[2015-03-26 21:20:07] INFO  ruby 2.0.0 (2014-05-08) [universal.x86_64-darwin14]
+[2015-03-26 21:20:07] DEBUG TCPServer.new(0.0.0.0, 1015)
+[2015-03-26 21:20:07] DEBUG TCPServer.new(::, 1015)
+[2015-03-26 21:20:07] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-03-26 21:20:07] INFO  WEBrick::HTTPServer#start: pid=26066 port=1015
+[2015-03-26 21:20:11] DEBUG accept: 127.0.0.1:51626
+[2015-03-26 21:20:11] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-26T21:20:11.124941 #26066]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-26T21:20:11.125082 #26066]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-26T21:20:11.125181 #26066]  INFO -- : ##### Parsing Options #####
+I, [2015-03-26T21:20:11.125278 #26066]  INFO -- : ##### Setting configuration #####
+I, [2015-03-26T21:20:11.125353 #26066]  INFO -- : environment: 
+I, [2015-03-26T21:20:11.125420 #26066]  INFO -- : version: 
+I, [2015-03-26T21:20:11.125485 #26066]  INFO -- : service: 
+I, [2015-03-26T21:20:11.125568 #26066]  INFO -- : role: 
+I, [2015-03-26T21:20:11.125640 #26066]  INFO -- : key: _version_
+I, [2015-03-26T21:20:11.125710 #26066]  INFO -- : git_repo: git@github.com:malnick/puppet-control
+I, [2015-03-26T21:20:11.125769 #26066]  INFO -- : git_repo_dir: /tmp/control
+I, [2015-03-26T21:20:11.125826 #26066]  INFO -- : data_file: /tmp/control/hieradata/global.yaml
+I, [2015-03-26T21:20:11.125885 #26066]  INFO -- : /tmp/control/hieradata/global.yaml
+E, [2015-03-26T21:20:11.133288 #26066] ERROR -- : undefined method `config' for #<Server:0x007fabba1a1568>
+E, [2015-03-26T21:20:11.133476 #26066] ERROR -- : exit
+[2015-03-26 21:20:11] DEBUG close: 127.0.0.1:51626
+[2015-03-26 21:25:37] INFO  WEBrick 1.3.1
+[2015-03-26 21:25:37] INFO  ruby 2.0.0 (2014-05-08) [universal.x86_64-darwin14]
+[2015-03-26 21:25:37] DEBUG TCPServer.new(0.0.0.0, 1015)
+[2015-03-26 21:25:37] DEBUG TCPServer.new(::, 1015)
+[2015-03-26 21:25:37] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-03-26 21:25:37] INFO  WEBrick::HTTPServer#start: pid=30673 port=1015
+[2015-03-26 21:25:43] DEBUG accept: 127.0.0.1:51822
+[2015-03-26 21:25:43] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-26T21:25:43.505747 #30673]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-26T21:25:43.505901 #30673]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-26T21:25:43.505983 #30673]  INFO -- : ##### Parsing Options #####
+I, [2015-03-26T21:25:43.506067 #30673]  INFO -- : ##### Setting configuration #####
+I, [2015-03-26T21:25:43.506132 #30673]  INFO -- : environment: 
+I, [2015-03-26T21:25:43.506194 #30673]  INFO -- : version: 
+I, [2015-03-26T21:25:43.506250 #30673]  INFO -- : service: 
+I, [2015-03-26T21:25:43.506344 #30673]  INFO -- : role: 
+I, [2015-03-26T21:25:43.506434 #30673]  INFO -- : key: _version_
+I, [2015-03-26T21:25:43.506501 #30673]  INFO -- : git_repo: git@github.com:malnick/puppet-control
+I, [2015-03-26T21:25:43.506562 #30673]  INFO -- : git_repo_dir: /tmp/control
+I, [2015-03-26T21:25:43.506624 #30673]  INFO -- : data_file: /tmp/control/hieradata/global.yaml
+I, [2015-03-26T21:25:43.506775 #30673]  INFO -- : Set current versions to 
+E, [2015-03-26T21:25:43.513303 #30673] ERROR -- : undefined method `config' for #<Server:0x007fedb2c42618>
+E, [2015-03-26T21:25:43.513469 #30673] ERROR -- : exit
+[2015-03-26 21:25:43] DEBUG close: 127.0.0.1:51822
+[2015-03-26 21:27:01] INFO  WEBrick 1.3.1
+[2015-03-26 21:27:01] INFO  ruby 2.0.0 (2014-05-08) [universal.x86_64-darwin14]
+[2015-03-26 21:27:01] DEBUG TCPServer.new(0.0.0.0, 1015)
+[2015-03-26 21:27:01] DEBUG TCPServer.new(::, 1015)
+[2015-03-26 21:27:01] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-03-26 21:27:01] INFO  WEBrick::HTTPServer#start: pid=31951 port=1015
+[2015-03-26 21:27:03] DEBUG accept: 127.0.0.1:51876
+[2015-03-26 21:27:03] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-26T21:27:03.856550 #31951]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-26T21:27:03.856706 #31951]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-26T21:27:03.856794 #31951]  INFO -- : ##### Parsing Options #####
+I, [2015-03-26T21:27:03.856880 #31951]  INFO -- : ##### Setting configuration #####
+I, [2015-03-26T21:27:03.856947 #31951]  INFO -- : environment: 
+I, [2015-03-26T21:27:03.857007 #31951]  INFO -- : version: 
+I, [2015-03-26T21:27:03.857066 #31951]  INFO -- : service: 
+I, [2015-03-26T21:27:03.857218 #31951]  INFO -- : role: 
+I, [2015-03-26T21:27:03.857295 #31951]  INFO -- : key: _version_
+I, [2015-03-26T21:27:03.857365 #31951]  INFO -- : git_repo: git@github.com:malnick/puppet-control
+I, [2015-03-26T21:27:03.857451 #31951]  INFO -- : git_repo_dir: /tmp/control
+I, [2015-03-26T21:27:03.857547 #31951]  INFO -- : data_file: /tmp/control/hieradata/global.yaml
+E, [2015-03-26T21:27:03.864190 #31951] ERROR -- : undefined method `config' for #<Server:0x007fb53236a418>
+E, [2015-03-26T21:27:03.864346 #31951] ERROR -- : exit
+[2015-03-26 21:27:03] DEBUG close: 127.0.0.1:51876
+[2015-03-26 21:27:35] INFO  WEBrick 1.3.1
+[2015-03-26 21:27:35] INFO  ruby 2.0.0 (2014-05-08) [universal.x86_64-darwin14]
+[2015-03-26 21:27:35] DEBUG TCPServer.new(0.0.0.0, 1015)
+[2015-03-26 21:27:35] DEBUG TCPServer.new(::, 1015)
+[2015-03-26 21:27:35] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-03-26 21:27:35] INFO  WEBrick::HTTPServer#start: pid=32491 port=1015
+[2015-03-26 21:27:37] DEBUG accept: 127.0.0.1:51900
+[2015-03-26 21:27:37] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-26T21:27:37.274478 #32491]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-26T21:27:37.274626 #32491]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-26T21:27:37.274731 #32491]  INFO -- : ##### Parsing Options #####
+I, [2015-03-26T21:27:37.274824 #32491]  INFO -- : ##### Setting configuration #####
+I, [2015-03-26T21:27:37.274898 #32491]  INFO -- : environment: 
+I, [2015-03-26T21:27:37.274970 #32491]  INFO -- : version: 
+I, [2015-03-26T21:27:37.275041 #32491]  INFO -- : service: 
+I, [2015-03-26T21:27:37.275140 #32491]  INFO -- : role: 
+I, [2015-03-26T21:27:37.275250 #32491]  INFO -- : key: _version_
+I, [2015-03-26T21:27:37.275360 #32491]  INFO -- : git_repo: git@github.com:malnick/puppet-control
+I, [2015-03-26T21:27:37.275498 #32491]  INFO -- : git_repo_dir: /tmp/control
+I, [2015-03-26T21:27:37.275564 #32491]  INFO -- : data_file: /tmp/control/hieradata/global.yaml
+I, [2015-03-26T21:27:37.275708 #32491]  INFO -- : Set current versions to #<File:0x007fdb7a186390>
+E, [2015-03-26T21:27:37.282084 #32491] ERROR -- : private method `readlines' called for "---\n":String
+[2015-03-26 21:27:37] DEBUG close: 127.0.0.1:51900
+[2015-03-26 21:28:17] INFO  WEBrick 1.3.1
+[2015-03-26 21:28:17] INFO  ruby 2.0.0 (2014-05-08) [universal.x86_64-darwin14]
+[2015-03-26 21:28:17] DEBUG TCPServer.new(0.0.0.0, 1015)
+[2015-03-26 21:28:17] DEBUG TCPServer.new(::, 1015)
+[2015-03-26 21:28:17] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-03-26 21:28:17] INFO  WEBrick::HTTPServer#start: pid=33136 port=1015
+[2015-03-26 21:28:19] DEBUG accept: 127.0.0.1:51929
+[2015-03-26 21:28:19] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-26T21:28:19.768806 #33136]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-26T21:28:19.768971 #33136]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-26T21:28:19.769086 #33136]  INFO -- : ##### Parsing Options #####
+I, [2015-03-26T21:28:19.769185 #33136]  INFO -- : ##### Setting configuration #####
+I, [2015-03-26T21:28:19.769257 #33136]  INFO -- : environment: 
+I, [2015-03-26T21:28:19.769329 #33136]  INFO -- : version: 
+I, [2015-03-26T21:28:19.769397 #33136]  INFO -- : service: 
+I, [2015-03-26T21:28:19.769471 #33136]  INFO -- : role: 
+I, [2015-03-26T21:28:19.769553 #33136]  INFO -- : key: _version_
+I, [2015-03-26T21:28:19.769611 #33136]  INFO -- : git_repo: git@github.com:malnick/puppet-control
+I, [2015-03-26T21:28:19.769673 #33136]  INFO -- : git_repo_dir: /tmp/control
+I, [2015-03-26T21:28:19.769735 #33136]  INFO -- : data_file: /tmp/control/hieradata/global.yaml
+I, [2015-03-26T21:28:19.769909 #33136]  INFO -- : Set current versions to #<File:0x007f8c6bb82460>
+[2015-03-26 21:28:19] DEBUG close: 127.0.0.1:51929
+[2015-03-26 21:29:24] INFO  WEBrick 1.3.1
+[2015-03-26 21:29:24] INFO  ruby 2.0.0 (2014-05-08) [universal.x86_64-darwin14]
+[2015-03-26 21:29:24] DEBUG TCPServer.new(0.0.0.0, 1015)
+[2015-03-26 21:29:24] DEBUG TCPServer.new(::, 1015)
+[2015-03-26 21:29:24] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-03-26 21:29:24] INFO  WEBrick::HTTPServer#start: pid=34189 port=1015
+[2015-03-26 21:29:33] DEBUG accept: 127.0.0.1:51973
+[2015-03-26 21:29:33] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-26T21:29:33.069504 #34189]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-26T21:29:33.069766 #34189]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-26T21:29:33.069914 #34189]  INFO -- : ##### Parsing Options #####
+I, [2015-03-26T21:29:33.070070 #34189]  INFO -- : ##### Setting configuration #####
+I, [2015-03-26T21:29:33.070193 #34189]  INFO -- : environment: 
+I, [2015-03-26T21:29:33.070306 #34189]  INFO -- : version: 
+I, [2015-03-26T21:29:33.070416 #34189]  INFO -- : service: 
+I, [2015-03-26T21:29:33.070518 #34189]  INFO -- : role: 
+I, [2015-03-26T21:29:33.070628 #34189]  INFO -- : key: _version_
+I, [2015-03-26T21:29:33.070701 #34189]  INFO -- : git_repo: git@github.com:malnick/puppet-control
+I, [2015-03-26T21:29:33.070815 #34189]  INFO -- : git_repo_dir: /tmp/control
+I, [2015-03-26T21:29:33.070932 #34189]  INFO -- : data_file: /tmp/control/hieradata/global.yaml
+I, [2015-03-26T21:29:33.071080 #34189]  INFO -- : Set current versions to #<File:0x007fac6a301e20>
+I, [2015-03-26T21:29:33.071157 #34189]  INFO -- : File to send: #<File:0x007fac6a301e20>
+[2015-03-26 21:29:33] DEBUG close: 127.0.0.1:51973
+[2015-03-26 21:30:53] INFO  WEBrick 1.3.1
+[2015-03-26 21:30:53] INFO  ruby 2.0.0 (2014-05-08) [universal.x86_64-darwin14]
+[2015-03-26 21:30:53] DEBUG TCPServer.new(0.0.0.0, 1015)
+[2015-03-26 21:30:53] DEBUG TCPServer.new(::, 1015)
+[2015-03-26 21:30:53] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-03-26 21:30:53] INFO  WEBrick::HTTPServer#start: pid=35498 port=1015
+[2015-03-26 21:30:55] DEBUG accept: 127.0.0.1:52086
+[2015-03-26 21:30:55] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-26T21:30:55.555205 #35498]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-26T21:30:55.555390 #35498]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-26T21:30:55.555487 #35498]  INFO -- : ##### Parsing Options #####
+I, [2015-03-26T21:30:55.555586 #35498]  INFO -- : ##### Setting configuration #####
+I, [2015-03-26T21:30:55.555657 #35498]  INFO -- : environment: 
+I, [2015-03-26T21:30:55.555729 #35498]  INFO -- : version: 
+I, [2015-03-26T21:30:55.555816 #35498]  INFO -- : service: 
+I, [2015-03-26T21:30:55.555925 #35498]  INFO -- : role: 
+I, [2015-03-26T21:30:55.556015 #35498]  INFO -- : key: _version_
+I, [2015-03-26T21:30:55.556119 #35498]  INFO -- : git_repo: git@github.com:malnick/puppet-control
+I, [2015-03-26T21:30:55.556246 #35498]  INFO -- : git_repo_dir: /tmp/control
+I, [2015-03-26T21:30:55.556317 #35498]  INFO -- : data_file: /tmp/control/hieradata/global.yaml
+I, [2015-03-26T21:30:55.556439 #35498]  INFO -- : Set current versions to #<File:0x007fc349b41d60>
+I, [2015-03-26T21:30:55.556572 #35498]  INFO -- : File to send: #<File:0x007fc349b41d60>
+[2015-03-26 21:30:55] DEBUG close: 127.0.0.1:52086
+[2015-03-26 21:31:15] INFO  WEBrick 1.3.1
+[2015-03-26 21:31:15] INFO  ruby 2.0.0 (2014-05-08) [universal.x86_64-darwin14]
+[2015-03-26 21:31:15] DEBUG TCPServer.new(0.0.0.0, 1015)
+[2015-03-26 21:31:15] DEBUG TCPServer.new(::, 1015)
+[2015-03-26 21:31:15] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-03-26 21:31:15] INFO  WEBrick::HTTPServer#start: pid=35896 port=1015
+[2015-03-26 21:31:16] DEBUG accept: 127.0.0.1:52098
+[2015-03-26 21:31:16] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-26T21:31:16.880066 #35896]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-26T21:31:16.880219 #35896]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-26T21:31:16.880293 #35896]  INFO -- : ##### Parsing Options #####
+I, [2015-03-26T21:31:16.880377 #35896]  INFO -- : ##### Setting configuration #####
+I, [2015-03-26T21:31:16.880440 #35896]  INFO -- : environment: 
+I, [2015-03-26T21:31:16.880498 #35896]  INFO -- : version: 
+I, [2015-03-26T21:31:16.880557 #35896]  INFO -- : service: 
+I, [2015-03-26T21:31:16.880617 #35896]  INFO -- : role: 
+I, [2015-03-26T21:31:16.880769 #35896]  INFO -- : key: _version_
+I, [2015-03-26T21:31:16.880847 #35896]  INFO -- : git_repo: git@github.com:malnick/puppet-control
+I, [2015-03-26T21:31:16.880925 #35896]  INFO -- : git_repo_dir: /tmp/control
+I, [2015-03-26T21:31:16.881018 #35896]  INFO -- : data_file: /tmp/control/hieradata/global.yaml
+I, [2015-03-26T21:31:16.881150 #35896]  INFO -- : Set current versions to #<File:0x007fa21b2e5da0>
+I, [2015-03-26T21:31:16.881218 #35896]  INFO -- : File to send: #<File:0x007fa21b2e5da0>
+[2015-03-26 21:31:16] DEBUG close: 127.0.0.1:52098
+[2015-03-26 21:31:32] DEBUG accept: 127.0.0.1:52116
+[2015-03-26 21:31:32] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-26T21:31:32.380556 #35896]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-26T21:31:32.380661 #35896]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-26T21:31:32.380739 #35896]  INFO -- : ##### Parsing Options #####
+I, [2015-03-26T21:31:32.380822 #35896]  INFO -- : ##### Setting configuration #####
+I, [2015-03-26T21:31:32.380931 #35896]  INFO -- : environment: 
+I, [2015-03-26T21:31:32.381002 #35896]  INFO -- : version: 
+I, [2015-03-26T21:31:32.381104 #35896]  INFO -- : service: 
+I, [2015-03-26T21:31:32.381180 #35896]  INFO -- : role: 
+I, [2015-03-26T21:31:32.381249 #35896]  INFO -- : key: _version_
+I, [2015-03-26T21:31:32.381315 #35896]  INFO -- : git_repo: git@github.com:malnick/puppet-control
+I, [2015-03-26T21:31:32.381394 #35896]  INFO -- : git_repo_dir: /tmp/control
+I, [2015-03-26T21:31:32.381475 #35896]  INFO -- : data_file: /tmp/control/hieradata/global.yaml
+I, [2015-03-26T21:31:32.381562 #35896]  INFO -- : Set current versions to #<File:0x007fa21b18cdf0>
+I, [2015-03-26T21:31:32.381621 #35896]  INFO -- : File to send: #<File:0x007fa21b18cdf0>
+[2015-03-26 21:31:32] DEBUG accept: 127.0.0.1:52117
+[2015-03-26 21:31:32] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-03-26 21:32:02] DEBUG close: 127.0.0.1:52117
+[2015-03-26 21:32:02] DEBUG close: 127.0.0.1:52116
+[2015-03-26 21:32:32] INFO  WEBrick 1.3.1
+[2015-03-26 21:32:32] INFO  ruby 2.0.0 (2014-05-08) [universal.x86_64-darwin14]
+[2015-03-26 21:32:32] DEBUG TCPServer.new(0.0.0.0, 1015)
+[2015-03-26 21:32:32] DEBUG TCPServer.new(::, 1015)
+[2015-03-26 21:32:32] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-03-26 21:32:32] INFO  WEBrick::HTTPServer#start: pid=37079 port=1015
+[2015-03-26 21:32:34] DEBUG accept: 127.0.0.1:52166
+[2015-03-26 21:32:34] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-26T21:32:34.698705 #37079]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-26T21:32:34.698852 #37079]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-26T21:32:34.698951 #37079]  INFO -- : ##### Parsing Options #####
+I, [2015-03-26T21:32:34.699052 #37079]  INFO -- : ##### Setting configuration #####
+I, [2015-03-26T21:32:34.699126 #37079]  INFO -- : environment: 
+I, [2015-03-26T21:32:34.699202 #37079]  INFO -- : version: 
+I, [2015-03-26T21:32:34.699311 #37079]  INFO -- : service: 
+I, [2015-03-26T21:32:34.699395 #37079]  INFO -- : role: 
+I, [2015-03-26T21:32:34.699468 #37079]  INFO -- : key: _version_
+I, [2015-03-26T21:32:34.699535 #37079]  INFO -- : git_repo: git@github.com:malnick/puppet-control
+I, [2015-03-26T21:32:34.699649 #37079]  INFO -- : git_repo_dir: /tmp/control
+I, [2015-03-26T21:32:34.699743 #37079]  INFO -- : data_file: /tmp/control/hieradata/global.yaml
+I, [2015-03-26T21:32:34.699854 #37079]  INFO -- : Set current versions to #<File:0x007fcc34195d90>
+I, [2015-03-26T21:32:34.699963 #37079]  INFO -- : File to send: #<File:0x007fcc34195d90>
+E, [2015-03-26T21:32:34.706386 #37079] ERROR -- : undefined method `read' for "---\n":String
+[2015-03-26 21:32:34] DEBUG close: 127.0.0.1:52166
+[2015-03-26 21:32:48] INFO  WEBrick 1.3.1
+[2015-03-26 21:32:48] INFO  ruby 2.0.0 (2014-05-08) [universal.x86_64-darwin14]
+[2015-03-26 21:32:48] DEBUG TCPServer.new(0.0.0.0, 1015)
+[2015-03-26 21:32:48] DEBUG TCPServer.new(::, 1015)
+[2015-03-26 21:32:48] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-03-26 21:32:48] INFO  WEBrick::HTTPServer#start: pid=37348 port=1015
+[2015-03-26 21:32:50] DEBUG accept: 127.0.0.1:52174
+[2015-03-26 21:32:50] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-26T21:32:50.308500 #37348]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-26T21:32:50.308650 #37348]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-26T21:32:50.308750 #37348]  INFO -- : ##### Parsing Options #####
+I, [2015-03-26T21:32:50.308854 #37348]  INFO -- : ##### Setting configuration #####
+I, [2015-03-26T21:32:50.308929 #37348]  INFO -- : environment: 
+I, [2015-03-26T21:32:50.309001 #37348]  INFO -- : version: 
+I, [2015-03-26T21:32:50.309195 #37348]  INFO -- : service: 
+I, [2015-03-26T21:32:50.309269 #37348]  INFO -- : role: 
+I, [2015-03-26T21:32:50.309332 #37348]  INFO -- : key: _version_
+I, [2015-03-26T21:32:50.309392 #37348]  INFO -- : git_repo: git@github.com:malnick/puppet-control
+I, [2015-03-26T21:32:50.309572 #37348]  INFO -- : git_repo_dir: /tmp/control
+I, [2015-03-26T21:32:50.309744 #37348]  INFO -- : data_file: /tmp/control/hieradata/global.yaml
+I, [2015-03-26T21:32:50.309877 #37348]  INFO -- : Set current versions to #<File:0x007fa4a1265e38>
+I, [2015-03-26T21:32:50.309945 #37348]  INFO -- : File to send: #<File:0x007fa4a1265e38>
+[2015-03-26 21:32:50] DEBUG close: 127.0.0.1:52174
+[2015-03-26 21:33:19] INFO  WEBrick 1.3.1
+[2015-03-26 21:33:19] INFO  ruby 2.0.0 (2014-05-08) [universal.x86_64-darwin14]
+[2015-03-26 21:33:19] DEBUG TCPServer.new(0.0.0.0, 1015)
+[2015-03-26 21:33:19] DEBUG TCPServer.new(::, 1015)
+[2015-03-26 21:33:19] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-03-26 21:33:19] INFO  WEBrick::HTTPServer#start: pid=37899 port=1015
+[2015-03-26 21:33:20] DEBUG accept: 127.0.0.1:52190
+[2015-03-26 21:33:20] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-26T21:33:20.872177 #37899]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-26T21:33:20.872471 #37899]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-26T21:33:20.872744 #37899]  INFO -- : ##### Parsing Options #####
+I, [2015-03-26T21:33:20.872924 #37899]  INFO -- : ##### Setting configuration #####
+I, [2015-03-26T21:33:20.873086 #37899]  INFO -- : environment: 
+I, [2015-03-26T21:33:20.873200 #37899]  INFO -- : version: 
+I, [2015-03-26T21:33:20.873306 #37899]  INFO -- : service: 
+I, [2015-03-26T21:33:20.873411 #37899]  INFO -- : role: 
+I, [2015-03-26T21:33:20.873517 #37899]  INFO -- : key: _version_
+I, [2015-03-26T21:33:20.873637 #37899]  INFO -- : git_repo: git@github.com:malnick/puppet-control
+I, [2015-03-26T21:33:20.873743 #37899]  INFO -- : git_repo_dir: /tmp/control
+I, [2015-03-26T21:33:20.873848 #37899]  INFO -- : data_file: /tmp/control/hieradata/global.yaml
+I, [2015-03-26T21:33:20.873999 #37899]  INFO -- : Set current versions to #<File:0x007f883a37ddf8>
+I, [2015-03-26T21:33:20.874102 #37899]  INFO -- : File to send: #<File:0x007f883a37ddf8>
+[2015-03-26 21:33:20] DEBUG close: 127.0.0.1:52190
+[2015-03-26 21:33:23] DEBUG accept: 127.0.0.1:52192
+[2015-03-26 21:33:23] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-26T21:33:23.173428 #37899]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-26T21:33:23.173541 #37899]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-26T21:33:23.173664 #37899]  INFO -- : ##### Parsing Options #####
+I, [2015-03-26T21:33:23.173782 #37899]  INFO -- : ##### Setting configuration #####
+I, [2015-03-26T21:33:23.173877 #37899]  INFO -- : environment: 
+I, [2015-03-26T21:33:23.173970 #37899]  INFO -- : version: 
+I, [2015-03-26T21:33:23.174042 #37899]  INFO -- : service: 
+I, [2015-03-26T21:33:23.174112 #37899]  INFO -- : role: 
+I, [2015-03-26T21:33:23.174225 #37899]  INFO -- : key: _version_
+I, [2015-03-26T21:33:23.174327 #37899]  INFO -- : git_repo: git@github.com:malnick/puppet-control
+I, [2015-03-26T21:33:23.174396 #37899]  INFO -- : git_repo_dir: /tmp/control
+I, [2015-03-26T21:33:23.174468 #37899]  INFO -- : data_file: /tmp/control/hieradata/global.yaml
+I, [2015-03-26T21:33:23.174616 #37899]  INFO -- : Set current versions to #<File:0x007f883a225000>
+I, [2015-03-26T21:33:23.174709 #37899]  INFO -- : File to send: #<File:0x007f883a225000>
+[2015-03-26 21:33:24] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-26T21:33:24.495826 #37899]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-26T21:33:24.495980 #37899]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-26T21:33:24.496240 #37899]  INFO -- : ##### Parsing Options #####
+I, [2015-03-26T21:33:24.496407 #37899]  INFO -- : ##### Setting configuration #####
+I, [2015-03-26T21:33:24.496498 #37899]  INFO -- : environment: 
+I, [2015-03-26T21:33:24.496639 #37899]  INFO -- : version: 
+I, [2015-03-26T21:33:24.496812 #37899]  INFO -- : service: 
+I, [2015-03-26T21:33:24.496897 #37899]  INFO -- : role: 
+I, [2015-03-26T21:33:24.496979 #37899]  INFO -- : key: _version_
+I, [2015-03-26T21:33:24.497059 #37899]  INFO -- : git_repo: git@github.com:malnick/puppet-control
+I, [2015-03-26T21:33:24.497164 #37899]  INFO -- : git_repo_dir: /tmp/control
+I, [2015-03-26T21:33:24.497316 #37899]  INFO -- : data_file: /tmp/control/hieradata/global.yaml
+I, [2015-03-26T21:33:24.497434 #37899]  INFO -- : Set current versions to #<File:0x007f883a1b1ce0>
+I, [2015-03-26T21:33:24.497510 #37899]  INFO -- : File to send: #<File:0x007f883a1b1ce0>
+[2015-03-26 21:33:54] DEBUG close: 127.0.0.1:52192
+[2015-03-26 21:37:02] INFO  WEBrick 1.3.1
+[2015-03-26 21:37:02] INFO  ruby 2.0.0 (2014-05-08) [universal.x86_64-darwin14]
+[2015-03-26 21:37:02] DEBUG TCPServer.new(0.0.0.0, 1015)
+[2015-03-26 21:37:02] DEBUG TCPServer.new(::, 1015)
+[2015-03-26 21:37:02] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-03-26 21:37:02] INFO  WEBrick::HTTPServer#start: pid=40846 port=1015
+[2015-03-26 21:37:05] DEBUG accept: 127.0.0.1:52318
+[2015-03-26 21:37:05] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-26T21:37:05.065764 #40846]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-26T21:37:05.065917 #40846]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-26T21:37:05.066018 #40846]  INFO -- : ##### Parsing Options #####
+I, [2015-03-26T21:37:05.066112 #40846]  INFO -- : ##### Setting configuration #####
+I, [2015-03-26T21:37:05.066183 #40846]  INFO -- : environment: 
+I, [2015-03-26T21:37:05.066256 #40846]  INFO -- : version: 
+I, [2015-03-26T21:37:05.066350 #40846]  INFO -- : service: 
+I, [2015-03-26T21:37:05.066455 #40846]  INFO -- : role: 
+I, [2015-03-26T21:37:05.066525 #40846]  INFO -- : key: _version_
+I, [2015-03-26T21:37:05.066609 #40846]  INFO -- : git_repo: git@github.com:malnick/puppet-control
+I, [2015-03-26T21:37:05.066705 #40846]  INFO -- : git_repo_dir: /tmp/control
+I, [2015-03-26T21:37:05.066795 #40846]  INFO -- : data_file: /tmp/control/hieradata/global.yaml
+I, [2015-03-26T21:37:05.066895 #40846]  INFO -- : Set current versions to file object: {}
+E, [2015-03-26T21:37:05.073954 #40846] ERROR -- : no implicit conversion of Hash into String
+E, [2015-03-26T21:37:05.074117 #40846] ERROR -- : exit
+[2015-03-26 21:37:05] DEBUG close: 127.0.0.1:52318
+[2015-03-26 21:38:20] INFO  WEBrick 1.3.1
+[2015-03-26 21:38:20] INFO  ruby 2.0.0 (2014-05-08) [universal.x86_64-darwin14]
+[2015-03-26 21:38:20] DEBUG TCPServer.new(0.0.0.0, 1015)
+[2015-03-26 21:38:20] DEBUG TCPServer.new(::, 1015)
+[2015-03-26 21:38:20] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-03-26 21:38:20] INFO  WEBrick::HTTPServer#start: pid=41837 port=1015
+[2015-03-26 21:38:22] DEBUG accept: 127.0.0.1:52358
+[2015-03-26 21:38:22] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-26T21:38:22.125900 #41837]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-26T21:38:22.126063 #41837]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-26T21:38:22.126169 #41837]  INFO -- : ##### Parsing Options #####
+I, [2015-03-26T21:38:22.126270 #41837]  INFO -- : ##### Setting configuration #####
+I, [2015-03-26T21:38:22.126344 #41837]  INFO -- : environment: 
+I, [2015-03-26T21:38:22.126419 #41837]  INFO -- : version: 
+I, [2015-03-26T21:38:22.126515 #41837]  INFO -- : service: 
+I, [2015-03-26T21:38:22.126589 #41837]  INFO -- : role: 
+I, [2015-03-26T21:38:22.126696 #41837]  INFO -- : key: _version_
+I, [2015-03-26T21:38:22.126767 #41837]  INFO -- : git_repo: git@github.com:malnick/puppet-control
+I, [2015-03-26T21:38:22.126846 #41837]  INFO -- : git_repo_dir: /tmp/control
+I, [2015-03-26T21:38:22.126936 #41837]  INFO -- : data_file: /tmp/control/hieradata/global.yaml
+I, [2015-03-26T21:38:22.127049 #41837]  INFO -- : Set current versions to file object: #<File:0x007fcae12319d8>
+E, [2015-03-26T21:38:22.134352 #41837] ERROR -- : no implicit conversion of Hash into String
+E, [2015-03-26T21:38:22.134523 #41837] ERROR -- : exit
+[2015-03-26 21:38:22] DEBUG close: 127.0.0.1:52358
+[2015-03-26 21:38:54] INFO  WEBrick 1.3.1
+[2015-03-26 21:38:54] INFO  ruby 2.0.0 (2014-05-08) [universal.x86_64-darwin14]
+[2015-03-26 21:38:54] DEBUG TCPServer.new(0.0.0.0, 1015)
+[2015-03-26 21:38:54] DEBUG TCPServer.new(::, 1015)
+[2015-03-26 21:38:54] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-03-26 21:38:54] INFO  WEBrick::HTTPServer#start: pid=42252 port=1015
+[2015-03-26 21:38:56] DEBUG accept: 127.0.0.1:52374
+[2015-03-26 21:38:56] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-26T21:38:56.660962 #42252]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-26T21:38:56.661115 #42252]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-26T21:38:56.661203 #42252]  INFO -- : ##### Parsing Options #####
+I, [2015-03-26T21:38:56.661284 #42252]  INFO -- : ##### Setting configuration #####
+I, [2015-03-26T21:38:56.661348 #42252]  INFO -- : environment: 
+I, [2015-03-26T21:38:56.661411 #42252]  INFO -- : version: 
+I, [2015-03-26T21:38:56.661470 #42252]  INFO -- : service: 
+I, [2015-03-26T21:38:56.661532 #42252]  INFO -- : role: 
+I, [2015-03-26T21:38:56.661632 #42252]  INFO -- : key: _version_
+I, [2015-03-26T21:38:56.661719 #42252]  INFO -- : git_repo: git@github.com:malnick/puppet-control
+I, [2015-03-26T21:38:56.661779 #42252]  INFO -- : git_repo_dir: /tmp/control
+I, [2015-03-26T21:38:56.661838 #42252]  INFO -- : data_file: /tmp/control/hieradata/global.yaml
+I, [2015-03-26T21:38:56.661981 #42252]  INFO -- : Set current versions to file object: #<File:0x007fa808bc1918>
+E, [2015-03-26T21:38:56.669381 #42252] ERROR -- : /Users/malnick/projects/jenkins-puppet-webhook/lib/views/index.erb:3: syntax error, unexpected ')', expecting keyword_end
+...ns.each do |k,v| "#{k}: #{v}" ).to_s); @_out_buf.concat "\n"
+...                               ^
+/Users/malnick/projects/jenkins-puppet-webhook/lib/views/index.erb:8: syntax error, unexpected keyword_ensure, expecting keyword_end
+/Users/malnick/projects/jenkins-puppet-webhook/lib/views/index.erb:12: syntax error, unexpected keyword_end, expecting ')'
+end;end;end;end
+   ^
+[2015-03-26 21:38:56] DEBUG close: 127.0.0.1:52374
+[2015-03-26 21:39:16] INFO  WEBrick 1.3.1
+[2015-03-26 21:39:16] INFO  ruby 2.0.0 (2014-05-08) [universal.x86_64-darwin14]
+[2015-03-26 21:39:16] DEBUG TCPServer.new(0.0.0.0, 1015)
+[2015-03-26 21:39:16] DEBUG TCPServer.new(::, 1015)
+[2015-03-26 21:39:16] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-03-26 21:39:16] INFO  WEBrick::HTTPServer#start: pid=42596 port=1015
+[2015-03-26 21:39:18] DEBUG accept: 127.0.0.1:52385
+[2015-03-26 21:39:18] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-26T21:39:18.224293 #42596]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-26T21:39:18.224479 #42596]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-26T21:39:18.224576 #42596]  INFO -- : ##### Parsing Options #####
+I, [2015-03-26T21:39:18.224734 #42596]  INFO -- : ##### Setting configuration #####
+I, [2015-03-26T21:39:18.224850 #42596]  INFO -- : environment: 
+I, [2015-03-26T21:39:18.225050 #42596]  INFO -- : version: 
+I, [2015-03-26T21:39:18.225183 #42596]  INFO -- : service: 
+I, [2015-03-26T21:39:18.225292 #42596]  INFO -- : role: 
+I, [2015-03-26T21:39:18.225386 #42596]  INFO -- : key: _version_
+I, [2015-03-26T21:39:18.225477 #42596]  INFO -- : git_repo: git@github.com:malnick/puppet-control
+I, [2015-03-26T21:39:18.225572 #42596]  INFO -- : git_repo_dir: /tmp/control
+I, [2015-03-26T21:39:18.225648 #42596]  INFO -- : data_file: /tmp/control/hieradata/global.yaml
+I, [2015-03-26T21:39:18.225766 #42596]  INFO -- : Set current versions to file object: #<File:0x007ffdfc36ae78>
+[2015-03-26 21:39:22] DEBUG accept: 127.0.0.1:52388
+[2015-03-26 21:39:22] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-26T21:39:22.684568 #42596]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-26T21:39:22.684826 #42596]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-26T21:39:22.684967 #42596]  INFO -- : ##### Parsing Options #####
+I, [2015-03-26T21:39:22.685097 #42596]  INFO -- : ##### Setting configuration #####
+I, [2015-03-26T21:39:22.685231 #42596]  INFO -- : environment: 
+I, [2015-03-26T21:39:22.685335 #42596]  INFO -- : version: 
+I, [2015-03-26T21:39:22.685440 #42596]  INFO -- : service: 
+I, [2015-03-26T21:39:22.685521 #42596]  INFO -- : role: 
+I, [2015-03-26T21:39:22.685619 #42596]  INFO -- : key: _version_
+I, [2015-03-26T21:39:22.685720 #42596]  INFO -- : git_repo: git@github.com:malnick/puppet-control
+I, [2015-03-26T21:39:22.685868 #42596]  INFO -- : git_repo_dir: /tmp/control
+I, [2015-03-26T21:39:22.685968 #42596]  INFO -- : data_file: /tmp/control/hieradata/global.yaml
+I, [2015-03-26T21:39:22.686115 #42596]  INFO -- : Set current versions to file object: #<File:0x007ffdfc1eaaf8>
+[2015-03-26 21:39:22] DEBUG close: 127.0.0.1:52388
+[2015-03-26 21:39:48] DEBUG close: 127.0.0.1:52385
+[2015-03-26 21:40:36] INFO  WEBrick 1.3.1
+[2015-03-26 21:40:36] INFO  ruby 2.0.0 (2014-05-08) [universal.x86_64-darwin14]
+[2015-03-26 21:40:36] DEBUG TCPServer.new(0.0.0.0, 1015)
+[2015-03-26 21:40:36] DEBUG TCPServer.new(::, 1015)
+[2015-03-26 21:40:36] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-03-26 21:40:36] INFO  WEBrick::HTTPServer#start: pid=43792 port=1015
+[2015-03-26 21:40:38] DEBUG accept: 127.0.0.1:52438
+[2015-03-26 21:40:38] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-26T21:40:38.751680 #43792]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-26T21:40:38.751833 #43792]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-26T21:40:38.751932 #43792]  INFO -- : ##### Parsing Options #####
+I, [2015-03-26T21:40:38.752027 #43792]  INFO -- : ##### Setting configuration #####
+I, [2015-03-26T21:40:38.752101 #43792]  INFO -- : environment: 
+I, [2015-03-26T21:40:38.752174 #43792]  INFO -- : version: 
+I, [2015-03-26T21:40:38.752241 #43792]  INFO -- : service: 
+I, [2015-03-26T21:40:38.752356 #43792]  INFO -- : role: 
+I, [2015-03-26T21:40:38.752426 #43792]  INFO -- : key: _version_
+I, [2015-03-26T21:40:38.752484 #43792]  INFO -- : git_repo: git@github.com:malnick/puppet-control
+I, [2015-03-26T21:40:38.752547 #43792]  INFO -- : git_repo_dir: /tmp/control
+I, [2015-03-26T21:40:38.752606 #43792]  INFO -- : data_file: /tmp/control/hieradata/global.yaml
+I, [2015-03-26T21:40:38.752719 #43792]  INFO -- : Set current versions to file object: #<File:0x007ff1baaf5740>
+I, [2015-03-26T21:40:38.759457 #43792]  INFO -- : {}
+[2015-03-26 21:40:38] DEBUG close: 127.0.0.1:52438
+[2015-03-26 21:41:34] INFO  WEBrick 1.3.1
+[2015-03-26 21:41:34] INFO  ruby 2.0.0 (2014-05-08) [universal.x86_64-darwin14]
+[2015-03-26 21:41:34] DEBUG TCPServer.new(0.0.0.0, 1015)
+[2015-03-26 21:41:34] DEBUG TCPServer.new(::, 1015)
+[2015-03-26 21:41:34] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-03-26 21:41:34] INFO  WEBrick::HTTPServer#start: pid=44710 port=1015
+[2015-03-26 21:41:36] DEBUG accept: 127.0.0.1:52474
+[2015-03-26 21:41:36] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-26T21:41:36.290845 #44710]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-26T21:41:36.291002 #44710]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-26T21:41:36.291101 #44710]  INFO -- : ##### Parsing Options #####
+I, [2015-03-26T21:41:36.291211 #44710]  INFO -- : ##### Setting configuration #####
+I, [2015-03-26T21:41:36.291294 #44710]  INFO -- : environment: 
+I, [2015-03-26T21:41:36.291371 #44710]  INFO -- : version: 
+I, [2015-03-26T21:41:36.291481 #44710]  INFO -- : service: 
+I, [2015-03-26T21:41:36.291633 #44710]  INFO -- : role: 
+I, [2015-03-26T21:41:36.291701 #44710]  INFO -- : key: _version_
+I, [2015-03-26T21:41:36.291761 #44710]  INFO -- : git_repo: git@github.com:malnick/puppet-control
+I, [2015-03-26T21:41:36.291918 #44710]  INFO -- : git_repo_dir: /tmp/control
+I, [2015-03-26T21:41:36.291997 #44710]  INFO -- : data_file: /tmp/control/hieradata/global.yaml
+I, [2015-03-26T21:41:36.292123 #44710]  INFO -- : Set current versions to file object: #<File:0x007fce39379a88>
+I, [2015-03-26T21:41:36.299042 #44710]  INFO -- : {}
+[2015-03-26 21:41:36] DEBUG close: 127.0.0.1:52474
+[2015-03-26 21:43:08] INFO  WEBrick 1.3.1
+[2015-03-26 21:43:08] INFO  ruby 2.0.0 (2014-05-08) [universal.x86_64-darwin14]
+[2015-03-26 21:43:08] DEBUG TCPServer.new(0.0.0.0, 1015)
+[2015-03-26 21:43:08] DEBUG TCPServer.new(::, 1015)
+[2015-03-26 21:43:08] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-03-26 21:43:08] INFO  WEBrick::HTTPServer#start: pid=46130 port=1015
+[2015-03-26 21:43:11] DEBUG accept: 127.0.0.1:52584
+[2015-03-26 21:43:11] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-26T21:43:11.135207 #46130]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-26T21:43:11.135370 #46130]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-26T21:43:11.135476 #46130]  INFO -- : ##### Parsing Options #####
+I, [2015-03-26T21:43:11.135580 #46130]  INFO -- : ##### Setting configuration #####
+I, [2015-03-26T21:43:11.135660 #46130]  INFO -- : environment: 
+I, [2015-03-26T21:43:11.135738 #46130]  INFO -- : version: 
+I, [2015-03-26T21:43:11.135852 #46130]  INFO -- : service: 
+I, [2015-03-26T21:43:11.136025 #46130]  INFO -- : role: 
+I, [2015-03-26T21:43:11.136102 #46130]  INFO -- : key: _version_
+I, [2015-03-26T21:43:11.136255 #46130]  INFO -- : git_repo: git@github.com:malnick/puppet-control
+I, [2015-03-26T21:43:11.136328 #46130]  INFO -- : git_repo_dir: /tmp/control
+I, [2015-03-26T21:43:11.136392 #46130]  INFO -- : data_file: /tmp/control/hieradata/global.yaml
+I, [2015-03-26T21:43:11.136495 #46130]  INFO -- : Set current versions to file object: #<File:0x007fb543259680>
+I, [2015-03-26T21:43:11.143593 #46130]  INFO -- : {}
+[2015-03-26 21:43:11] DEBUG close: 127.0.0.1:52584
+[2015-03-26 21:45:52] INFO  WEBrick 1.3.1
+[2015-03-26 21:45:52] INFO  ruby 2.0.0 (2014-05-08) [universal.x86_64-darwin14]
+[2015-03-26 21:45:52] DEBUG TCPServer.new(0.0.0.0, 1015)
+[2015-03-26 21:45:52] DEBUG TCPServer.new(::, 1015)
+[2015-03-26 21:45:52] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-03-26 21:45:52] INFO  WEBrick::HTTPServer#start: pid=48645 port=1015
+[2015-03-26 21:45:55] DEBUG accept: 127.0.0.1:52693
+[2015-03-26 21:45:55] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-26T21:45:55.279732 #48645]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-26T21:45:55.279921 #48645]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-26T21:45:55.280018 #48645]  INFO -- : ##### Parsing Options #####
+I, [2015-03-26T21:45:55.280140 #48645]  INFO -- : ##### Setting configuration #####
+I, [2015-03-26T21:45:55.280217 #48645]  INFO -- : environment: 
+I, [2015-03-26T21:45:55.280311 #48645]  INFO -- : version: 
+I, [2015-03-26T21:45:55.280403 #48645]  INFO -- : service: 
+I, [2015-03-26T21:45:55.280506 #48645]  INFO -- : role: 
+I, [2015-03-26T21:45:55.280581 #48645]  INFO -- : key: _version_
+I, [2015-03-26T21:45:55.280675 #48645]  INFO -- : git_repo: git@github.com:malnick/puppet-control
+I, [2015-03-26T21:45:55.280760 #48645]  INFO -- : git_repo_dir: /tmp/control
+I, [2015-03-26T21:45:55.280861 #48645]  INFO -- : data_file: /tmp/control/hieradata/global.yaml
+I, [2015-03-26T21:45:55.281048 #48645]  INFO -- : Set current versions to file object: #<File:0x007f9402aee460>
+E, [2015-03-26T21:45:55.287636 #48645] ERROR -- : undefined method `read' for nil:NilClass
+[2015-03-26 21:45:55] DEBUG close: 127.0.0.1:52693
+[2015-03-26 21:46:21] INFO  WEBrick 1.3.1
+[2015-03-26 21:46:21] INFO  ruby 2.0.0 (2014-05-08) [universal.x86_64-darwin14]
+[2015-03-26 21:46:21] DEBUG TCPServer.new(0.0.0.0, 1015)
+[2015-03-26 21:46:21] DEBUG TCPServer.new(::, 1015)
+[2015-03-26 21:46:21] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-03-26 21:46:21] INFO  WEBrick::HTTPServer#start: pid=49110 port=1015
+[2015-03-26 21:46:25] DEBUG accept: 127.0.0.1:52712
+[2015-03-26 21:46:25] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-26T21:46:25.799326 #49110]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-26T21:46:25.799477 #49110]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-26T21:46:25.799564 #49110]  INFO -- : ##### Parsing Options #####
+I, [2015-03-26T21:46:25.799650 #49110]  INFO -- : ##### Setting configuration #####
+I, [2015-03-26T21:46:25.799720 #49110]  INFO -- : environment: 
+I, [2015-03-26T21:46:25.799783 #49110]  INFO -- : version: 
+I, [2015-03-26T21:46:25.799849 #49110]  INFO -- : service: 
+I, [2015-03-26T21:46:25.799955 #49110]  INFO -- : role: 
+I, [2015-03-26T21:46:25.800054 #49110]  INFO -- : key: _version_
+I, [2015-03-26T21:46:25.800118 #49110]  INFO -- : git_repo: git@github.com:malnick/puppet-control
+I, [2015-03-26T21:46:25.800186 #49110]  INFO -- : git_repo_dir: /tmp/control
+I, [2015-03-26T21:46:25.800287 #49110]  INFO -- : data_file: /tmp/control/hieradata/global.yaml
+E, [2015-03-26T21:46:25.806633 #49110] ERROR -- : undefined local variable or method `current_versions' for #<Server:0x007fcba142a788>
+E, [2015-03-26T21:46:25.806809 #49110] ERROR -- : exit
+[2015-03-26 21:46:25] DEBUG close: 127.0.0.1:52712
+[2015-03-26 21:46:57] INFO  WEBrick 1.3.1
+[2015-03-26 21:46:57] INFO  ruby 2.0.0 (2014-05-08) [universal.x86_64-darwin14]
+[2015-03-26 21:46:57] DEBUG TCPServer.new(0.0.0.0, 1015)
+[2015-03-26 21:46:57] DEBUG TCPServer.new(::, 1015)
+[2015-03-26 21:46:57] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-03-26 21:46:57] INFO  WEBrick::HTTPServer#start: pid=49651 port=1015
+[2015-03-26 21:46:58] DEBUG accept: 127.0.0.1:52731
+[2015-03-26 21:46:58] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-26T21:46:58.907713 #49651]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-26T21:46:58.907864 #49651]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-26T21:46:58.907952 #49651]  INFO -- : ##### Parsing Options #####
+I, [2015-03-26T21:46:58.908030 #49651]  INFO -- : ##### Setting configuration #####
+I, [2015-03-26T21:46:58.908092 #49651]  INFO -- : environment: 
+I, [2015-03-26T21:46:58.908150 #49651]  INFO -- : version: 
+I, [2015-03-26T21:46:58.908206 #49651]  INFO -- : service: 
+I, [2015-03-26T21:46:58.908308 #49651]  INFO -- : role: 
+I, [2015-03-26T21:46:58.908422 #49651]  INFO -- : key: _version_
+I, [2015-03-26T21:46:58.908485 #49651]  INFO -- : git_repo: git@github.com:malnick/puppet-control
+I, [2015-03-26T21:46:58.908546 #49651]  INFO -- : git_repo_dir: /tmp/control
+I, [2015-03-26T21:46:58.908629 #49651]  INFO -- : data_file: /tmp/control/hieradata/global.yaml
+I, [2015-03-26T21:46:58.908739 #49651]  INFO -- : Set current versions to file object: #<File:0x007fc112306468>
+[2015-03-26 21:46:58] DEBUG close: 127.0.0.1:52731
+[2015-03-26 21:47:03] DEBUG accept: 127.0.0.1:52734
+[2015-03-26 21:47:03] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-26T21:47:03.026487 #49651]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-26T21:47:03.026603 #49651]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-26T21:47:03.026718 #49651]  INFO -- : ##### Parsing Options #####
+I, [2015-03-26T21:47:03.026968 #49651]  INFO -- : ##### Setting configuration #####
+I, [2015-03-26T21:47:03.027105 #49651]  INFO -- : environment: 
+I, [2015-03-26T21:47:03.027362 #49651]  INFO -- : version: 
+I, [2015-03-26T21:47:03.027474 #49651]  INFO -- : service: 
+I, [2015-03-26T21:47:03.027579 #49651]  INFO -- : role: 
+I, [2015-03-26T21:47:03.027676 #49651]  INFO -- : key: _version_
+I, [2015-03-26T21:47:03.027765 #49651]  INFO -- : git_repo: git@github.com:malnick/puppet-control
+I, [2015-03-26T21:47:03.027870 #49651]  INFO -- : git_repo_dir: /tmp/control
+I, [2015-03-26T21:47:03.028017 #49651]  INFO -- : data_file: /tmp/control/hieradata/global.yaml
+I, [2015-03-26T21:47:03.028181 #49651]  INFO -- : Set current versions to file object: #<File:0x007fc1121a8e18>

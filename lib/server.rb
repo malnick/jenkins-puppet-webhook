@@ -41,7 +41,7 @@ class Server < Sinatra::Base
   get '/status' do
     begin
       LOG.info('##### Request for Status Made #####')
-#      get_versions_on_node
+      get_versions_on_node
       erb :index
     rescue Exception => e
       LOG.error(e.message)
@@ -53,16 +53,17 @@ class Server < Sinatra::Base
 		halt 404, 'Not found.'
 	end
 
-  def get_versions_on_node()
-#    begin
+  def get_versions_on_node
+    options = {}
+    begin
       LOG.info("##### Getting Current Versions on Node #####")
       config = Update::Options.new(options).config
-      @current_versions = File.open(YAML.load(config(:data_file)))
-      LOG.info("Set current versions to #{@current_versions}")
- #   rescue Exception => e
-  #    LOG.error(e.message)
-   #   abort
-   # end
+      @current_versions = File.open(config[:data_file])
+      LOG.info("Set current versions to file object: #{@current_versions}")
+    rescue Exception => e
+      LOG.error(e.message)
+      abort
+    end
   end
 
 end

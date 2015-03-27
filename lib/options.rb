@@ -9,16 +9,16 @@ module Update
   
       @config         = Hash.new
 
-      # Required data from POST
-      @config[:environment]    = options['environment']   # qa or production etc
-      @config[:version]        = options['version']       # The version to write to the data file
-      @config[:service]        = options['service']       # The service name
-      @config[:role]           = options['role']          # The role for the nodes to update via mCollective
+      # Required data from POST - if any of these are nil they'll actually break shit - leaving nil so we can use them in the get request
+      @config[:environment]    = options['environment']     || nil # qa or production etc
+      @config[:version]        = options['version']         || nil # The version to write to the data file
+      @config[:service]        = options['service']         || nil # The service name
+      @config[:role]           = options['role']            || nil # The role for the nodes to update via mCollective
       
       # Optional data from POST
       @config[:key]            = options['key']             || "#{@config[:service]}_version_#{@config[:environment]}"   
       @config[:git_repo]       = options['git_repo']        || 'git@github.com:malnick/puppet-control'
-      @config[:git_repo_dir]   = options['git_repo_dir']    || '/etc/puppetlabs/puppet/environments/production'
+      @config[:git_repo_dir]   = options['git_repo_dir']    || '/tmp/control' #'/etc/puppetlabs/puppet/environments/production'
       @config[:data_file]      = options['data_file_path']  || "#{@config[:git_repo_dir]}/hieradata/global.yaml"
       
       LOG.info("##### Setting configuration #####")
