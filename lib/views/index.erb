@@ -1,5 +1,14 @@
-<html><body><p>
-<% @current_versions.each do |k,v| %>
-<%= k %>: <%= "#{v}\n" %>
+Current Versions on Node:
+<%= @json_versions %>
+
+Available Versions by Node:
+<% @nodes.each do |n,s| %>
+<%= n %>:
+  <% s.each do |v| %>
+  <%= s %>: <%= v %>
+  <% end %>
 <% end %>
-</p></body></html>
+
+# Nodes should have the following data type:
+# @nodes = {'some.node.com' => { 'service1' => '1.2.3', 'service2' => '2.3.3' } }
+

@@ -4,7 +4,8 @@ module Update
     attr_accessor :config
 
     def initialize(options)
-    
+      options = {} if options.nil?
+          
       LOG.info("##### Parsing Options #####")
   
       @config         = Hash.new

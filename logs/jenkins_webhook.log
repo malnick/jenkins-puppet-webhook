@@ -1495,3 +1495,258 @@ I, [2015-03-27T08:58:00.631279 #60510]  INFO -- : git_repo: git@github.com:malni
 I, [2015-03-27T08:58:00.631347 #60510]  INFO -- : git_repo_dir: /tmp/control
 I, [2015-03-27T08:58:00.631454 #60510]  INFO -- : data_file: /tmp/control/hieradata/global.yaml
 I, [2015-03-27T08:58:00.632542 #60510]  INFO -- : Set current versions to file object: {"analytics_version_qa"=>"0.0.6", "librarian_version_qa"=>"0.3.3", "notifications_version_qa"=>"0.0.8-SNAPSHOT", "scm_agent_version_qa"=>"0.1.15-SNAPSHOT", "vulnerabilities_version_qa"=>"0.0.3", "platform_version_qa"=>"0.0.23", "analytics_version_production"=>"0.0.2", "librarian_version_production"=>"0.3.3", "notifications_version_production"=>"0.0.4", "scm_agent_version_production"=>"0.1.11", "vulnerabilities_version_production"=>"0.0.3", "platform_version_production"=>"0.0.23", "analytics_port"=>11120, "analytics_mgmt_port"=>11130, "librarian_port"=>11060, "librarian_mgmt_port"=>11070, "notifications_port"=>11000, "notifications_mgmt_port"=>11010, "scm_agent_port"=>11040, "scm_agent_mgmt_port"=>11050, "vulnerabilities_port"=>11100, "vulnerabilities_mgmt_port"=>11110, "platform_port"=>8080, "platform_mgmt_port"=>8080, "stats_url"=>"/", "stats_port"=>22002}
+[2015-03-27 08:58:30] DEBUG close: ::ffff:127.0.0.1:52871
+[2015-03-27 09:18:34] INFO  WEBrick 1.3.1
+[2015-03-27 09:18:34] INFO  ruby 2.0.0 (2014-05-08) [universal.x86_64-darwin14]
+[2015-03-27 09:18:34] DEBUG TCPServer.new(0.0.0.0, 1015)
+[2015-03-27 09:18:34] DEBUG TCPServer.new(::, 1015)
+[2015-03-27 09:18:34] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-03-27 09:18:34] INFO  WEBrick::HTTPServer#start: pid=74386 port=1015
+[2015-03-27 09:18:35] DEBUG accept: 127.0.0.1:53250
+[2015-03-27 09:18:35] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-27T09:18:35.697145 #74386]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-27T09:18:35.697342 #74386]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-27T09:18:35.697466 #74386]  INFO -- : ##### Parsing Options #####
+E, [2015-03-27T09:18:35.697645 #74386] ERROR -- : undefined method `[]' for Server:Class
+E, [2015-03-27T09:18:35.697785 #74386] ERROR -- : exit
+[2015-03-27 09:18:35] DEBUG close: 127.0.0.1:53250
+[2015-03-27 09:19:05] DEBUG accept: 127.0.0.1:53269
+[2015-03-27 09:19:05] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-27T09:19:05.943567 #74386]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-27T09:19:05.943743 #74386]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-27T09:19:05.943887 #74386]  INFO -- : ##### Parsing Options #####
+E, [2015-03-27T09:19:05.944055 #74386] ERROR -- : undefined method `[]' for Server:Class
+E, [2015-03-27T09:19:05.944279 #74386] ERROR -- : exit
+[2015-03-27 09:19:05] DEBUG close: 127.0.0.1:53269
+[2015-03-27 09:19:48] DEBUG accept: 127.0.0.1:53294
+[2015-03-27 09:19:48] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-27T09:19:48.146149 #74386]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-27T09:19:48.146258 #74386]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-27T09:19:48.146350 #74386]  INFO -- : ##### Parsing Options #####
+E, [2015-03-27T09:19:48.146463 #74386] ERROR -- : undefined method `[]' for Server:Class
+E, [2015-03-27T09:19:48.146709 #74386] ERROR -- : exit
+[2015-03-27 09:19:48] DEBUG close: 127.0.0.1:53294
+[2015-03-27 09:19:51] INFO  WEBrick 1.3.1
+[2015-03-27 09:19:51] INFO  ruby 2.0.0 (2014-05-08) [universal.x86_64-darwin14]
+[2015-03-27 09:19:51] DEBUG TCPServer.new(0.0.0.0, 1015)
+[2015-03-27 09:19:51] DEBUG TCPServer.new(::, 1015)
+[2015-03-27 09:19:51] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-03-27 09:19:51] INFO  WEBrick::HTTPServer#start: pid=75563 port=1015
+[2015-03-27 09:19:54] DEBUG accept: 127.0.0.1:53299
+[2015-03-27 09:19:54] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-27T09:19:54.477025 #75563]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-27T09:19:54.477196 #75563]  INFO -- : ##### Getting Current Versions on Node #####
+E, [2015-03-27T09:19:54.477382 #75563] ERROR -- : wrong number of arguments (0 for 1)
+E, [2015-03-27T09:19:54.477470 #75563] ERROR -- : exit
+[2015-03-27 09:19:54] DEBUG close: 127.0.0.1:53299
+[2015-03-27 09:22:08] INFO  WEBrick 1.3.1
+[2015-03-27 09:22:08] INFO  ruby 2.0.0 (2014-05-08) [universal.x86_64-darwin14]
+[2015-03-27 09:22:08] DEBUG TCPServer.new(0.0.0.0, 1015)
+[2015-03-27 09:22:08] DEBUG TCPServer.new(::, 1015)
+[2015-03-27 09:22:08] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-03-27 09:22:08] INFO  WEBrick::HTTPServer#start: pid=77703 port=1015
+[2015-03-27 09:22:12] DEBUG accept: 127.0.0.1:53401
+[2015-03-27 09:22:12] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-27T09:22:12.416099 #77703]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-27T09:22:12.416269 #77703]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-27T09:22:12.416349 #77703]  INFO -- : ##### Parsing Options #####
+E, [2015-03-27T09:22:12.416483 #77703] ERROR -- : no implicit conversion of String into Integer
+E, [2015-03-27T09:22:12.416574 #77703] ERROR -- : exit
+[2015-03-27 09:22:12] DEBUG close: 127.0.0.1:53401
+[2015-03-27 09:22:38] INFO  WEBrick 1.3.1
+[2015-03-27 09:22:38] INFO  ruby 2.0.0 (2014-05-08) [universal.x86_64-darwin14]
+[2015-03-27 09:22:38] DEBUG TCPServer.new(0.0.0.0, 1015)
+[2015-03-27 09:22:38] DEBUG TCPServer.new(::, 1015)
+[2015-03-27 09:22:38] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-03-27 09:22:38] INFO  WEBrick::HTTPServer#start: pid=78243 port=1015
+[2015-03-27 09:22:40] DEBUG accept: 127.0.0.1:53419
+[2015-03-27 09:22:40] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-27T09:22:40.682377 #78243]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-27T09:22:40.682551 #78243]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-27T09:22:40.682648 #78243]  INFO -- : ##### Parsing Options #####
+E, [2015-03-27T09:22:40.682800 #78243] ERROR -- : no implicit conversion of String into Integer
+E, [2015-03-27T09:22:40.682879 #78243] ERROR -- : exit
+[2015-03-27 09:22:40] DEBUG close: 127.0.0.1:53419
+[2015-03-27 09:24:06] DEBUG accept: 127.0.0.1:53478
+[2015-03-27 09:24:06] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-27T09:24:06.554556 #78243]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-27T09:24:06.554661 #78243]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-27T09:24:06.554763 #78243]  INFO -- : ##### Parsing Options #####
+E, [2015-03-27T09:24:06.554908 #78243] ERROR -- : no implicit conversion of String into Integer
+E, [2015-03-27T09:24:06.554993 #78243] ERROR -- : exit
+[2015-03-27 09:24:06] DEBUG close: 127.0.0.1:53478
+[2015-03-27 09:24:10] INFO  WEBrick 1.3.1
+[2015-03-27 09:24:10] INFO  ruby 2.0.0 (2014-05-08) [universal.x86_64-darwin14]
+[2015-03-27 09:24:10] DEBUG TCPServer.new(0.0.0.0, 1015)
+[2015-03-27 09:24:10] DEBUG TCPServer.new(::, 1015)
+[2015-03-27 09:24:10] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-03-27 09:24:10] INFO  WEBrick::HTTPServer#start: pid=79687 port=1015
+[2015-03-27 09:24:12] DEBUG accept: 127.0.0.1:53481
+[2015-03-27 09:24:12] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-27T09:24:12.027529 #79687]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-27T09:24:12.027692 #79687]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-27T09:24:12.027823 #79687]  INFO -- : ##### Parsing Options #####
+E, [2015-03-27T09:24:12.027974 #79687] ERROR -- : no implicit conversion of String into Integer
+E, [2015-03-27T09:24:12.028059 #79687] ERROR -- : exit
+[2015-03-27 09:24:12] DEBUG close: 127.0.0.1:53481
+[2015-03-27 09:25:02] DEBUG accept: 127.0.0.1:53512
+[2015-03-27 09:25:02] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-27T09:25:02.011523 #79687]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-27T09:25:02.011621 #79687]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-27T09:25:02.011709 #79687]  INFO -- : ##### Parsing Options #####
+E, [2015-03-27T09:25:02.011859 #79687] ERROR -- : no implicit conversion of String into Integer
+E, [2015-03-27T09:25:02.012006 #79687] ERROR -- : exit
+[2015-03-27 09:25:02] DEBUG close: 127.0.0.1:53512
+[2015-03-27 09:25:04] INFO  WEBrick 1.3.1
+[2015-03-27 09:25:04] INFO  ruby 2.0.0 (2014-05-08) [universal.x86_64-darwin14]
+[2015-03-27 09:25:04] DEBUG TCPServer.new(0.0.0.0, 1015)
+[2015-03-27 09:25:04] DEBUG TCPServer.new(::, 1015)
+[2015-03-27 09:25:04] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-03-27 09:25:04] INFO  WEBrick::HTTPServer#start: pid=80554 port=1015
+[2015-03-27 09:25:05] DEBUG accept: 127.0.0.1:53515
+[2015-03-27 09:25:05] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-27T09:25:05.980962 #80554]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-27T09:25:05.981123 #80554]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-27T09:25:05.981229 #80554]  INFO -- : ##### Parsing Options #####
+E, [2015-03-27T09:25:05.981371 #80554] ERROR -- : no implicit conversion of String into Integer
+E, [2015-03-27T09:25:05.981451 #80554] ERROR -- : exit
+[2015-03-27 09:25:05] DEBUG close: 127.0.0.1:53515
+[2015-03-27 09:25:29] INFO  WEBrick 1.3.1
+[2015-03-27 09:25:29] INFO  ruby 2.0.0 (2014-05-08) [universal.x86_64-darwin14]
+[2015-03-27 09:25:29] DEBUG TCPServer.new(0.0.0.0, 1015)
+[2015-03-27 09:25:29] DEBUG TCPServer.new(::, 1015)
+[2015-03-27 09:25:29] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-03-27 09:25:30] INFO  WEBrick::HTTPServer#start: pid=81012 port=1015
+[2015-03-27 09:25:31] DEBUG accept: 127.0.0.1:53529
+[2015-03-27 09:25:31] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-27T09:25:31.150057 #81012]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-27T09:25:31.150218 #81012]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-27T09:25:31.150329 #81012]  INFO -- : ##### Parsing Options #####
+I, [2015-03-27T09:25:31.150433 #81012]  INFO -- : ##### Setting configuration #####
+I, [2015-03-27T09:25:31.150516 #81012]  INFO -- : environment: 
+I, [2015-03-27T09:25:31.150597 #81012]  INFO -- : version: 
+I, [2015-03-27T09:25:31.150675 #81012]  INFO -- : service: 
+I, [2015-03-27T09:25:31.150791 #81012]  INFO -- : role: 
+I, [2015-03-27T09:25:31.150896 #81012]  INFO -- : key: _version_
+I, [2015-03-27T09:25:31.150971 #81012]  INFO -- : git_repo: git@github.com:malnick/puppet-control
+I, [2015-03-27T09:25:31.151051 #81012]  INFO -- : git_repo_dir: /tmp/control
+I, [2015-03-27T09:25:31.151130 #81012]  INFO -- : data_file: /tmp/control/hieradata/global.yaml
+I, [2015-03-27T09:25:31.158485 #81012]  INFO -- : ##### Current Versions: #####
+I, [2015-03-27T09:25:31.158646 #81012]  INFO -- : analytics_version_qa: 0.0.6
+I, [2015-03-27T09:25:31.158750 #81012]  INFO -- : librarian_version_qa: 0.3.3
+I, [2015-03-27T09:25:31.158842 #81012]  INFO -- : notifications_version_qa: 0.0.8-SNAPSHOT
+I, [2015-03-27T09:25:31.158932 #81012]  INFO -- : scm_agent_version_qa: 0.1.15-SNAPSHOT
+I, [2015-03-27T09:25:31.159013 #81012]  INFO -- : vulnerabilities_version_qa: 0.0.3
+I, [2015-03-27T09:25:31.159086 #81012]  INFO -- : platform_version_qa: 0.0.23
+I, [2015-03-27T09:25:31.159163 #81012]  INFO -- : analytics_version_production: 0.0.2
+I, [2015-03-27T09:25:31.159265 #81012]  INFO -- : librarian_version_production: 0.3.3
+I, [2015-03-27T09:25:31.159367 #81012]  INFO -- : notifications_version_production: 0.0.4
+I, [2015-03-27T09:25:31.159441 #81012]  INFO -- : scm_agent_version_production: 0.1.11
+I, [2015-03-27T09:25:31.159527 #81012]  INFO -- : vulnerabilities_version_production: 0.0.3
+I, [2015-03-27T09:25:31.159600 #81012]  INFO -- : platform_version_production: 0.0.23
+I, [2015-03-27T09:25:31.159693 #81012]  INFO -- : analytics_port: 11120
+I, [2015-03-27T09:25:31.159788 #81012]  INFO -- : analytics_mgmt_port: 11130
+I, [2015-03-27T09:25:31.159860 #81012]  INFO -- : librarian_port: 11060
+I, [2015-03-27T09:25:31.159938 #81012]  INFO -- : librarian_mgmt_port: 11070
+I, [2015-03-27T09:25:31.160006 #81012]  INFO -- : notifications_port: 11000
+I, [2015-03-27T09:25:31.160075 #81012]  INFO -- : notifications_mgmt_port: 11010
+I, [2015-03-27T09:25:31.160160 #81012]  INFO -- : scm_agent_port: 11040
+I, [2015-03-27T09:25:31.160251 #81012]  INFO -- : scm_agent_mgmt_port: 11050
+I, [2015-03-27T09:25:31.160333 #81012]  INFO -- : vulnerabilities_port: 11100
+I, [2015-03-27T09:25:31.160404 #81012]  INFO -- : vulnerabilities_mgmt_port: 11110
+I, [2015-03-27T09:25:31.160472 #81012]  INFO -- : platform_port: 8080
+I, [2015-03-27T09:25:31.160541 #81012]  INFO -- : platform_mgmt_port: 8080
+I, [2015-03-27T09:25:31.160625 #81012]  INFO -- : stats_url: /
+I, [2015-03-27T09:25:31.160708 #81012]  INFO -- : stats_port: 22002
+[2015-03-27 09:25:31] DEBUG close: 127.0.0.1:53529
+[2015-03-27 09:29:14] INFO  WEBrick 1.3.1
+[2015-03-27 09:29:14] INFO  ruby 2.0.0 (2014-05-08) [universal.x86_64-darwin14]
+[2015-03-27 09:29:14] DEBUG TCPServer.new(0.0.0.0, 1015)
+[2015-03-27 09:29:14] DEBUG TCPServer.new(::, 1015)
+[2015-03-27 09:29:14] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-03-27 09:29:14] INFO  WEBrick::HTTPServer#start: pid=84400 port=1015
+[2015-03-27 09:29:17] DEBUG accept: 127.0.0.1:53711
+[2015-03-27 09:29:17] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-27T09:29:17.137821 #84400]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-27T09:29:17.137998 #84400]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-27T09:29:17.138094 #84400]  INFO -- : ##### Parsing Options #####
+I, [2015-03-27T09:29:17.138198 #84400]  INFO -- : ##### Setting configuration #####
+I, [2015-03-27T09:29:17.138269 #84400]  INFO -- : environment: 
+I, [2015-03-27T09:29:17.138333 #84400]  INFO -- : version: 
+I, [2015-03-27T09:29:17.138397 #84400]  INFO -- : service: 
+I, [2015-03-27T09:29:17.138458 #84400]  INFO -- : role: 
+I, [2015-03-27T09:29:17.138520 #84400]  INFO -- : key: _version_
+I, [2015-03-27T09:29:17.138582 #84400]  INFO -- : git_repo: git@github.com:malnick/puppet-control
+I, [2015-03-27T09:29:17.138684 #84400]  INFO -- : git_repo_dir: /tmp/control
+I, [2015-03-27T09:29:17.138789 #84400]  INFO -- : data_file: /tmp/control/hieradata/global.yaml
+I, [2015-03-27T09:29:17.145968 #84400]  INFO -- : ##### Current Versions: #####
+I, [2015-03-27T09:29:17.146160 #84400]  INFO -- : analytics_version_qa: 0.0.6
+I, [2015-03-27T09:29:17.146247 #84400]  INFO -- : librarian_version_qa: 0.3.3
+I, [2015-03-27T09:29:17.146320 #84400]  INFO -- : notifications_version_qa: 0.0.8-SNAPSHOT
+I, [2015-03-27T09:29:17.146389 #84400]  INFO -- : scm_agent_version_qa: 0.1.15-SNAPSHOT
+I, [2015-03-27T09:29:17.146459 #84400]  INFO -- : vulnerabilities_version_qa: 0.0.3
+I, [2015-03-27T09:29:17.146530 #84400]  INFO -- : platform_version_qa: 0.0.23
+I, [2015-03-27T09:29:17.146612 #84400]  INFO -- : analytics_version_production: 0.0.2
+I, [2015-03-27T09:29:17.146681 #84400]  INFO -- : librarian_version_production: 0.3.3
+I, [2015-03-27T09:29:17.146749 #84400]  INFO -- : notifications_version_production: 0.0.4
+I, [2015-03-27T09:29:17.146818 #84400]  INFO -- : scm_agent_version_production: 0.1.11
+I, [2015-03-27T09:29:17.146891 #84400]  INFO -- : vulnerabilities_version_production: 0.0.3
+I, [2015-03-27T09:29:17.146986 #84400]  INFO -- : platform_version_production: 0.0.23
+I, [2015-03-27T09:29:17.147103 #84400]  INFO -- : analytics_port: 11120
+I, [2015-03-27T09:29:17.147200 #84400]  INFO -- : analytics_mgmt_port: 11130
+I, [2015-03-27T09:29:17.147297 #84400]  INFO -- : librarian_port: 11060
+I, [2015-03-27T09:29:17.147390 #84400]  INFO -- : librarian_mgmt_port: 11070
+I, [2015-03-27T09:29:17.147482 #84400]  INFO -- : notifications_port: 11000
+I, [2015-03-27T09:29:17.147598 #84400]  INFO -- : notifications_mgmt_port: 11010
+I, [2015-03-27T09:29:17.147690 #84400]  INFO -- : scm_agent_port: 11040
+I, [2015-03-27T09:29:17.147781 #84400]  INFO -- : scm_agent_mgmt_port: 11050
+I, [2015-03-27T09:29:17.147875 #84400]  INFO -- : vulnerabilities_port: 11100
+I, [2015-03-27T09:29:17.147973 #84400]  INFO -- : vulnerabilities_mgmt_port: 11110
+I, [2015-03-27T09:29:17.148067 #84400]  INFO -- : platform_port: 8080
+I, [2015-03-27T09:29:17.148163 #84400]  INFO -- : platform_mgmt_port: 8080
+I, [2015-03-27T09:29:17.148257 #84400]  INFO -- : stats_url: /
+I, [2015-03-27T09:29:17.148349 #84400]  INFO -- : stats_port: 22002
+[2015-03-27 09:29:17] DEBUG close: 127.0.0.1:53711
+[2015-03-27 09:29:27] DEBUG accept: 127.0.0.1:53717
+[2015-03-27 09:29:27] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-03-27 09:29:31] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-27T09:29:31.638016 #84400]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-27T09:29:31.638510 #84400]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-27T09:29:31.638757 #84400]  INFO -- : ##### Parsing Options #####
+I, [2015-03-27T09:29:31.639038 #84400]  INFO -- : ##### Setting configuration #####
+I, [2015-03-27T09:29:31.639190 #84400]  INFO -- : environment: 
+I, [2015-03-27T09:29:31.639316 #84400]  INFO -- : version: 
+I, [2015-03-27T09:29:31.639408 #84400]  INFO -- : service: 
+I, [2015-03-27T09:29:31.639519 #84400]  INFO -- : role: 
+I, [2015-03-27T09:29:31.639607 #84400]  INFO -- : key: _version_
+I, [2015-03-27T09:29:31.639693 #84400]  INFO -- : git_repo: git@github.com:malnick/puppet-control
+I, [2015-03-27T09:29:31.639800 #84400]  INFO -- : git_repo_dir: /tmp/control
+I, [2015-03-27T09:29:31.639903 #84400]  INFO -- : data_file: /tmp/control/hieradata/global.yaml
+I, [2015-03-27T09:29:31.640964 #84400]  INFO -- : ##### Current Versions: #####
+I, [2015-03-27T09:29:31.641138 #84400]  INFO -- : analytics_version_qa: 0.0.6
+I, [2015-03-27T09:29:31.641259 #84400]  INFO -- : librarian_version_qa: 0.3.3
+I, [2015-03-27T09:29:31.641366 #84400]  INFO -- : notifications_version_qa: 0.0.8-SNAPSHOT
+I, [2015-03-27T09:29:31.641429 #84400]  INFO -- : scm_agent_version_qa: 0.1.15-SNAPSHOT
+I, [2015-03-27T09:29:31.641499 #84400]  INFO -- : vulnerabilities_version_qa: 0.0.3
+I, [2015-03-27T09:29:31.641557 #84400]  INFO -- : platform_version_qa: 0.0.23
+I, [2015-03-27T09:29:31.641613 #84400]  INFO -- : analytics_version_production: 0.0.2
+I, [2015-03-27T09:29:31.641693 #84400]  INFO -- : librarian_version_production: 0.3.3
+I, [2015-03-27T09:29:31.641860 #84400]  INFO -- : notifications_version_production: 0.0.4
+I, [2015-03-27T09:29:31.641928 #84400]  INFO -- : scm_agent_version_production: 0.1.11
+I, [2015-03-27T09:29:31.641987 #84400]  INFO -- : vulnerabilities_version_production: 0.0.3
+I, [2015-03-27T09:29:31.642044 #84400]  INFO -- : platform_version_production: 0.0.23
+I, [2015-03-27T09:29:31.642101 #84400]  INFO -- : analytics_port: 11120
+I, [2015-03-27T09:29:31.642183 #84400]  INFO -- : analytics_mgmt_port: 11130
+I, [2015-03-27T09:29:31.642255 #84400]  INFO -- : librarian_port: 11060
+I, [2015-03-27T09:29:31.642339 #84400]  INFO -- : librarian_mgmt_port: 11070
+I, [2015-03-27T09:29:31.642435 #84400]  INFO -- : notifications_port: 11000
+I, [2015-03-27T09:29:31.642518 #84400]  INFO -- : notifications_mgmt_port: 11010
+I, [2015-03-27T09:29:31.642612 #84400]  INFO -- : scm_agent_port: 11040
+I, [2015-03-27T09:29:31.642709 #84400]  INFO -- : scm_agent_mgmt_port: 11050
+I, [2015-03-27T09:29:31.642806 #84400]  INFO -- : vulnerabilities_port: 11100
+I, [2015-03-27T09:29:31.642905 #84400]  INFO -- : vulnerabilities_mgmt_port: 11110
+I, [2015-03-27T09:29:31.643031 #84400]  INFO -- : platform_port: 8080
+I, [2015-03-27T09:29:31.643130 #84400]  INFO -- : platform_mgmt_port: 8080
+I, [2015-03-27T09:29:31.643222 #84400]  INFO -- : stats_url: /
+I, [2015-03-27T09:29:31.643314 #84400]  INFO -- : stats_port: 22002
+[2015-03-27 09:30:01] DEBUG close: 127.0.0.1:53717

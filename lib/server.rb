@@ -3,6 +3,7 @@ require 'rack'
 require 'sinatra'
 require 'webrick'
 require 'logger'
+require 'json'
 require File.expand_path(File.dirname(__FILE__)) + '/update'
 
 # Reset some envs
@@ -42,6 +43,7 @@ class Server < Sinatra::Base
     begin
       LOG.info('##### Request for Status Made #####')
       get_versions_on_node
+      json_y_fy
       erb :index
     rescue Exception => e
       LOG.error(e.message)
@@ -52,21 +54,28 @@ class Server < Sinatra::Base
   not_found do
 		halt 404, 'Not found.'
 	end
+  
+  def json_y_fy
+    @json_versions = @current_versions.to_json
+  end
 
   def get_versions_on_node
-    options = {}
+    @current_versions = {}
     begin
       LOG.info("##### Getting Current Versions on Node #####")
-      config = Update::Options.new(options).config
+      config = Update::Options.new({}).config
       YAML.load(File.open(config[:data_file])).each do |k,v|
-        options[k] = v
+        @current_versions[k] = v
       end
-      @current_versions = options #File.open(config[:data_file])
-      LOG.info("Set current versions to file object: #{@current_versions}")
+      LOG.info("##### Current Versions: #####") 
+      @current_versions.each do |k,v|
+        LOG.info("#{k}: #{v}")
+      end
     rescue Exception => e
       LOG.error(e.message)
       abort
     end
+    @current_versions
   end
 
 end
