@@ -56,20 +56,16 @@ class Server < Sinatra::Base
 	end
 
   post '/status' do
-    begin
-      LOG.info("##### Invoked Post to /status #####")
+    LOG.info("##### Invoked Post to /status #####")
 
-      request.body.rewind
-      new_data = JSON.parse(request.env["rack.input"].read)
+    request.body.rewind
+    new_data = JSON.parse(request.env["rack.input"].read)
 
-      File.open("/var/node_data/#{new_data['hostname']}.json", "w") do |f|
-        f.write(new_data.to_json)
-      end
-
-    rescue Exception => e
-      LOG.error(e.message)
-      abort
+    File.open("/var/node_data/#{new_data['hostname']}.json", "w") do |f|
+      f.write(new_data.to_json)
     end
+
+    "Response Received by Puppet Master"
   end
   
   def json_y_fy
