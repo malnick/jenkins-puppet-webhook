@@ -6,6 +6,9 @@ require 'logger'
 require 'json'
 require File.expand_path(File.dirname(__FILE__)) + '/update'
 
+# Get configuration for ci_webhook
+#Update::Setup.new
+
 # Reset some envs
 ENV['HOME']     = '/root'
 ENV['PATH']     = '/sbin:/usr/sbin:/bin:/usr/bin:/opt/puppet/bin'
@@ -42,7 +45,10 @@ class Server < Sinatra::Base
   get '/status' do
     begin
       LOG.info('##### Request for Status Made #####')
-      get_versions_on_node
+      # Get the local hiera versions on the Puppet Master 
+      get_versions_in_hiera_local
+      # Get the versions from the $::service_version fact POSTed to the Puppet Master /status
+      get_versions_on_nodes
       json_y_fy
       erb :index
     rescue Exception => e
@@ -70,26 +76,26 @@ class Server < Sinatra::Base
   end
   
   def json_y_fy
-    @json_versions = @current_versions.to_json
+    @local_hiera_versions.to_json!
   end
 
-  def get_versions_on_node
-    @current_versions = {}
+  def get_versions_in_hiera_local
+    @local_hiera_versions = {}
     begin
       LOG.info("##### Getting Current Versions on Node #####")
       config = Update::Options.new({}).config
       YAML.load(File.open(config[:data_file])).each do |k,v|
-        @current_versions[k] = v
+        @local_hiera_versions[k] = v
       end
       LOG.info("##### Current Versions: #####") 
-      @current_versions.each do |k,v|
+      @local_hiera_versions.each do |k,v|
         LOG.info("#{k}: #{v}")
       end
     rescue Exception => e
       LOG.error(e.message)
       abort
     end
-    @current_versions
+    @local_hiera_versions
   end
 
 end

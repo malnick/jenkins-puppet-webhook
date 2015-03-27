@@ -1889,3 +1889,15 @@ I, [2015-03-27T09:35:24.270527 #89807]  INFO -- : platform_mgmt_port: 8080
 I, [2015-03-27T09:35:24.270600 #89807]  INFO -- : stats_url: /
 I, [2015-03-27T09:35:24.270739 #89807]  INFO -- : stats_port: 22002
 [2015-03-27 09:35:54] DEBUG close: 127.0.0.1:53940
+[2015-03-27 12:57:54] INFO  WEBrick 1.3.1
+[2015-03-27 12:57:54] INFO  ruby 2.0.0 (2014-05-08) [universal.x86_64-darwin14]
+[2015-03-27 12:57:54] DEBUG TCPServer.new(0.0.0.0, 1015)
+[2015-03-27 12:57:54] DEBUG TCPServer.new(::, 1015)
+[2015-03-27 12:57:54] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-03-27 12:57:54] INFO  WEBrick::HTTPServer#start: pid=68940 port=1015
+[2015-03-27 12:58:16] INFO  WEBrick 1.3.1
+[2015-03-27 12:58:16] INFO  ruby 2.0.0 (2014-05-08) [universal.x86_64-darwin14]
+[2015-03-27 12:58:16] DEBUG TCPServer.new(0.0.0.0, 1015)
+[2015-03-27 12:58:16] DEBUG TCPServer.new(::, 1015)
+[2015-03-27 12:58:16] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-03-27 12:58:16] INFO  WEBrick::HTTPServer#start: pid=69318 port=1015

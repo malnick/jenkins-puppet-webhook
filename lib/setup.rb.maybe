@@ -1,0 +1,39 @@
+module Update
+  class Setup
+    # If extras are passed ensure it's of type hash
+    def initialize(*extras)
+      if extras.nil? 
+        get_configuration
+      else
+        get_configuration(extras)
+      end
+      check_local_config
+    end
+
+    def get_configuration(*extras)
+      @base_config = Hash.new
+      if File.exists?("~/.ci_webhook.yaml")
+        YAML.load(File.open("~/.ci_webhook.yaml")) do |k,v|
+          @base_config[k] = v 
+        end
+      else
+        LOG.info("No connfiguration found at ~/.ci_webhooki.yaml, using defaults.")     
+        set_defualts
+     end 
+        
+      unless extras.nil?
+        extras.each do |k,v|
+          @base_config[k] = v
+        end
+      end
+    end
+
+    def set_defaults
+      @base_config['node_data'] =   '/var/node_data'
+    end
+
+    def check_local_config
+      LOG.info("Checking for #{@base_config['node_data']}")
+      Dir.mkdir @base_config['node_data'] unless File.exists? @base_config['node_data'] 
+  end
+end
