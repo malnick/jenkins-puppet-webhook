@@ -58,11 +58,14 @@ class Server < Sinatra::Base
   post '/status' do
     begin
       LOG.info("##### Invoked Post to /status #####")
+
       request.body.rewind
       new_data = JSON.parse(request.env["rack.input"].read)
-      File.open("/var/node_data/#{new_data['hostname']}.json"), 'w') do |f|
+
+      File.open("/var/node_data/#{new_data['hostname']}.json", "w") do |f|
         f.write(new_data.to_json)
       end
+
     rescue Exception => e
       LOG.error(e.message)
       abort

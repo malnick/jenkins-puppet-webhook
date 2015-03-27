@@ -1,13 +1,13 @@
-Current Versions on Node:
+Current Versions from Hiera on Puppet Master:
 <%= @json_versions %>
 
-Available Versions by Node:
-<% @nodes.each do |n,s| %>
-<%= n %>:
-  <% s.each do |v| %>
-  <%= s %>: <%= v %>
-  <% end %>
-<% end %>
+Versions Running on each Node:
+#% @nodes.each do |n,s| %>
+#%= n %>:
+#  #% s.each do |v| %>
+  #%= s %>: #%= v %>
+  #% end %>
+#% end %>
 
 # Nodes should have the following data type:
 # @nodes = {'some.node.com' => { 'service1' => '1.2.3', 'service2' => '2.3.3' } }
