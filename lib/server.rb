@@ -21,22 +21,7 @@ opts = {
 }
 
 class Server < Sinatra::Base
-
-  helpers do
     
-    def get_versions_on_node()
-      begin
-        LOG.info("##### Getting Current Versions on Node #####")
-        config = Update::Options.new(options).config
-        @current_versions = File.open(YAML.load(config(:data_file)))
-        LOG.info("Set current versions to #{@current_versions}")
-      rescue Exception => e
-        LOG.error(e.message)
-        abort
-      end
-    end
-
-  end 
 
   post '/deploy' do
     begin
@@ -56,7 +41,7 @@ class Server < Sinatra::Base
   get '/status' do
     begin
       LOG.info('##### Request for Status Made #####')
-      get_versions_on_node
+#      get_versions_on_node
       erb :index
     rescue Exception => e
       LOG.error(e.message)
@@ -67,6 +52,19 @@ class Server < Sinatra::Base
   not_found do
 		halt 404, 'Not found.'
 	end
+
+  def get_versions_on_node()
+#    begin
+      LOG.info("##### Getting Current Versions on Node #####")
+      config = Update::Options.new(options).config
+      @current_versions = File.open(YAML.load(config(:data_file)))
+      LOG.info("Set current versions to #{@current_versions}")
+ #   rescue Exception => e
+  #    LOG.error(e.message)
+   #   abort
+   # end
+  end
+
 end
 
 Rack::Handler::WEBrick.run(Server, opts) do |server|
