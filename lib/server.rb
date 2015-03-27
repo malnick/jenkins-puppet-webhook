@@ -48,7 +48,7 @@ class Server < Sinatra::Base
       # Get the local hiera versions on the Puppet Master 
       get_versions_in_hiera_local
       # Get the versions from the $::service_version fact POSTed to the Puppet Master /status
-      get_versions_on_nodes
+      #get_versions_on_nodes
       json_y_fy
       erb :index
     rescue Exception => e
@@ -63,20 +63,17 @@ class Server < Sinatra::Base
 
   post '/status' do
     LOG.info("##### Invoked Post to /status #####")
-
     request.body.rewind
     new_data = JSON.parse(request.env["rack.input"].read)
-
     File.open("/var/node_data/#{new_data['hostname']}.json", "w") do |f|
       LOG.info("Posting new data: #{new_data}")
       f.write(new_data.to_json)
     end
-
     "Response Received by Puppet Master"
   end
   
   def json_y_fy
-    @local_hiera_versions.to_json!
+    @local_hiera_versions = @local_hiera_versions.to_json
   end
 
   def get_versions_in_hiera_local
