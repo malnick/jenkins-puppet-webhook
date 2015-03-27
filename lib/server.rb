@@ -54,6 +54,20 @@ class Server < Sinatra::Base
   not_found do
 		halt 404, 'Not found.'
 	end
+
+  post '/status' do
+    begin
+      LOG.info("##### Invoked Post to /status #####")
+      request.body.rewind
+      new_data = JSON.parse(request.env["rack.input"].read)
+      File.open("node_data/#{new_data['hostname']}.json"), 'w') do |f|
+        f.write(new_data.to_json)
+      end
+    rescue Exception => e
+      LOG.error(e.message)
+      abort
+    end
+  end
   
   def json_y_fy
     @json_versions = @current_versions.to_json
