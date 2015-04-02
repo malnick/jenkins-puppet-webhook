@@ -2047,3 +2047,45 @@ I, [2015-03-27T13:23:57.516362 #92680]  INFO -- : platform_mgmt_port: 8080
 I, [2015-03-27T13:23:57.516429 #92680]  INFO -- : stats_url: /
 I, [2015-03-27T13:23:57.516485 #92680]  INFO -- : stats_port: 22002
 [2015-03-27 13:23:57] DEBUG close: 127.0.0.1:64421
+[2015-03-27 14:02:17] DEBUG accept: 127.0.0.1:49637
+[2015-03-27 14:02:17] DEBUG Rack::Handler::WEBrick is invoked.
+I, [2015-03-27T14:02:17.934039 #92680]  INFO -- : ##### Request for Status Made #####
+I, [2015-03-27T14:02:17.934141 #92680]  INFO -- : ##### Getting Current Versions on Node #####
+I, [2015-03-27T14:02:17.934211 #92680]  INFO -- : ##### Parsing Options #####
+I, [2015-03-27T14:02:17.934300 #92680]  INFO -- : ##### Setting configuration #####
+I, [2015-03-27T14:02:17.934366 #92680]  INFO -- : environment: 
+I, [2015-03-27T14:02:17.934428 #92680]  INFO -- : version: 
+I, [2015-03-27T14:02:17.934488 #92680]  INFO -- : service: 
+I, [2015-03-27T14:02:17.934617 #92680]  INFO -- : role: 
+I, [2015-03-27T14:02:17.934706 #92680]  INFO -- : key: _version_
+I, [2015-03-27T14:02:17.934770 #92680]  INFO -- : git_repo: git@github.com:malnick/puppet-control
+I, [2015-03-27T14:02:17.934831 #92680]  INFO -- : git_repo_dir: /tmp/control
+I, [2015-03-27T14:02:17.934891 #92680]  INFO -- : data_file: /tmp/control/hieradata/global.yaml
+I, [2015-03-27T14:02:17.935517 #92680]  INFO -- : ##### Current Versions: #####
+I, [2015-03-27T14:02:17.935656 #92680]  INFO -- : analytics_version_qa: 0.0.6
+I, [2015-03-27T14:02:17.935801 #92680]  INFO -- : librarian_version_qa: 0.3.3
+I, [2015-03-27T14:02:17.935940 #92680]  INFO -- : notifications_version_qa: 0.0.8-SNAPSHOT
+I, [2015-03-27T14:02:17.936065 #92680]  INFO -- : scm_agent_version_qa: 0.1.15-SNAPSHOT
+I, [2015-03-27T14:02:17.936185 #92680]  INFO -- : vulnerabilities_version_qa: 0.0.3
+I, [2015-03-27T14:02:17.936313 #92680]  INFO -- : platform_version_qa: 0.0.23
+I, [2015-03-27T14:02:17.936435 #92680]  INFO -- : analytics_version_production: 0.0.2
+I, [2015-03-27T14:02:17.936584 #92680]  INFO -- : librarian_version_production: 0.3.3
+I, [2015-03-27T14:02:17.936720 #92680]  INFO -- : notifications_version_production: 0.0.4
+I, [2015-03-27T14:02:17.936845 #92680]  INFO -- : scm_agent_version_production: 0.1.11
+I, [2015-03-27T14:02:17.936950 #92680]  INFO -- : vulnerabilities_version_production: 0.0.3
+I, [2015-03-27T14:02:17.937059 #92680]  INFO -- : platform_version_production: 0.0.23
+I, [2015-03-27T14:02:17.937121 #92680]  INFO -- : analytics_port: 11120
+I, [2015-03-27T14:02:17.937186 #92680]  INFO -- : analytics_mgmt_port: 11130
+I, [2015-03-27T14:02:17.937269 #92680]  INFO -- : librarian_port: 11060
+I, [2015-03-27T14:02:17.937367 #92680]  INFO -- : librarian_mgmt_port: 11070
+I, [2015-03-27T14:02:17.937437 #92680]  INFO -- : notifications_port: 11000
+I, [2015-03-27T14:02:17.937506 #92680]  INFO -- : notifications_mgmt_port: 11010
+I, [2015-03-27T14:02:17.937573 #92680]  INFO -- : scm_agent_port: 11040
+I, [2015-03-27T14:02:17.937651 #92680]  INFO -- : scm_agent_mgmt_port: 11050
+I, [2015-03-27T14:02:17.937739 #92680]  INFO -- : vulnerabilities_port: 11100
+I, [2015-03-27T14:02:17.937829 #92680]  INFO -- : vulnerabilities_mgmt_port: 11110
+I, [2015-03-27T14:02:17.937901 #92680]  INFO -- : platform_port: 8080
+I, [2015-03-27T14:02:17.937966 #92680]  INFO -- : platform_mgmt_port: 8080
+I, [2015-03-27T14:02:17.938024 #92680]  INFO -- : stats_url: /
+I, [2015-03-27T14:02:17.938095 #92680]  INFO -- : stats_port: 22002
+[2015-03-27 14:02:48] DEBUG close: 127.0.0.1:49637
