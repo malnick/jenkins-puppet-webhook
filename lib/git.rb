@@ -42,10 +42,14 @@ module Update
           # Commit changes to current branch
           g.commit("WEBHOOK: Updating service #{config[:service]} to version #{config[:version]}")
 
-          #g.branch('production').checkout
+          # Then checkout a new temp branch to reconcile detached head
+          g.branch('temp').checkout
+          g.branch('production').checkout
 
-          #g.branch('production').merge
-
+          # Merge in the changes to production
+          g.merge('temp')
+      
+          # Push to git
           g.push(g.remote('origin'), g.branch('production')) 
         rescue Exception => e
           LOG.error(e.message)
