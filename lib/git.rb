@@ -33,14 +33,14 @@ module Update
         begin
           g = ::Git.open(git_repo_dir, :log => LOG)
 
-          g.branch('temp').checkout
           # Add our datafile and backup
           g.add(config[:data_file])
           g.add("#{config[:data_file]}.backup")
           
           # Commit changes to current branch
           g.commit("WEBHOOK: Updating service #{config[:service]} to version #{config[:version]}")
- 
+          g.branch('temp').checkout
+
           # Checkout production   
           g.branch('production').checkout
 
