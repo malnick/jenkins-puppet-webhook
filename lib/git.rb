@@ -42,7 +42,7 @@ module Update
           g.commit("WEBHOOK: Updating service #{config[:service]} to version #{config[:version]}")
  
           # Checkout production   
-          g.branch('production')
+          g.branch('production').checkout
 
           # Merge in the changes to production
           g.merge('temp')
