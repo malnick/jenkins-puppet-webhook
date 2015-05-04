@@ -5,6 +5,7 @@ module Update
       time.times do |n|
         LOG.info("Running on MCO in #{time - n} seconds")   
         n = n - 1
+        sleep 1
       end
     end
   end
