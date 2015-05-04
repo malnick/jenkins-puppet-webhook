@@ -30,7 +30,7 @@ class Server < Sinatra::Base
       config = Update::Options.new(options).config
       Update::Version.new(config)
       Update::Git.new(config)
-      sleep 15 
+      Update::Sleep.new(20)
       Update::Node.new(config)
     rescue Exception => e
       LOG.error(e.message)
