@@ -1,5 +1,5 @@
-Module update
-  Class sleep
+module update
+  class sleep
     def initialize(time)
       Log.info(##### Sleep Cycle with S3 Updates #####)
       time.times do |n|
