@@ -22,6 +22,11 @@ opts = {
 
 class Server < Sinatra::Base
 
+  post 'static_deploy' do
+    
+
+  end
+
   post '/deploy' do
     begin
       LOG.info("##### Request to Server Made #####")
