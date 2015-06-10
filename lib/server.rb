@@ -22,14 +22,24 @@ opts = {
 
 class Server < Sinatra::Base
 
+  # Deploy static content (no git updates for control repo)
   post 'static_deploy' do
-    
-
+    begin
+      LOG.info("##### Static Deploy Request #####")
+      request.body.rewind
+      options = JSON.parse(request.env["rack.input"].read)
+      config = Update::Options.new(options).config
+      Update::Node.new(config)
+    rescue Exception => 
+      LOG.error(e.message)
+      LOG.error(e.backtrace)
+      abort
+    end
   end
 
   post '/deploy' do
     begin
-      LOG.info("##### Request to Server Made #####")
+      LOG.info("##### Deploy Request Made #####")
       request.body.rewind
       options = JSON.parse(request.env["rack.input"].read) 
       config = Update::Options.new(options).config
