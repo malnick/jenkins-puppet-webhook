@@ -34,8 +34,9 @@ class Server < Sinatra::Base
       options = JSON.parse(request.env["rack.input"].read) 
       config = Update::Options.new(options).config
       Update::Version.new(config)
-      Update::Node.new(config)
       Update::Git.new(config)
+      Update::Sleep.new(1)
+      Update::Node.new(config)
     rescue Exception => e
       LOG.error(e.message)
       abort

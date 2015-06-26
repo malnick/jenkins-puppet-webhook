@@ -32,11 +32,30 @@ module Update
         LOG.info("Pushing updated code to git")
         begin
           g = ::Git.open(git_repo_dir, :log => LOG)
-          g.pull(g.remote('origin'), g.branch('production'))
+
+          # Add our datafile and backup
           g.add(config[:data_file])
           g.add("#{config[:data_file]}.backup")
+          
+          # Commit changes to current branch
           g.commit("WEBHOOK: Updating service #{config[:service]} to version #{config[:version]}")
+          g.branch('temp').checkout
+
+          # Checkout production   
+          g.branch('production').checkout
+
+          # Merge in the changes to production
+          g.merge('temp')
+          
+          # Pull in changes from remote
+          g.pull(g.remote('origin'), g.branch('production'))
+
+          # Push to git
           g.push(g.remote('origin'), g.branch('production')) 
+
+          # Remove temp branch
+          g.branch('temp').delete
+
         rescue Exception => e
           LOG.error(e.message)
         end
