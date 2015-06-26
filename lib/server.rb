@@ -28,8 +28,10 @@ class Server < Sinatra::Base
       request.body.rewind
       options = JSON.parse(request.env["rack.input"].read) 
       config = Update::Options.new(options).config
-      Update::Version.new(config)
-      Update::Git.new(config)
+      if config[:version]
+        Update::Version.new(config)
+        Update::Git.new(config)
+      end
       Update::Sleep.new(1)
       Update::Node.new(config)
     rescue Exception => e
