@@ -49,7 +49,6 @@ class Server < Sinatra::Base
       # Get the local hiera versions on the Puppet Master 
       get_versions_in_hiera_local
       # Get the versions from the $::service_version fact POSTed to the Puppet Master /status
-      #get_versions_on_nodes
       json_y_fy
       erb :index
     rescue Exception => e
