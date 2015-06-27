@@ -45,7 +45,7 @@ class Server < Sinatra::Base
     end
   end
 	
-  get '/status' do
+  get '/versions' do
     begin
       LOG.info('##### Request for Status Made #####')
       # Get the local hiera versions on the Puppet Master 
