@@ -18,9 +18,9 @@ module Update
       
       # Optional data from POST
       @config[:key]            = options['key']             || "#{@config[:service]}_version_#{@config[:environment]}"   
-      @config[:git_repo]       = options['git_repo']        || 'git@github.com:malnick/puppet-control'
-      @config[:git_repo_dir]   = options['git_repo_dir']    || '/tmp/control' #'/etc/puppetlabs/puppet/environments/production'
-      @config[:data_file]      = options['data_file_path']  || "#{@config[:git_repo_dir]}/hieradata/global.yaml"
+      @config[:git_repo]       = options['git_repo']        || 'git@github.com:sourceclear/puppet-control.git'
+      @config[:git_repo_dir]   = options['git_repo_dir']    || '/etc/puppetlabs/puppet/environments/production'
+      @config[:data_file]      = options['data_file_path']  || "#{@config[:git_repo_dir]}/hieradata/versions.yaml"
       
       LOG.info("##### Setting configuration #####")
       @config.each do |k,v|
