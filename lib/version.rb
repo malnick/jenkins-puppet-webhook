@@ -15,12 +15,13 @@ module Update
           key            = config[:key]
 
           abort "Cowardly refusing to update any nil values." if environment.nil? || version.nil? || service.nil?
- 
           if File.exists? data_file
             LOG.info "Data file found #{data_file}, backing up to #{data_file}.backup"
             FileUtils.cp data_file, "#{data_file}.backup"
           else  
-            abort LOG.error "#{data_file} is missing."
+            if data_file.length == count 
+              abort LOG.error "#{data_file} is missing."
+            end
           end
 
           begin
