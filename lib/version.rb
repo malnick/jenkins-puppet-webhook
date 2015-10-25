@@ -19,9 +19,7 @@ module Update
             LOG.info "Data file found #{data_file}, backing up to #{data_file}.backup"
             FileUtils.cp data_file, "#{data_file}.backup"
           else  
-            if data_file.length == count 
-              abort LOG.error "#{data_file} is missing."
-            end
+            abort LOG.error "#{data_file} is missing."
           end
 
           begin
