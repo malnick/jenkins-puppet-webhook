@@ -24,7 +24,7 @@ module Update
   #    if pv == '4.2.2'
   #      @config[:data_file]    = '/etc/puppetlabs/code/environments/production/hieradata'
   #    else
-        @config[:data_file]    = options['data_file_path']  || "#{@config[:git_repo_dir]}/hieradata/global.yaml"
+        @config[:data_file]    = options['data_file_path']  || "#{@config[:git_repo_dir]}/hieradata/versions.yaml"
   #    end
       
       LOG.info("##### Setting configuration #####")
