@@ -33,7 +33,7 @@ module Update
       end
     end
 
-    def get_puppet_versions
+    def get_puppet_version
       io.popen('puppet --version') do |o|
         return o.read
       end 
